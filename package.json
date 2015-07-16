@@ -2,10 +2,10 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio",
-  "main": "index.js",
+  "main": "scripts/main.js",
   "scripts": {
     "test": "test",
-    "watch-bundle": "watchify main.js -o bundle.js"
+    "watch-bundle": "watchify scripts/main.js -o scripts/bundle.js"
   },
   "keywords": [
     "portfolio"
@@ -21,10 +21,14 @@
   "devDependencies": {
     "browserify": "^10.2.6",
     "browserify-shim": "^3.8.9",
+    "react-router": "^0.13.3",
     "watchify": "^3.2.3"
   },
   "browserify": {
-    "transform": ["browserify-shim"]
+    "transform": [
+      "browserify-shim",
+      "reactify"
+    ]
   },
   "browserify-shim": {
     "bootstrap": {
