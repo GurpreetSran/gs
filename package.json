@@ -2,13 +2,20 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Portfolio",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GurpreetSran/portfolio.git"
+  },
   "main": "scripts/main.js",
   "scripts": {
     "test": "test",
     "watch-bundle": "watchify scripts/main.js -o scripts/bundle.js"
   },
   "keywords": [
-    "portfolio"
+    "portfolio",
+    "React",
+    "react.js",
+    "Gurpree Singh Portfolio"
   ],
   "author": "Gurpreet Singh",
   "license": "ISC",
@@ -16,6 +23,7 @@
     "bootstrap": "^3.3.5",
     "jquery": "^2.1.4",
     "react": "^0.13.3",
+    "react-router": "^0.13.3",
     "reactify": "^1.1.1"
   },
   "devDependencies": {

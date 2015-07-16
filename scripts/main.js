@@ -1,8 +1,11 @@
 //jquery - bootstarp dependency
 $ = jQuery = require('jquery');
-//Initialise bootstarp 
-var bootstrap = require('bootstrap'),
-	React = require('react'),
-	Footer = require('./components/footer');
+
+var bootstrap = require('bootstrap'),  //Initialise bootstarp for template 
+	initApp = require('./routes');
 	
-	React.render(<Footer />, $('footer')[0]);
+	
+initApp(); //Initialise Application 
+
+
+

@@ -1,1 +1,0 @@
-console.error("Error: Cannot find module './package.json' from '/Users/gs/Documents/dev/inprogress/gs/scripts'");
