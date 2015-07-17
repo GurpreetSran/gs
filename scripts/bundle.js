@@ -34349,31 +34349,152 @@ module.exports = warning;
 module.exports = require('./lib/React');
 
 },{"./lib/React":82}],210:[function(require,module,exports){
+module.exports={
+	"projects": [{
+			"id": 1,
+			"title": "THE SUN",
+			"logo": "url",
+			"summary": "txt",
+			"HTMLdescription": "html",
+			"image": "url",
+			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
+		}, {
+			"id": 2,
+			"title": "THE TIMES",
+			"logo": "url",
+			"summary": "txt",
+			"HTMLdescription": "html",
+			"image": "url",
+			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
+		}, {
+			"id": 3,
+			"title": "XXX",
+			"logo": "url",
+			"summary": "txt",
+			"HTMLdescription": "html",
+			"image": "url",
+			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
+		}, {
+			"id": 4,
+			"title": "Second Row",
+			"logo": "url",
+			"summary": "txt",
+			"HTMLdescription": "html",
+			"image": "url",
+			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
+		}, {
+			"id": 5,
+			"title": "XXX",
+			"logo": "url",
+			"summary": "txt",
+			"HTMLdescription": "html",
+			"image": "url",
+			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
+		}
+
+		, {
+			"id": 6,
+			"title": "XXX",
+			"logo": "url",
+			"summary": "txt",
+			"HTMLdescription": "html",
+			"image": "url",
+			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
+		}, {
+			"id": 7,
+			"title": "XXX",
+			"logo": "url",
+			"summary": "txt",
+			"HTMLdescription": "html",
+			"image": "url",
+			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
+		}, {
+			"id": 8,
+			"title": "XXX",
+			"logo": "url",
+			"summary": "txt",
+			"HTMLdescription": "html",
+			"image": "url",
+			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
+		}
+	]
+}
+},{}],211:[function(require,module,exports){
 //jquery - bootstarp dependency
 $ = jQuery = require('jquery');
 
-var bootstrap = require('bootstrap'),  //Initialise bootstarp for template 
+var bootstrap = require('bootstrap'), //Initialise bootstarp for template 
 	initApp = require('./routes');
-	
-	
+
 initApp(); //Initialise Application 
 
-},{"./routes":211,"bootstrap":1,"jquery":15}],211:[function(require,module,exports){
+
+
+$(document).ready(function() {
+	/*Bootstrap fixes*/
+	$('body').on('click', 'nav li', function(e) {
+		e.stopImmediatePropagation();
+		$(this).removeClass('active');
+	})
+
+	$(function() {
+		$('.navbar-nav').on('click', function() {
+			if ($('.navbar-header .navbar-toggle').css('display') != 'none') {
+				$(".navbar-header .navbar-toggle").trigger("click");
+			}
+		});
+	});
+
+	$(window).on('popstate', function() {
+		updateNav();
+	});
+
+	var updateNav = function() {
+
+		var url = window.location;
+
+		$('nav li').removeClass('active');
+
+		// Will only work if string in href matches with location
+		$('ul.nav a[href="' + url + '"]').parent().addClass('active');
+
+		// Will also work for relative and absolute hrefs
+		$('ul.nav a').filter(function() {
+			return this.href == url;
+		}).parent().addClass('active');
+	};
+
+	updateNav();
+
+});
+
+},{"./routes":212,"bootstrap":1,"jquery":15}],212:[function(require,module,exports){
 var React = require('react'),
 	Router = require('react-router'),
 	Route = Router.Route,
+	NotFoundRoute = Router.NotFoundRoute,
+	Redirect = Router.Redirect,
 	DefaultRoute = Router.DefaultRoute,
 	Home = require('./views/home'),
 	About = require('./views/about'),
-	Contact = require('./views/contact');
+	Contact = require('./views/contact'),
+	Projects = require('./views/projects'),
+	NotFound = require('./views/not_found'),
+	AppRoot = require('./views/app_root');
 
 	//$ = jQuery = require('jquery');
 
 var routes = (
-    React.createElement(Route, {path: "/", name: "home", handler: Home}, 
+    React.createElement(Route, {handler: AppRoot}, 
     	React.createElement(DefaultRoute, {handler: Home}), 
+    	React.createElement(Route, {name: "home", handler: Home}), 
     	React.createElement(Route, {name: "about", handler: About}), 
-    	React.createElement(Route, {name: "contact", handler: Contact})
+    	React.createElement(Route, {name: "projects", handler: Projects}), 
+    	React.createElement(Route, {name: "contact", handler: Contact}), 
+
+    	React.createElement(Redirect, {from: "/", to: "home"}), 
+
+    	React.createElement(NotFoundRoute, {handler: NotFound})
     ) 
 );
 
@@ -34383,37 +34504,88 @@ var initApp = function() {
 	});
 }
 
-// React.render(<Contact/>, document.body);
-
 module.exports = initApp;
 
-},{"./views/about":212,"./views/contact":213,"./views/home":214,"react":209,"react-router":40}],212:[function(require,module,exports){
+},{"./views/about":213,"./views/app_root":214,"./views/contact":215,"./views/home":216,"./views/not_found":217,"./views/projects":219,"react":209,"react-router":40}],213:[function(require,module,exports){
 var React = require('react');
 
 var About = React.createClass({displayName: "About",
   render: function() {
     return(
-      React.createElement("div", {id: "main-container", className: "jumbotron"}, 
-        React.createElement("h1", null, "About"), 
-        React.createElement("p", null, "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique."), 
-        React.createElement("p", null, React.createElement("a", {className: "btn btn-primary btn-lg", href: "#", role: "button"}, "Learn more »"))
-      )
+      React.createElement("div", {className: "jumbotron"}, 
+	      React.createElement("div", {className: "container"}, 
+	        React.createElement("h1", null, "About"), 
+	        React.createElement("p", null, "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique."), 
+	        React.createElement("p", null, React.createElement("a", {className: "btn btn-primary btn-lg", href: "#", role: "button"}, "Learn more »"))
+	      )
+	    ) 
     ); 
   }
 });
 
 module.exports = About;   
 
-},{"react":209}],213:[function(require,module,exports){
-var React = require('react'),
+},{"react":209}],214:[function(require,module,exports){
+React = require('react'),
 	Router = require('react-router'),
 	RouteHandler = Router.RouteHandler;
+
+var AppRoot = React.createClass({displayName: "AppRoot",
+  render: function() {
+    return(
+      React.createElement(RouteHandler, null) 
+    ); 
+  }
+});
+
+module.exports = AppRoot;   
+
+},{"react":209,"react-router":40}],215:[function(require,module,exports){
+var React = require('react');
 
 var Contact = React.createClass({displayName: "Contact",
   render: function() {
     return(
-      React.createElement("div", {id: "main-container", className: "jumbotron"}, 
-        React.createElement("h1", null, "Contact"), 
+    	React.createElement("div", {className: "jumbotron"}, 
+	      React.createElement("div", {className: "container"}, 
+	        React.createElement("h1", null, "Contact"), 
+	        React.createElement("p", null, "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique."), 
+	        React.createElement("p", null, React.createElement("a", {className: "btn btn-primary btn-lg", href: "#", role: "button"}, "Learn more »"))
+	      )
+	    ) 
+    ); 
+  }
+});
+
+module.exports = Contact;   
+
+},{"react":209}],216:[function(require,module,exports){
+var React = require('react');
+
+var Home = React.createClass({displayName: "Home",
+  render: function() {
+    return(
+		React.createElement("div", {className: "jumbotron"}, 
+			React.createElement("div", {className: "container"}, 
+				React.createElement("h1", null, "HOME"), 
+				React.createElement("p", null, "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique."), 
+				React.createElement("p", null, React.createElement("a", {className: "btn btn-primary btn-lg", href: "#", role: "button"}, "Learn more »"))
+			)
+		)
+    ); 
+  }
+});
+
+module.exports = Home;   
+
+},{"react":209}],217:[function(require,module,exports){
+var React = require('react');
+
+var NotFound = React.createClass({displayName: "NotFound",
+  render: function() {
+    return(
+      React.createElement("div", {className: "container"}, 
+        React.createElement("h1", null, "Not Found"), 
         React.createElement("p", null, "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique."), 
         React.createElement("p", null, React.createElement("a", {className: "btn btn-primary btn-lg", href: "#", role: "button"}, "Learn more »"))
       )
@@ -34421,26 +34593,94 @@ var Contact = React.createClass({displayName: "Contact",
   }
 });
 
-module.exports = Contact;   
+module.exports = NotFound;   
 
-},{"react":209,"react-router":40}],214:[function(require,module,exports){
-React = require('react'),
-	Router = require('react-router'),
-	RouteHandler = Router.RouteHandler;
+},{"react":209}],218:[function(require,module,exports){
+var React = require('react'),
+	projectData = require('./../../projects.json');
 
-var Home = React.createClass({displayName: "Home",
-  render: function() {
-    return(
-      React.createElement("div", {id: "main-container", className: "jumbotron"}, 
-        React.createElement("h1", null, "Home 1"), 
-        React.createElement("p", null, "This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique."), 
-        React.createElement("p", null, React.createElement("a", {className: "btn btn-primary btn-lg", href: "#", role: "button"}, "Learn more »")), 
-      	 React.createElement(RouteHandler, null)
-      )
-    ); 
-  }
+var Project = React.createClass({displayName: "Project",
+
+	getInitialState: function() {
+		return {
+			heading: 'Default Title',
+			imageURL: 'Deafult URL'
+		}
+	},
+
+	componentDidMount: function() {
+		var projects = projectData.projects;
+
+		for (var i = 0; i < projects.length; i++) {
+			if (projects[i].id == this.props.id) {
+
+				if (this.isMounted()) {
+					this.setState({
+						heading: projects[i].title,
+						imageURL: projects[i].thumbURL
+					});
+				}
+			}
+		}
+	},
+	
+
+	render: function() {
+		return ( React.createElement("div", {className: "col-md-4"}, 
+			React.createElement("h2", null, " ", 
+				this.state.heading, 
+			" "), " ", React.createElement("p", null, " Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio dui. "), " ", React.createElement("p", null, " ", React.createElement("a", {className: "btn btn-default", 
+			href: "#", 
+			role: "button"}, " View details» "))
+			)
+		);
+	}
 });
 
-module.exports = Home;   
+module.exports = Project;
 
-},{"react":209,"react-router":40}]},{},[210]);
+},{"./../../projects.json":210,"react":209}],219:[function(require,module,exports){
+var React = require('react'),
+	projectData = require('./../../projects.json'),
+	Project = require('./project'),
+	projectLength = projectData.projects.length,
+	itemsInRow = 3,
+	clicked = 0; //Increment this number and rerender this cimponent on click and we are almost done 
+
+
+var Projects = React.createClass({displayName: "Projects",
+	
+	render: function() {
+		var projectsDOM = 	React.createElement("div", null, 
+							React.createElement("div", {className: "jumbotron"}, 
+								React.createElement("div", {className: "container"}, 
+									React.createElement("h1", null, " Projects ")
+								)
+							), 
+
+							React.createElement("div", {className: "container"}, 
+								React.createElement("div", {className: "row"}, 
+									projectData.projects.reverse().map(function(project, i) {
+										
+											
+
+
+											if(i < (clicked + 1) * itemsInRow) {
+												return React.createElement(Project, {id: project.id})
+											}
+									})
+								
+								), 
+								
+								React.createElement("hr", null)
+
+							)
+						)
+
+		return projectsDOM;
+	}
+});
+
+module.exports = Projects;
+
+},{"./../../projects.json":210,"./project":218,"react":209}]},{},[211]);

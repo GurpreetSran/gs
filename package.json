@@ -9,7 +9,7 @@
   "main": "scripts/main.js",
   "scripts": {
     "test": "test",
-    "watch-bundle": "watchify scripts/main.js -o scripts/bundle.js"
+    "start": "watchify scripts/main.js -o scripts/bundle.js"
   },
   "keywords": [
     "portfolio",
