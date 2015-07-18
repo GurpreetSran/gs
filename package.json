@@ -9,7 +9,7 @@
   "main": "scripts/main.js",
   "scripts": {
     "test": "test",
-    "start": "watchify scripts/main.js -o scripts/bundle.js"
+    "start": "watchify scripts/main.js -o scripts/bundle.js -d"
   },
   "keywords": [
     "portfolio",
@@ -33,6 +33,11 @@
     "watchify": "^3.2.3"
   },
   "browserify": {
+    "options": {
+      "browserifyOptions": {
+         "debug": true
+      }
+   },
     "transform": [
       "browserify-shim",
       "reactify"
