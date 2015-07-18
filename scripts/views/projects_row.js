@@ -9,12 +9,13 @@ var ProjectsRow = React.createClass({
 				< div className = "row" > 
 					{this.props.row.map(function(project) {
 						return  < div className = "col-md-4" key={project.id} >
-									< h2 > {project.title} < /h2> 
-									< p > Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio dui. < /p > 
-									< p > 
-									< a className = "btn btn-default" 
-										href = {'#/description/' + project.id} 
-										role = "button" > View details» < /a></p >
+									< div className="text-center"> <img alt="logo" src={project.thumbnail} />< /div >
+									<h3 className= "text-center"> {project.title} < /h3>   
+									< p className="text-center"> 
+										< a className = "btn btn-primary" 
+											href = {'#/description/' + project.id} 
+											role = "button" > View details < /a>
+									</p >
 								< /div>
 					})}
 				< /div> 

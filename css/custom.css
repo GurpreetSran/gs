@@ -4,13 +4,27 @@
 	
 }
 
-
 .jumbotron h1{ 
 	font-size: 50px;	
 }
 
+h3{ 
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
 
+.col-md-4 {
+	box-shadow: 6px 6px 17px 0px #000;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+}
 
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding-bottom: 15px;
+  }
 
 
 // ecommerce - FT.com

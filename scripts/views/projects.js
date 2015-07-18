@@ -51,7 +51,7 @@ var Projects = React.createClass({
 				< /div> 
 
 				< div className = "container text-center" >	
-					<a  className= {this.state.loadMoreBtn ? 'btn btn-default' : 'hide'} 
+					<a  className= {this.state.loadMoreBtn ? 'btn btn-primary btn-lg' : 'hide'} 
 						onClick = {this.loadMoreProjects}
 						role="button" > Load More Projects </a>
 				</div>

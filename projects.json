@@ -2,8 +2,8 @@
     "projects": [
         {
             "id": 1,
-            "title": "THE SUN",
-            "logo": "url",
+            "title": "Otto Group",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/otto.png",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -17,8 +17,8 @@
         },
         {
             "id": 2,
-            "title": "THE TIMES",
-            "logo": "url",
+            "title": "Streamhub",
+            "thumbnail": "url",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -32,8 +32,8 @@
         },
         {
             "id": 3,
-            "title": "XXX",
-            "logo": "url",
+            "title": "Aimia",
+            "thumbnail": "url",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -47,8 +47,8 @@
         },
         {
             "id": 4,
-            "title": "Second Row",
-            "logo": "url",
+            "title": "The SUN: Revamp",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thesun.png",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -63,7 +63,7 @@
         {
             "id": 5,
             "title": "XXX",
-            "logo": "url",
+            "thumbnail": "url",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -78,7 +78,7 @@
         {
             "id": 6,
             "title": "6",
-            "logo": "url",
+            "thumbnail": "url",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -93,7 +93,7 @@
         {
             "id": 7,
             "title": "7",
-            "logo": "url",
+            "thumbnail": "url",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -107,8 +107,8 @@
         },
         {
             "id": 8,
-            "title": "8",
-            "logo": "url",
+            "title": "Accenture",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/accenture.png",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -122,8 +122,8 @@
         },
         {
             "id": 9,
-            "title": "hello ",
-            "logo": "url",
+            "title": "Green Square",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/greensquare.png",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
@@ -136,8 +136,8 @@
             ]
         },{
             "id": 10,
-            "title": "klk New",
-            "logo": "url",
+            "title": "The Times",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thetimes.png",
             "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
