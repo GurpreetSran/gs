@@ -1,41 +1,63 @@
 var React = require('react'),
 	projectData = require('./../../projects.json'),
-	Project = require('./project'),
-	projectLength = projectData.projects.length,
+	ProjectsRow = require('./projects_row'),
 	itemsInRow = 3,
-	clicked = 0; //Increment this number and rerender this cimponent on click and we are almost done 
-
+	projects = projectData.projects.reverse(),
+	currentProjects = []; 
 
 var Projects = React.createClass({
 	
+	getInitialState: function() {
+		
+		currentProjects = projects.slice(); //Create a copy or array 
+		
+		return { 
+			loadMoreBtn: true,
+			rows: [currentProjects.splice(0, itemsInRow)]			
+		}
+	},
+
+	loadMoreProjects: function(e) {
+		e.preventDefault();
+		var addRow = this.state.rows;
+	
+		if(currentProjects.length) {
+			addRow.push(currentProjects.splice(0, itemsInRow));
+			this.setState({rows: addRow});  
+		} 
+
+		if(!currentProjects.length) {
+			this.setState({loadMoreBtn: false})
+		}
+		
+	},
+
 	render: function() {
-		var projectsDOM = 	< div >
-							< div className = "jumbotron" >
-								< div className = "container" >
-									< h1 > Projects < /h1> 
-								< /div> 
-							< /div>
 
-							< div className = "container" >
-								< div className = "row" > 
-									{projectData.projects.reverse().map(function(project, i) {
-										
-											
+		return (
+			< div >
+				< div className = "jumbotron" >
+					< div className = "container" >
+						< h1 > Projects < /h1> 
+					< /div> 
+				< /div>
 
+				< div className = "container" >
+					
+					{this.state.rows.map(function(row, i) {
+						return <ProjectsRow row={row} key={i} />
+					}.bind(this))}
+				
+				< /div> 
 
-											if(i < (clicked + 1) * itemsInRow) {
-												return <Project id={project.id} />
-											}
-									})}
-								
-								< /div> 
-								
-								<hr/> 
-
-							< /div> 
-						< /div>
-
-		return projectsDOM;
+				< div className = "container text-center" >	
+					<a className="btn btn-default"
+						className= {this.state.loadMoreBtn ? '' : 'hide'} 
+						onClick = {this.loadMoreProjects}
+						role="button" > Load More Projects </a>
+				</div>
+			< /div>
+		);	
 	}
 });
 

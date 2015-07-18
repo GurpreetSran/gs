@@ -34350,74 +34350,128 @@ module.exports = require('./lib/React');
 
 },{"./lib/React":82}],210:[function(require,module,exports){
 module.exports={
-	"projects": [{
-			"id": 1,
-			"title": "THE SUN",
-			"logo": "url",
-			"summary": "txt",
-			"HTMLdescription": "html",
-			"image": "url",
-			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
-		}, {
-			"id": 2,
-			"title": "THE TIMES",
-			"logo": "url",
-			"summary": "txt",
-			"HTMLdescription": "html",
-			"image": "url",
-			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
-		}, {
-			"id": 3,
-			"title": "XXX",
-			"logo": "url",
-			"summary": "txt",
-			"HTMLdescription": "html",
-			"image": "url",
-			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
-		}, {
-			"id": 4,
-			"title": "Second Row",
-			"logo": "url",
-			"summary": "txt",
-			"HTMLdescription": "html",
-			"image": "url",
-			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
-		}, {
-			"id": 5,
-			"title": "XXX",
-			"logo": "url",
-			"summary": "txt",
-			"HTMLdescription": "html",
-			"image": "url",
-			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
-		}
-
-		, {
-			"id": 6,
-			"title": "XXX",
-			"logo": "url",
-			"summary": "txt",
-			"HTMLdescription": "html",
-			"image": "url",
-			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
-		}, {
-			"id": 7,
-			"title": "XXX",
-			"logo": "url",
-			"summary": "txt",
-			"HTMLdescription": "html",
-			"image": "url",
-			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
-		}, {
-			"id": 8,
-			"title": "XXX",
-			"logo": "url",
-			"summary": "txt",
-			"HTMLdescription": "html",
-			"image": "url",
-			"keys": ["JS", "HTML5", "Experimental", "Commercial", "Flash"] //Sort by this
-		}
-	]
+    "projects": [
+        {
+            "id": 1,
+            "title": "THE SUN",
+            "logo": "url",
+            "summary": "txt",
+            "HTMLdescription": "html",
+            "image": "url",
+            "keys": [
+                "JS",
+                "HTML5",
+                "Experimental",
+                "Commercial",
+                "Flash"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "THE TIMES",
+            "logo": "url",
+            "summary": "txt",
+            "HTMLdescription": "html",
+            "image": "url",
+            "keys": [
+                "JS",
+                "HTML5",
+                "Experimental",
+                "Commercial",
+                "Flash"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "XXX",
+            "logo": "url",
+            "summary": "txt",
+            "HTMLdescription": "html",
+            "image": "url",
+            "keys": [
+                "JS",
+                "HTML5",
+                "Experimental",
+                "Commercial",
+                "Flash"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Second Row",
+            "logo": "url",
+            "summary": "txt",
+            "HTMLdescription": "html",
+            "image": "url",
+            "keys": [
+                "JS",
+                "HTML5",
+                "Experimental",
+                "Commercial",
+                "Flash"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "XXX",
+            "logo": "url",
+            "summary": "txt",
+            "HTMLdescription": "html",
+            "image": "url",
+            "keys": [
+                "JS",
+                "HTML5",
+                "Experimental",
+                "Commercial",
+                "Flash"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "6",
+            "logo": "url",
+            "summary": "txt",
+            "HTMLdescription": "html",
+            "image": "url",
+            "keys": [
+                "JS",
+                "HTML5",
+                "Experimental",
+                "Commercial",
+                "Flash"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "7",
+            "logo": "url",
+            "summary": "txt",
+            "HTMLdescription": "html",
+            "image": "url",
+            "keys": [
+                "JS",
+                "HTML5",
+                "Experimental",
+                "Commercial",
+                "Flash"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "8",
+            "logo": "url",
+            "summary": "txt",
+            "HTMLdescription": "html",
+            "image": "url",
+            "keys": [
+                "JS",
+                "HTML5",
+                "Experimental",
+                "Commercial",
+                "Flash"
+            ]
+        }
+    ]
 }
 },{}],211:[function(require,module,exports){
 //jquery - bootstarp dependency
@@ -34506,7 +34560,7 @@ var initApp = function() {
 
 module.exports = initApp;
 
-},{"./views/about":213,"./views/app_root":214,"./views/contact":215,"./views/home":216,"./views/not_found":217,"./views/projects":219,"react":209,"react-router":40}],213:[function(require,module,exports){
+},{"./views/about":213,"./views/app_root":214,"./views/contact":215,"./views/home":216,"./views/not_found":217,"./views/projects":218,"react":209,"react-router":40}],213:[function(require,module,exports){
 var React = require('react');
 
 var About = React.createClass({displayName: "About",
@@ -34597,90 +34651,94 @@ module.exports = NotFound;
 
 },{"react":209}],218:[function(require,module,exports){
 var React = require('react'),
-	projectData = require('./../../projects.json');
-
-var Project = React.createClass({displayName: "Project",
-
-	getInitialState: function() {
-		return {
-			heading: 'Default Title',
-			imageURL: 'Deafult URL'
-		}
-	},
-
-	componentDidMount: function() {
-		var projects = projectData.projects;
-
-		for (var i = 0; i < projects.length; i++) {
-			if (projects[i].id == this.props.id) {
-
-				if (this.isMounted()) {
-					this.setState({
-						heading: projects[i].title,
-						imageURL: projects[i].thumbURL
-					});
-				}
-			}
-		}
-	},
-	
-
-	render: function() {
-		return ( React.createElement("div", {className: "col-md-4"}, 
-			React.createElement("h2", null, " ", 
-				this.state.heading, 
-			" "), " ", React.createElement("p", null, " Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio dui. "), " ", React.createElement("p", null, " ", React.createElement("a", {className: "btn btn-default", 
-			href: "#", 
-			role: "button"}, " View details» "))
-			)
-		);
-	}
-});
-
-module.exports = Project;
-
-},{"./../../projects.json":210,"react":209}],219:[function(require,module,exports){
-var React = require('react'),
 	projectData = require('./../../projects.json'),
-	Project = require('./project'),
-	projectLength = projectData.projects.length,
+	ProjectsRow = require('./projects_row'),
 	itemsInRow = 3,
-	clicked = 0; //Increment this number and rerender this cimponent on click and we are almost done 
-
+	projects = projectData.projects.reverse(),
+	currentProjects = []; 
 
 var Projects = React.createClass({displayName: "Projects",
 	
+	getInitialState: function() {
+		
+		currentProjects = projects.slice(); //Create a copy or array 
+		
+		return { 
+			loadMoreBtn: true,
+			rows: [currentProjects.splice(0, itemsInRow)]			
+		}
+	},
+
+	loadMoreProjects: function(e) {
+		e.preventDefault();
+		var addRow = this.state.rows;
+	
+		if(currentProjects.length) {
+			addRow.push(currentProjects.splice(0, itemsInRow));
+			this.setState({rows: addRow});  
+		} 
+
+		if(!currentProjects.length) {
+			this.setState({loadMoreBtn: false})
+		}
+		
+	},
+
 	render: function() {
-		var projectsDOM = 	React.createElement("div", null, 
-							React.createElement("div", {className: "jumbotron"}, 
-								React.createElement("div", {className: "container"}, 
-									React.createElement("h1", null, " Projects ")
-								)
-							), 
 
-							React.createElement("div", {className: "container"}, 
-								React.createElement("div", {className: "row"}, 
-									projectData.projects.reverse().map(function(project, i) {
-										
-											
+		return (
+			React.createElement("div", null, 
+				React.createElement("div", {className: "jumbotron"}, 
+					React.createElement("div", {className: "container"}, 
+						React.createElement("h1", null, " Projects ")
+					)
+				), 
 
+				React.createElement("div", {className: "container"}, 
+					
+					this.state.rows.map(function(row, i) {
+						return React.createElement(ProjectsRow, {row: row, key: i})
+					}.bind(this))
+				
+				), 
 
-											if(i < (clicked + 1) * itemsInRow) {
-												return React.createElement(Project, {id: project.id})
-											}
-									})
-								
-								), 
-								
-								React.createElement("hr", null)
-
-							)
-						)
-
-		return projectsDOM;
+				React.createElement("div", {className: "container text-center"}, 	
+					React.createElement("a", {className: "btn btn-default", 
+						className: this.state.loadMoreBtn ? '' : 'hide', 
+						onClick: this.loadMoreProjects, 
+						role: "button"}, " Load More Projects ")
+				)
+			)
+		);	
 	}
 });
 
 module.exports = Projects;
 
-},{"./../../projects.json":210,"./project":218,"react":209}]},{},[211]);
+},{"./../../projects.json":210,"./projects_row":219,"react":209}],219:[function(require,module,exports){
+var React = require('react');
+
+var ProjectsRow = React.createClass({displayName: "ProjectsRow",
+
+	render: function() {
+
+		return ( 
+			React.createElement("div", null, 	
+				React.createElement("div", {className: "row"}, 
+					this.props.row.map(function(project) {
+						return  React.createElement("div", {className: "col-md-4", key: project.id}, 
+									React.createElement("h2", null, " ", project.title, " "), 
+									React.createElement("p", null, " Donec id elit non mi porta gravida at eget metus.Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.Etiam porta sem malesuada magna mollis euismod.Donec sed odio dui. "), 
+									React.createElement("p", null, " ", React.createElement("a", {className: "btn btn-default", href: "#", role: "button"}, " View details» "))
+								)
+					})
+				), 
+			React.createElement("hr", null)	
+			)			   
+		);
+	}
+});
+
+module.exports = ProjectsRow;
+
+},{"react":209}]},{},[211]);
