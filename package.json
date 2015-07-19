@@ -9,7 +9,7 @@
   "main": "scripts/main.js",
   "scripts": {
     "test": "test",
-    "start": "watchify scripts/main.js -o scripts/bundle.js -d",
+    "start": "watchify scripts/main.js -o scripts/bundle.js --debug",
     "deploy": "gh-pages -d ./../gs"
   },
   "keywords": [

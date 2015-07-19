@@ -3,7 +3,8 @@ var React = require('react'),
 	ProjectsRow = require('./projects_row'),
 	itemsInRow = 3,
 	projects = projectData.projects.reverse(),
-	currentProjects = []; 
+	currentProjects = [],
+	$ = jQuery = require('jquery');
 
 var Projects = React.createClass({
 	
@@ -17,7 +18,16 @@ var Projects = React.createClass({
 		}
 	},
 
+	componentDidUpdate: function() {
+		//Scroll to bottom of the page after each click
+		$("html, body").animate({
+			scrollTop: $(document).height()
+		}, 1000);	
+	 },
+
+
 	loadMoreProjects: function(e) {
+
 		e.preventDefault();
 		var addRow = this.state.rows;
 	
@@ -28,8 +38,7 @@ var Projects = React.createClass({
 
 		if(!currentProjects.length) {
 			this.setState({loadMoreBtn: false})
-		}
-		
+		}	
 	},
 
 	render: function() {
@@ -51,7 +60,7 @@ var Projects = React.createClass({
 				< /div> 
 
 				< div className = "container text-center" >	
-					<a  className= {this.state.loadMoreBtn ? 'btn btn-primary btn-lg' : 'hide'} 
+					<a id="loadMore" className= {this.state.loadMoreBtn ? 'btn btn-primary btn-lg' : 'hide'} 
 						onClick = {this.loadMoreProjects}
 						role="button" > Load More Projects </a>
 				</div>

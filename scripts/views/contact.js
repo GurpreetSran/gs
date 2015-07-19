@@ -6,8 +6,13 @@ var Contact = React.createClass({
     	<div className="jumbotron">
 	      <div className="container">
 	        <h1>Contact</h1>
-	        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-	        <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+	        <p>If you have any query, feedback or suggestion, please get in touch.</p>
+	        <p>
+	        	Send me an Email  <br />
+	        	Check out my Linkedin Profile <br />
+	        	Check out my Stackoverflow Profile <br />
+	        	Tweet Me <br />
+	        </p>
 	      </div>
 	    </div> 
     ); 
