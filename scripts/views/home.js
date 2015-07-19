@@ -5,7 +5,7 @@ var Home = React.createClass({
     return(
     	<div>
 			<div className="jumbotron">
-				<div className="container text-center">
+				<div className="container">
 					<h1>I make web beautiful!</h1>
 				</div>
 			</div>

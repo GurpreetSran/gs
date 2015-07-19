@@ -10,15 +10,30 @@ var Description = React.createClass({
 			}
 		}
 	},  
+	
 	render: function() {
 		var currentProject = this.getCurrentProject();
 
 		return(
-			<div className="jumbotron">
+			<div>
+				<div className="jumbotron">
+					<div className="container">
+						<h1>{currentProject.title}</h1>
+					</div>	
+				</div>	
 				<div className="container">
-					<h1>{currentProject.title}</h1>
-					<p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-					
+					<p className="text-center"> <img id="projectImg" src={currentProject.image} alt="Project Image" /></p>
+					<br />
+					<p dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		
+					<br />
+					<p>	
+						<h3>Skills Used</h3>
+						<ul className="list-group">
+							{currentProject.keys.map(function(key){
+								return <li className="list-group-item"> {key } </li>
+							})}
+						</ul>
+					</p>
 				</div>
 			</div>
 		); 

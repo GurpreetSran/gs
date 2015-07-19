@@ -20,9 +20,9 @@ var Projects = React.createClass({
 
 	componentDidUpdate: function() {
 		//Scroll to bottom of the page after each click
-		$("html, body").animate({
-			scrollTop: $(document).height()
-		}, 1000);	
+		// $("html, body").animate({
+		// 	scrollTop: $(document).height()
+		// }, 1000);	
 	 },
 
 
@@ -64,6 +64,8 @@ var Projects = React.createClass({
 						onClick = {this.loadMoreProjects}
 						role="button" > Load More Projects </a>
 				</div>
+				
+				<li data-toggle="collapse" data-target=".in"><a href="#/projects">Option 1</a></li>
 			< /div>
 		);	
 	}

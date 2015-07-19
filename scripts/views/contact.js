@@ -11,7 +11,7 @@ var Contact = React.createClass({
 	        	Send me an Email  <br />
 	        	Check out my Linkedin Profile <br />
 	        	Check out my Stackoverflow Profile <br />
-	        	Tweet Me <br />
+	        	Tweet Me x <br />
 	        </p>
 	      </div>
 	    </div> 

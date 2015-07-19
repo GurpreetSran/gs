@@ -22,8 +22,14 @@ h3{
 	margin-top: 10px;
 	margin-bottom: 25px;
 	padding-bottom: 15px;
-	
+	padding-top: 10px;
 }
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px; 
+}
+
 
 a{ 
 	font-family: ff-meta-serif-web-pro-1, ff-meta-serif-web-pro-2, Cambria, Georgia, serif;
@@ -70,7 +76,7 @@ a{
 	color: #fff;
 }
 
-#homePageMainImage {
+#homePageMainImage, #projectImg {
 	width: 100%;
 }
 
@@ -78,53 +84,54 @@ a{
 	background: url('./../assets/images/sprites.png') no-repeat;
 	display: inline-block;
 	background-color: #fff;
-	margin: 10px 20px;
+	margin: 10px 5px;
 	padding: 5px;
-	box-shadow: 7px 5px 16px 0px #333;
+	box-shadow: 0px 0px 25px -5px #000;
 	border-radius: 5px;
 }
 
 .angular{
-	background-position: -219px -380px ;
-	width: 95px;
-	height: 100px;
+	background-position: -555px 0;
+	width: 48px;
+	height: 50px;
 }
 
 .css3{
-	background-position: -105px -379px ;
-	width: 100px;
-	height: 100px;
+	background-position: -479px 0;
+	width: 44px;
+	height: 50px;
 }
 
 .html5{
-	background-position: 0 -380px ;
-	width: 100px;
-	height: 100px;
+	background-position: -403px 0;
+	width: 44px;
+	height: 50px;
 }
 
 .javascript{
-	background-position: -460px 0;
-	width: 100px;
-	height: 100px;
+	background-position: -327px 0;
+	width: 50px;
+	height: 50px;
 }
 
 .jquery{
-	background-position: -347px 0;
-	width: 100px;
-	height: 100px;
+	background-position: -219px 0;
+	width: 77px;
+	height: 50px;
 }
 
 .node{
-	background-position: -114px 0;
-	width: 208px;
-	height: 100px;
+	background-position: -88px 0;
+	width: 104px;
+	height: 50px;
 }
 
 .react{
 	background-position: 0 0;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 }
+
 
 
 // ecommerce - FT.com
