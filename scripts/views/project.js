@@ -10,9 +10,23 @@ var Project = React.createClass({
 			}
 		}
 	},  
+
+	getNextProjectId: function() {
+		var currentPrj = this.getCurrentProject();
+		var nextPrjId;
+
+		if(currentPrj.id == 1) {
+			nextPrjId = projects.length; 	
+			return nextPrjId;
+		} else {
+			nextPrjId = currentPrj.id - 1; 
+			return nextPrjId;
+		}
+	},
 	
 	render: function() {
-		var currentProject = this.getCurrentProject();
+		var currentProject = this.getCurrentProject(),
+			nextProject
 
 		return(
 			<div>
@@ -22,9 +36,9 @@ var Project = React.createClass({
 					</div>	
 				</div>	
 				<div className="container">
-					<p className="text-center"> <img id="projectImg" src={currentProject.image} alt="Project Image" /></p>
+					<p className="text-center eeeBackground"> <img id="projectImg" src={currentProject.image} alt="Project Image" /></p>
 					<br />
-					<p dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		
+					<div dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		
 					<p>
 						{/* JSX if else condition*/ }
 						{(currentProject.link
@@ -41,6 +55,11 @@ var Project = React.createClass({
 								return <span key={i} className="label label-default"> {key} </span>
 							})}
 						</div>				
+					</p>
+					<p className="text-right">
+						<a href={'#/project/'+this.getNextProjectId()}>
+							<span className="glyphicon glyphicon-menu-right">Next Project &nbsp;&nbsp;&nbsp;</span>
+						</a>
 					</p>
 				</div>
 			</div>

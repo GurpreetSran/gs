@@ -9,20 +9,18 @@ var Home = React.createClass({
 					<h1>I make web beautiful!</h1>
 				</div>
 			</div>
-			<div className="container text-center">
+			<div className="container text-center eeeBackground">
 				<img id="homePageMainImage" alt="beautiful web" 
 					src="http://gurpreetsran.github.io/portfolio/assets/images/intro-main.png" />
-				
-				<br/>
-				<br/>
-
-				<p className="text-right">
-					<a href="#/about" > More about me </a>
-				</p> 
-				<br/>	
-
 			</div>
-
+			<div className="container">
+				<br />
+				<p className="text-right">
+					<a href="#/about">
+						<span className="glyphicon glyphicon-menu-right">More about me</span>
+					</a>
+				</p>
+			</div>
 		</div>	
     ); 
   }
