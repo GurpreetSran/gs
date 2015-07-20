@@ -2,19 +2,27 @@ var React = require('react'),
 	projectData = require('./../../projects.json'),
 	ProjectsRow = require('./projects_row'),
 	itemsInRow = 3,
+	noOfDefaultRows = 2,
 	projects = projectData.projects.reverse(),
-	currentProjects = [],
-	$ = jQuery = require('jquery');
+	currentProjects = [];
 
 var Projects = React.createClass({
 	
 	getInitialState: function() {
 		
+		var rows = [];
+
 		currentProjects = projects.slice(); //Create a copy or array 
 		
+		for (var i = 0; i < noOfDefaultRows; i++) {
+			if(currentProjects.length) {
+				rows.push(currentProjects.splice(0, itemsInRow));
+			} 
+		}  
+
 		return { 
 			loadMoreBtn: true,
-			rows: [currentProjects.splice(0, itemsInRow)]			
+			rows: rows	
 		}
 	},
 
@@ -60,12 +68,10 @@ var Projects = React.createClass({
 				< /div> 
 
 				< div className = "container text-center" >	
-					<a id="loadMore" className= {this.state.loadMoreBtn ? 'btn btn-primary btn-lg' : 'hide'} 
+					<a id="loadMore" className= {this.state.loadMoreBtn ? 'btn btn-primary' : 'hide'} 
 						onClick = {this.loadMoreProjects}
 						role="button" > Load More Projects </a>
 				</div>
-				
-				<li data-toggle="collapse" data-target=".in"><a href="#/projects">Option 1</a></li>
 			< /div>
 		);	
 	}

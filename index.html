@@ -27,17 +27,18 @@
            <a class="navbar-brand" href="#">
             <img src="./assets/images/logo.png">
           </a>
-          <span class="navbar-brand">
-            Gurpreet Singh
+          <span id="name" class="navbar-brand">
+            <span>Gurpreet Singh</span> <br />
+            <span id="title">Front End Engineer</span>
           </span>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#/home">Home</a></li>
-            <li><a href="#/about">About</a></li>
-            <li><a href="#/projects">Projects</a></li>
-            <li><a href="#/contact">Contact</a></li>
+            <li data-toggle="collapse" data-target=".in"><a href="#/home">Home</a></li>
+            <li data-toggle="collapse" data-target=".in"><a href="#/about">About</a></li>
+            <li data-toggle="collapse" data-target=".in"><a href="#/projects">Projects</a></li>
+            <li data-toggle="collapse" data-target=".in"><a href="#/contact">Contact</a></li>
           </ul>
           </div><!--/.navbar-collapse -->
         </div>
@@ -58,7 +59,8 @@
             <span title="Angular" class="angular"></span> 
           </div>
         </footer>
-        <br /><br />
+        <br />
+        <br />
       </div>
       
       <script src="scripts/bundle.js"></script>

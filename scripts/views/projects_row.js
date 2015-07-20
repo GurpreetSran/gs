@@ -10,12 +10,10 @@ var ProjectsRow = React.createClass({
 					{this.props.row.map(function(project) {
 						return  < div className = "col-md-4" key={project.id} >
 									< div className="text-center"> <img alt="logo" src={project.thumbnail} />< /div >
-									<h3 className= "text-center"> {project.title} < /h3>   
-									< p className="text-center"> 
-										< a className = "btn btn-primary" 
-											href = {'#/description/' + project.id} 
-											role = "button" > View details < /a>
-									</p >
+									< a className = "text-center" 
+											href = {'#/description/' + project.id} >
+										<h3 className= ""> {project.title} < /h3>   
+									</ a >	
 								< /div>
 					})}
 				< /div> 

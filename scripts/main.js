@@ -9,28 +9,25 @@ initApp(); //Initialise Application
 
 
 $(document).ready(function() {
-	/*Bootstrap fixes*/
-	$('body').on('click', 'nav li', function(e) {
-		e.stopImmediatePropagation();
-		$(this).removeClass('active');
-	})
 
-	$(function() {
-		$('.navbar-nav').on('click', function() {
-			if ($('.navbar-header .navbar-toggle').css('display') != 'none') {
-				$(".navbar-header .navbar-toggle").trigger("click");
-			}
-		});
-	});
+	//Collapse nav on outside click
+	$(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = $("#navbar").hasClass("in");
+        
+        if (_opened === true && !clickover.hasClass("navbar-toggle")) {
+            $("button.navbar-toggle").click();
+        }
+    });
 
 	$(window).on('popstate', function() {
 		updateNav();
 	});
 
+	//Update selected nav on hash update 
 	var updateNav = function() {
 
 		var url = window.location;
-
 		$('nav li').removeClass('active');
 
 		// Will only work if string in href matches with location
