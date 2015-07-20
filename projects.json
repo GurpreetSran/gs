@@ -7,7 +7,7 @@
             "HTMLdescription": "<p><a href='http://www.ottogroup.com/home.html?&amp;L=0' target='_blank'>Otto Group</a> are inspired andunited by our shared values, which transcend national borders. Otto see ourselves as enthusiastic partnersto our customers, as creative strategists within an integrated network and as focused managersmaking decisions with long-lasting effects. </p><p>This piece of creative flash has been developed for Otto and It was sponsored by Accenture.This flash piece dynamically gets  data from XML. You can easily customise it by modifying somepredefined settings in XML such as intro clip, type of template etc.</p>",
             "image": "http://gurpreetsran.github.io/portfolio/assets/images/otto-main.jpg",
             "link": "http://development.mmtdigital.co.uk/otto_credentials/Otto_Flash_Credentials.html",
-            "keys": [
+            "skills": [
                 "XML",
                 "Flash"
             ]
@@ -19,7 +19,7 @@
             "HTMLdescription": "<p>Prague Airport is the operator of the most important international airport in the Czech Republicand the biggest airport among the new EU member states. There are also 5 regular cargo carriers andother tens of companies providing charter flights from there.</p><p>This interactive map application allows to browse the Terminals or locate a particular shop or restaurantin either Terminal 1 or 2. Search, zooming and printing are some nifty features of this xml driven AS3 flash piece.</p>",
             "image": "http://gurpreetsran.github.io/portfolio/assets/images/prague-main.jpg",
             "link": "http://map.prg.aero/",
-             "keys": [
+             "skills": [
                 "XML",
                 "Flash"
             ]
@@ -31,7 +31,7 @@
             "HTMLdescription": "<p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p><p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p>",
             "image": "http://gurpreetsran.github.io/portfolio/assets/images/hodder-main.jpg",
             "link": "http://www.hoddereducation.co.uk/Home.aspx",
-            "keys": [
+            "skills": [
                 "JavaScript",
                 "HTML",
                 "CSS"
@@ -41,10 +41,10 @@
             "id": 4,
             "title": "Fabulous Magazine",
             "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/fabmag.png",
-            "HTMLdescription": "<p>The UK's most-read weekly glossy, out every Sunday with The Sun newspaper!</p><p>I have been working on this magazine on and off for last two years. My responsibilities include:<ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul></p>",
+            "HTMLdescription": "<p>The UK's most-read weekly glossy, out every Sunday with The Sun newspaper!</p><p>I have been working on this magazine on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
             "image": "http://gurpreetsran.github.io/portfolio/assets/images/fab-main.jpg",
             "link":"http://www.thesun.co.uk/sol/homepage/fabulous/",
-            "keys": [
+            "skills": [
                 "HTML",
                 "CSS",
                 "ActionScript 3",
@@ -59,7 +59,7 @@
             "HTMLdescription": "<p>Accenture’s expertise and resources cover the full M&A process, from developing a strategy, to screening M&Atargets, to performing due diligence and integrating acquired entities. The M&A strategies we help develop benefitfrom proven frameworks and roadmaps that clarify the value to be gained from M&A as well as the most effectiveways to attain it.</p><p>We use MOSS (Microsoft Office SharePoint Server) extensively to develop microsites for Accenture. It's first integrated server platform that aims to provide web content management, enterprise contentservices, and enterprise search, as well as shared business processes and business intelligence dashboarding to the small/medium enterprise. This effective ability to control content comes at the cost ofrigidness in terms of features. Good knowledge of JavaScript / jQuery and AS3, allows me to customise(hack, up to some extent) templates and fulfil branding (and very demanding) requirements of Accenture.</p>",
             "image": "http://gurpreetsran.github.io/portfolio/assets/images/accenture-main.jpg",
             "link":"http://www.accenture.com/us-en/pages/index.aspx",
-            "keys": [
+            "skills": [
                 "HTML",
                 "CSS",
                 "JavaScript",
@@ -71,71 +71,179 @@
         },
         {
             "id": 6,
-            "title": "6",
-            "thumbnail": "url",
-            "HTMLdescription": "html",
-            "image": "url",
-            "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
-                "Flash"
+            "title": "Green Square",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/greensquare.png",
+            "HTMLdescription": "<p>Green Square is a corporate finance and advisory practice. They provide insightful and balanced advice to the shareholders of independent media and marketing communications businesses. They help them prepare their businesses for sale and ultimately achieve the optimum transaction.</p><p>Apart from having neat and attractive design, use of jQuery makes user experience even better. Implementing web 2.0 features such as google maps, twitter and rss feed was fun!</p>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/greensquare-main.jpg",
+            "link": "http://www.gsquare.co.uk/",
+            "skills": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "Kentico CMS"
             ]
         },
         {
             "id": 7,
-            "title": "7",
-            "thumbnail": "url",
-            "HTMLdescription": "html",
-            "image": "url",
-            "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
-                "Flash"
+            "title": "AZ Online",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/atoz.png",
+            "HTMLdescription": "<p> Philip Allan Updates is part of the <a target='blank' href='http://www.hoddereducation.co.uk/'>Hodder Education Group</a>, a division of <a target='_blank' href='http://www.hachettelivre.co.uk/'>Hachette UK</a>. We have been working on Hodder Education Digital solutions for number of years. Over this period of time, we have successfullydeveloped number of web tools for them.</p><p>This is an AIR based AZ Admin tool developed for <a href='http://www.philipallan.co.uk' target='_blank'>PhilipAlan</a>. This tool stiches together html, CSV  and other files in the xml format. This XML/XHTML will eventuallybe used by .net  based backend system.",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/atoz-main.jpg",
+            "link":"",
+            "skills": [
+                "Abode AIR",
+                "ActionScript 3",
+                "MXML"
             ]
         },
         {
             "id": 8,
-            "title": "Accenture",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/accenture.png",
-            "HTMLdescription": "html",
-            "image": "url",
-            "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
-                "Flash"
+            "title": "Body Blitz Diet",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/bodyblitz.png",
+            "HTMLdescription": "<p><a href='http://www.annarichardson.co.uk/' target='_blank'>Anna's Richardson's</a> Body Blitz Diet is a two week diet plan that guarantees up to 7lb weight loss in just 14 days. Featuring the 5 RULES to guarantee weight loss, over 35 delicious, easy-to-prepare recipes, and the exclusive PANICBUTTON to keep dieters on the straight and getting narrower!</p> <p>Whilst this app has been developed specificallyfor iphone use, ELIPS studio is a plug-in for Flex that allows us to create native applications for multiple mobileplatforms (Apple, Android, Windows Mobile and Symbian). Therefore, because the app was built in ELIPS it is possibleto repurpose the app at a later date for use on another platform, should this be required.</p>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/anna-main.jpg",
+            "link":"",
+            "skills": [
+                "Flash",
+                "Flex Builder",
+                "ActionScript 3",
+                "MXML",
+                "Elips Studio",
+                "XML",
+                "Objective C",
+                "HTML"
             ]
         },
         {
             "id": 9,
-            "title": "Green Square",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/greensquare.png",
-            "HTMLdescription": "html",
-            "image": "url",
-            "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
-                "Flash"
+            "title": "The Sunday Times",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thesuntimes.png",
+            "HTMLdescription": "<p><a href='http://www.thesundaytimes.co.uk/sto/' target='_blank'>The Sunday Times</a> is the largest-selling British national 'quality' Sunday newspaper. It is published by Times Newspapers Ltd, a subsidiary of News International, which is in turn owned by News Corporation. Times Newspapers also publishes The Times. The two papers were founded independently and have been under common ownership only since 1966. They were bought by News International in 1981.</p><p>I have been working on this title on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/thesundaytimesmain.jpg",
+            "link":"http://www.thesundaytimes.co.uk/sto/",
+            "skills": [
+                "JavaScript",
+                "HTML",
+                "jQuery",
+                "Escenic CMS",
+                "CSS"
             ]
         },{
             "id": 10,
             "title": "The Times",
             "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thetimes.png",
-            "HTMLdescription": "html",
-            "image": "url",
-            "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
+            "HTMLdescription": "<p><a href='http://www.thetimes.co.uk/tto/news/' target='_blank'>The Times</a> is a British daily national newspaper, first published in London in 1785 under the title The Daily Universal Register (it became The Times on 1 January 1788). The Times and its sister paper The Sunday Times (founded in 1821) are published by Times Newspapers, since 1981 a subsidiary of News International, itself wholly owned by the News Corporation group.</p><p>I have been working on this title on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/thetimes-main.jpg",
+            "link":"",
+             "skills": [
+                "JavaScript",
+                "HTML",
+                "jQuery",
+                "Escenic CMS",
+                "CSS"
+            ]
+        },{
+            "id": 11,
+            "title": "News of the World",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/notw.png",
+            "HTMLdescription": "<p>The<a href='http://www.newsoftheworld.co.uk/' target='_blank'> News of the World</a> was a national red top newspaper published in the United Kingdom from 1843 to 2011. It was at one time thebiggest selling English language newspaper in the world, and at closure still had one of the highest English language circulations.</p><p>I used to work on this title as Senior Front End developer. I was responsible for:</p><ul><li>Daily maintenance &amp; bug fixes</li><li>Agile based development</li><li>Adding new features to title</li><li>Communication with PO and other stakeholders</li><li>Setting up best practices and documents</li><li>Mentoring junior developers</li><li>R&amp;D</li></ul>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/notw-main.jpg",
+            "link":"http://www.newsoftheworld.co.uk/",
+             "skills": [
+                "JavaScript",
+                "HTML",
+                "jQuery",
+                "Escenic CMS",
+                "CSS",
+                "ActionScript 3",
+                "MXML",
                 "Flash"
+            ]
+        },{
+            "id": 12,
+            "title": "The Sun: iPad POC",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/ipad.png",
+            "HTMLdescription": "<p>This HTML5 based tablet proof of concept project has been done for SUN smart phone team. It was a quick 3 day fun opportunityto play with new technologies such as HTML5, CSS3, touch events. Management was really impressed with the outcome and they decided to use about 80% features from this POC.</p><p>Check out following features on iPad:</p><ul><li>Double finger touch</li><li>Dragging Sections</li><li>Storing Current State</li><li>CSS3 transitions</li></ul>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/ipad-poc-main.jpg",
+            "link":"http://gurpreetsran.github.io/ipad-poc/",
+             "skills": [
+                "JavaScript",
+                "HTML",
+                "jQuery",
+                "Touch-Punch",
+                "CSS"
+            ]
+        },{
+            "id": 13,
+            "title": "The Sun: Live Match Center",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/match-center.png",
+            "HTMLdescription": "<p><a href='http://www.thesun.co.uk/sol/homepage/sport/football/' target='_blank'>Sun Football</a> is famous for its brilliant sports-writers and expert columnists.</p><p>We made it even bigger and better. The main deliverables of this project were: </p><ul><li>Football dashboard</li><li>Real time AJAX powered live commentary</li><li>Hand picked tweets from experts</li><li>Real time stat widgets</li><li>Latest pictures available</li><li>Ability to chat with other fans while keeping up with the latest action</li></ul>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/match-center-main.jpg",
+            "link":"http://www.thesun.co.uk/sol/homepage/sport/football/4539172/Sun-Football-gets-bigger-and-better.html",
+             "skills": [
+                "JavaScript",
+                "HTML",
+                "jQuery",
+                "Escenic CMS",
+                "JSP"
+            ]
+        },{
+            "id": 14,
+            "title": "The Sun: Revamp",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thesun.png",
+            "HTMLdescription": "<p><a href='http://www.thesun.co.uk/sol/homepage/' target='_blank'>The Sun</a> has the tenth-largest circulation of any newspaper in the world and the largest circulation of any daily newspaper in the United Kingdom. It had an average daily circulation of 2,409,811 copies in January 2013. Between January and June 2012 the paper had an average daily readership of approximately 7.3 million.</p><p>I have been very fortunate to lead this exciting project. We rewrote entire tired &amp; outdated front end for SUN online and gave it a brand-new look. Along with many new features. We updated the site to utilise the power of HTML 5 which performed 3 times better than the old site.</p>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/sun-main.jpg",
+            "link":"http://www.thesun.co.uk/sol/homepage/news/4445859/A-brand-new-look-for-The-Sun-website.html",
+             "skills": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "JSP",
+                "Flash Builder",
+                "Fluid Grid",
+                "jQuery",
+                "Jasmine",
+                "Escenic CMS"
+            ]
+        },{
+            "id": 15,
+            "title": "",
+            "thumbnail": "url",
+            "HTMLdescription": "",
+            "image": "",
+            "link":"",
+             "skills": [
+                "JavaScript",
+                "HTML",
+                "jQuery",
+                "Escenic CMS"
+            ]
+        },{
+            "id": 16,
+            "title": "",
+            "thumbnail": "url",
+            "HTMLdescription": "",
+            "image": "",
+            "link":"",
+             "skills": [
+                "JavaScript",
+                "HTML",
+                "jQuery",
+                "Escenic CMS"
+            ]
+        },{
+            "id": 17,
+            "title": "",
+            "thumbnail": "url",
+            "HTMLdescription": "",
+            "image": "",
+            "link":"",
+             "skills": [
+                "JavaScript",
+                "HTML",
+                "jQuery",
+                "Escenic CMS"
             ]
         }
     ]
