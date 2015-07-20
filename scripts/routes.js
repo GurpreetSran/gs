@@ -9,7 +9,7 @@ var React = require('react'),
 	Contact = require('./views/contact'),
 	Projects = require('./views/projects'),
 	NotFound = require('./views/not_found'),
-	Description = require('./views/description'),
+	Project = require('./views/project'),
 	AppRoot = require('./views/app_root');
 
 	//$ = jQuery = require('jquery');
@@ -21,7 +21,7 @@ var routes = (
     	<Route name="about" handler={About} />
     	<Route name="projects" handler={Projects} />
     	<Route name="contact" handler={Contact} />
-    	<Route name="description" path="description/:id" handler={Description} />
+    	<Route name="project" path="project/:id" handler={Project} />
 
     	<Redirect from="/" to="home" />
 

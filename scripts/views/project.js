@@ -2,7 +2,7 @@ var React = require('react'),
 	projectData = require('./../../projects.json'),
 	projects = projectData.projects;
 
-var Description = React.createClass({
+var Project = React.createClass({
 	getCurrentProject: function() {
 		for( var i =0; i < projects.length; i++) {
 			if(projects[i].id == this.props.params.id) {
@@ -40,4 +40,4 @@ var Description = React.createClass({
 	}
 });
 
-module.exports = Description;
+module.exports = Project;

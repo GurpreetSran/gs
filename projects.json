@@ -4,9 +4,9 @@
             "id": 1,
             "title": "Otto Group",
             "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/otto.png",
-            "summary": "",
             "HTMLdescription": "<p><a href='http://www.ottogroup.com/home.html?&amp;L=0' target='_blank'>Otto Group</a> are inspired andunited by our shared values, which transcend national borders. Otto see ourselves as enthusiastic partnersto our customers, as creative strategists within an integrated network and as focused managersmaking decisions with long-lasting effects. </p><p>This piece of creative flash has been developed for Otto and It was sponsored by Accenture.This flash piece dynamically gets  data from XML. You can easily customise it by modifying somepredefined settings in XML such as intro clip, type of template etc.</p>",
             "image": "http://gurpreetsran.github.io/portfolio/assets/images/otto-main.jpg",
+            "link": "http://development.mmtdigital.co.uk/otto_credentials/Otto_Flash_Credentials.html",
             "keys": [
                 "XML",
                 "Flash"
@@ -16,7 +16,6 @@
             "id": 2,
             "title": "Streamhub",
             "thumbnail": "url",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [
@@ -31,7 +30,6 @@
             "id": 3,
             "title": "Aimia",
             "thumbnail": "url",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [
@@ -46,7 +44,6 @@
             "id": 4,
             "title": "The SUN: Revamp",
             "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thesun.png",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [
@@ -61,7 +58,6 @@
             "id": 5,
             "title": "XXX",
             "thumbnail": "url",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [
@@ -76,7 +72,6 @@
             "id": 6,
             "title": "6",
             "thumbnail": "url",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [
@@ -91,7 +86,6 @@
             "id": 7,
             "title": "7",
             "thumbnail": "url",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [
@@ -106,7 +100,6 @@
             "id": 8,
             "title": "Accenture",
             "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/accenture.png",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [
@@ -121,7 +114,6 @@
             "id": 9,
             "title": "Green Square",
             "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/greensquare.png",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [
@@ -135,7 +127,6 @@
             "id": 10,
             "title": "The Times",
             "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thetimes.png",
-            "summary": "txt",
             "HTMLdescription": "html",
             "image": "url",
             "keys": [

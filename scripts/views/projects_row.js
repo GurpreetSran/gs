@@ -11,7 +11,7 @@ var ProjectsRow = React.createClass({
 						return  < div className = "col-md-4" key={project.id} >
 									< div className="text-center"> <img alt="logo" src={project.thumbnail} />< /div >
 									< a className = "text-center" 
-											href = {'#/description/' + project.id} >
+											href = {'#/project/' + project.id} >
 										<h3 className= ""> {project.title} < /h3>   
 									</ a >	
 								< /div>
