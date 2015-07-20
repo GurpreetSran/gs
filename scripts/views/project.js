@@ -26,13 +26,19 @@ var Project = React.createClass({
 					<br />
 					<p dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		
 					<br />
+					<p>
+						<a target="_blank" href={currentProject.link}>
+							<span className="glyphicon glyphicon-menu-right">Visit Website </span>
+						</a>
+					</p>
+					<br />
 					<p>	
-						<h3>Skills Used</h3>
-						<ul className="list-group">
-							{currentProject.keys.map(function(key){
-								return <li className="list-group-item"> {key } </li>
+						<h3>Technology Stack</h3>
+						<div id="skills">
+							{currentProject.keys.map(function(key, i){
+								return <span key={i} className="label label-default"> {key} </span>
 							})}
-						</ul>
+						</div>				
 					</p>
 				</div>
 			</div>

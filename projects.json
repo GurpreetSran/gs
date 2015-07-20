@@ -14,57 +14,58 @@
         },
         {
             "id": 2,
-            "title": "Streamhub",
-            "thumbnail": "url",
-            "HTMLdescription": "html",
-            "image": "url",
-            "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
+            "title": "Interactive Prague Airport",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/prague.png",
+            "HTMLdescription": "<p>Prague Airport is the operator of the most important international airport in the Czech Republicand the biggest airport among the new EU member states. There are also 5 regular cargo carriers andother tens of companies providing charter flights from there.</p><p>This interactive map application allows to browse the Terminals or locate a particular shop or restaurantin either Terminal 1 or 2. Search, zooming and printing are some nifty features of this xml driven AS3 flash piece.</p>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/prague-main.jpg",
+            "link": "http://map.prg.aero/",
+             "keys": [
+                "XML",
                 "Flash"
             ]
         },
         {
             "id": 3,
-            "title": "Aimia",
-            "thumbnail": "url",
-            "HTMLdescription": "html",
-            "image": "url",
+            "title": "Hodder Education",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/hodder.png",
+            "HTMLdescription": "<p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p><p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/hodder-main.jpg",
+            "link": "http://www.hoddereducation.co.uk/Home.aspx",
             "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
-                "Flash"
+                "JavaScript",
+                "HTML",
+                "CSS"
             ]
         },
         {
             "id": 4,
-            "title": "The SUN: Revamp",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thesun.png",
-            "HTMLdescription": "html",
-            "image": "url",
+            "title": "Fabulous Magazine",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/fabmag.png",
+            "HTMLdescription": "<p>The UK's most-read weekly glossy, out every Sunday with The Sun newspaper!</p><p>I have been working on this magazine on and off for last two years. My responsibilities include:<ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul></p>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/fab-main.jpg",
+            "link":"http://www.thesun.co.uk/sol/homepage/fabulous/",
             "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
-                "Flash"
+                "HTML",
+                "CSS",
+                "ActionScript 3",
+                "MXML",
+                "ESCENIC CMS"
             ]
         },
         {
             "id": 5,
-            "title": "XXX",
-            "thumbnail": "url",
-            "HTMLdescription": "html",
-            "image": "url",
+            "title": "Accenture",
+            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/accenture.png",
+            "HTMLdescription": "<p>Accenture’s expertise and resources cover the full M&A process, from developing a strategy, to screening M&Atargets, to performing due diligence and integrating acquired entities. The M&A strategies we help develop benefitfrom proven frameworks and roadmaps that clarify the value to be gained from M&A as well as the most effectiveways to attain it.</p><p>We use MOSS (Microsoft Office SharePoint Server) extensively to develop microsites for Accenture. It's first integrated server platform that aims to provide web content management, enterprise contentservices, and enterprise search, as well as shared business processes and business intelligence dashboarding to the small/medium enterprise. This effective ability to control content comes at the cost ofrigidness in terms of features. Good knowledge of JavaScript / jQuery and AS3, allows me to customise(hack, up to some extent) templates and fulfil branding (and very demanding) requirements of Accenture.</p>",
+            "image": "http://gurpreetsran.github.io/portfolio/assets/images/accenture-main.jpg",
+            "link":"http://www.accenture.com/us-en/pages/index.aspx",
             "keys": [
-                "JS",
-                "HTML5",
-                "Experimental",
-                "Commercial",
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "ActionScript 3",
+                "jQuery",
+                "MOSS",
                 "Flash"
             ]
         },
