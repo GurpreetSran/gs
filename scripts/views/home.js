@@ -15,7 +15,7 @@ var Home = React.createClass({
 					<h1>I make web beautiful!</h1>
 				</div>
 			</div>
-			<div className="container text-center eeeBackground">
+			<div className="container text-center">
 				
 			</div>
 			<div className="container">

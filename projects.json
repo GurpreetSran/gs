@@ -1,4 +1,88 @@
-{
+{   
+    "projectRectangleIcons":
+    [   
+        [{   
+            "title": "jira",
+            "type": "rectangle",
+            "height":62,
+            "width":128,
+            "url": "./assets/images/home_animation/jira.png"
+        },
+        {
+            "title": "jasmine",
+            "type": "rectangle",
+            "height":51,
+            "width":200,
+            "url": "./assets/images/home_animation/jasmine.png"
+        },
+        {
+            "title": "bower",
+            "type": "circle",
+            "radius":38,
+            "url": "./assets/images/home_animation/bower.png"
+        },
+        {
+            "title": "responsive-design",
+            "type": "rectangle",
+            "height":100,
+            "width":105,
+            "url": "./assets/images/home_animation/responsive-design.png"
+        }],
+        [{
+            "title": "less",
+            "type": "rectangle",
+            "height":73,
+            "width":176,
+            "url": "./assets/images/home_animation/less.png"
+        },
+        {
+            "title": "modernizr",
+            "type": "rectangle",
+            "height":78,
+            "width":150,
+            "url": "./assets/images/home_animation/modernizr.png"
+        },
+        {
+            "title": "npm",
+            "type": "rectangle",
+            "height":120,
+            "width":120,
+            "url": "./assets/images/home_animation/npm.png"
+        },
+        {
+            "title": "react",
+            "type": "circle",
+            "radius":61,
+            "url": "./assets/images/home_animation/react.png"
+        }],
+        [{
+            "title": "as3",
+            "type": "rectangle",
+            "height":81,
+            "width":135,
+            "url": "./assets/images/home_animation/ActionScript.png"
+        },
+        {
+             "title": "grunt",
+            "type":"circle",
+            "radius": 100,
+            "url": "./assets/images/home_animation/grunt.png"            
+        },
+        {
+            "title": "git",
+            "type": "rectangle",
+            "height":42,
+            "width":100,
+            "url": "./assets/images/home_animation/git.png"
+        },{
+            "title": "backbone",
+            "type": "rectangle",
+            "height":75,
+            "width":93,
+            "url": "./assets/images/home_animation/backbone.png"
+        }]
+    ],
+
     "projects": [
         {
             "id": 1,
