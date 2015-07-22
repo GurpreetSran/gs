@@ -39,7 +39,7 @@ var Project = React.createClass({
 					<p className="text-center eeeBackground"> <img id="projectImg" src={currentProject.image} alt="Project Image" /></p>
 					<br />
 					<div dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		
-					<p>
+					<div>
 						{/* JSX if else condition*/ }
 						{(currentProject.link
 							? <p id="website-link"><a target="_blank" href={currentProject.link}>
@@ -47,20 +47,20 @@ var Project = React.createClass({
 							  </a></p>
 							: <br />
 						)}
-					</p>
-					<p>	
+					</div>
+					<div>	
 						<h3>Technology Stack</h3>
 						<div id="skills">
 							{currentProject.skills.map(function(key, i){
 								return <span key={i} className="label label-default"> {key} </span>
 							})}
 						</div>				
-					</p>
-					<p className="text-right">
+					</div>
+					<div className="text-right">
 						<a href={'#/project/'+this.getNextProjectId()}>
 							<span className="glyphicon glyphicon-menu-right">Next Project &nbsp;&nbsp;&nbsp;</span>
 						</a>
-					</p>
+					</div>
 				</div>
 			</div>
 		); 

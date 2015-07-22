@@ -1,6 +1,12 @@
-var React = require('react');
+var React = require('react'),
+	homeAnimation = require('./../home_animation');
 
 var Home = React.createClass({
+ 
+ componentDidMount: function () {
+    homeAnimation(React.findDOMNode(this).childNodes[1]);
+  },
+
   render: function() {
     return(
     	<div>
@@ -10,8 +16,7 @@ var Home = React.createClass({
 				</div>
 			</div>
 			<div className="container text-center eeeBackground">
-				<img id="homePageMainImage" alt="beautiful web" 
-					src="http://gurpreetsran.github.io/portfolio/assets/images/intro-main.png" />
+				
 			</div>
 			<div className="container">
 				<br />
