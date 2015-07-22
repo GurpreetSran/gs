@@ -10,10 +10,18 @@ var Engine = Matter.Engine,
   Constraint = Matter.Constraint,
   Composites = Matter.Composites,
   MouseConstraint = Matter.MouseConstraint;
+  Mouse = Matter.Mouse;
 
 
-var homeAnimation = function(DOMelement) {
+//Remove mouse wheel events 
+Mouse.clearSourceEvents = function(mouse) {
+  mouse.element.removeEventListener("mousewheel", mouse.mousewheel);
+  mouse.element.removeEventListener("DOMMouseScroll", mouse.mousewheel);
+};
 
+
+var homeAnimation = function(DOMelement, stop) {
+  
   // create a Matter.js engine
   var engine = Engine.create(DOMelement, {
     render: {
@@ -77,6 +85,8 @@ var homeAnimation = function(DOMelement) {
 
   // run the engine
   Engine.run(engine);
+
+  return Engine;
 }
 
 module.exports = homeAnimation;

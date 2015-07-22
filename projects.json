@@ -11,7 +11,7 @@
         {
             "title": "jasmine",
             "type": "rectangle",
-            "height":51,
+            "height":61,
             "width":200,
             "url": "./assets/images/home_animation/jasmine.png"
         },

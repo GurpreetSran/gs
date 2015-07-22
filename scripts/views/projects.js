@@ -4,7 +4,8 @@ var React = require('react'),
 	itemsInRow = 3,
 	noOfDefaultRows = 2,
 	projects = projectData.projects.reverse(),
-	currentProjects = [];
+	currentProjects = [],
+	currentPageRows;
 
 var Projects = React.createClass({
 	
@@ -12,8 +13,14 @@ var Projects = React.createClass({
 		
 		var rows = [];
 
+		if(!currentPageRows) {
+			currentPageRows = noOfDefaultRows;
+		}
+
 		currentProjects = projects.slice(); //Create a copy or array 
 		
+		noOfDefaultRows = currentPageRows || noOfDefaultRows;
+
 		for (var i = 0; i < noOfDefaultRows; i++) {
 			if(currentProjects.length) {
 				rows.push(currentProjects.splice(0, itemsInRow));
@@ -26,20 +33,13 @@ var Projects = React.createClass({
 		}
 	},
 
-	componentDidUpdate: function() {
-		//Scroll to bottom of the page after each click
-		// $("html, body").animate({
-		// 	scrollTop: $(document).height()
-		// }, 1000);	
-	 },
-
-
 	loadMoreProjects: function(e) {
 
 		e.preventDefault();
 		var addRow = this.state.rows;
 	
 		if(currentProjects.length) {
+			currentPageRows++;
 			addRow.push(currentProjects.splice(0, itemsInRow));
 			this.setState({rows: addRow});  
 		} 
