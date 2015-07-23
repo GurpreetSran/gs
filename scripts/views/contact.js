@@ -10,7 +10,7 @@ var Contact = React.createClass({
 		      </div>
 		    </div>
 		    <div className="container">
-		        <ul className="fa-ul">
+		        <ul className="fa-ul contact-details">
 		       		<li>
 		       			<i className="fa-li fa fa-envelope-o fa-2x"></i>
 		       		  	Send an <a target="_blank" href="mailto:gsran82@gmail.com">Email</a>

@@ -19,6 +19,14 @@ body {
 	font-family: 'sourcesanspro';
 }
 
+a {
+   outline: 0!important;
+}
+
+ul li {
+	font-size: 16px;
+}
+
 .navbar-brand img {
 	margin-top: -12px;
 	width:65px;
@@ -26,8 +34,27 @@ body {
 
 .jumbotron h1{ 
 	font-size: 40px;	
-	color: #660; 
+	color: #663300; 
 	padding: 10px 0;
+}
+
+h2, h3, h4 {
+	color: #663300;
+}
+
+
+.linkStyle1, 
+.contact-details a{
+	background-color: #EEE;
+	color: #663300;
+	padding: 0 5px;
+}
+
+.linkStyle1:hover, 
+.contact-details a:hover{
+	background-color: #663300;
+	color: #EEE;
+	text-decoration: none;
 }
 
 .jumbotron p {
@@ -103,10 +130,6 @@ h3{
 	padding-top: 35px;
 }
 
-.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav > li > a {
-	color: #990;
-}
-
 .btn-primary {
 	background-color: #990;
 	border-color: #990;
@@ -177,17 +200,19 @@ h3{
 }
 
 #name {
+	color: #CCC;
 	padding-top: 9px;
 	font-size: 20px;
 	line-height: 17px;
 }
 
 #title {
+	color: #CCC;
 	font-size: 15px;
 }
 
 #name:hover {
-	color: #990;
+	color: #CCC;
 }
 
 a .glyphicon {
@@ -202,9 +227,9 @@ a .glyphicon {
 #skills .label{
 	font-weight: lighter;
 	display: inline-block;
-	background-color: #990;
-	font-size: 20px;
-	margin-right: 5px;
+	background-color: #663300;
+	font-size: 15px;
+	margin-right: 4px;
 	margin-top: 5px;
 }
 
@@ -213,29 +238,27 @@ a .glyphicon {
 	padding-bottom: 20px;
 }
 
-.contact-details ul{
-	max-width: 300px;
+.contact-details{
+	max-width: 400px;
+} 
+
+.contact-details span, .contact-details a{
+	font-size: 16px;
 } 
 
 .fa-li {
 	left: -44px;
+	top: 10px;
 }
 
 .fa-ul>li {
-	padding: 10px 5px;
+	padding: 10px 10px;
 	
 }
 
-.contact-details li span {
-	font-size: 12px;
-}
-
-.navbar-inverse .navbar-nav > li > a:focus {
-	color: #660;
-}
 
 .about .col-md-4 {
-	padding-bottom: 0;
+	padding-bottom: 5px;
 }
 
 .animationContainer, .eeeBackground{
@@ -246,6 +269,28 @@ a .glyphicon {
 .list-group {
 	padding-bottom: 5px;
 	margin-bottom: 5px;
+}
+
+.navbar-inverse .navbar-brand, 
+.navbar-inverse .navbar-nav > li > a {
+	color: #CCC;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover { 
+	color: #CCC;
+	background-color: #663300;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+	background-color: #663300;
+	color: #CCC;
+}
+
+#loadMore {
+	padding: 5px 5px;
+	font-size: 16px;
 }
 
 footer {

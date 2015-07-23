@@ -27,7 +27,7 @@ var Home = React.createClass({
 			<div className="container">
 				<br /><br />
 				<p className="text-right">
-					<a href="#/about">
+					<a className="linkStyle1" href="#/about">
 						 <i className="fa fa-chevron-right"></i><span>More about me</span>
 					</a>
 				</p>

@@ -11,11 +11,13 @@ var ProjectsRow = React.createClass({
 						return  < div className = "col-md-4 project" key={project.id} >
 									< div className="text-center"> <img alt="logo" src={project.thumbnail} />< /div >
 									
-									< a className = "text-center"
+									<h4 className="text-center"> 
+										< a className = "linkStyle1"
 										href = {'#/project/' + project.id} >
-										
-										<h4 className= ""><i className="fa fa-forward"></i> {project.title} < /h4>   
-									</ a >	
+											<i className="fa fa-chevron-right"></i>{project.title} 
+											</a>
+									< /h4>   
+									
 								< /div>
 					})}
 				< /div> 

@@ -71,17 +71,16 @@ var Projects = React.createClass({
 				< /div> 
 
 				< div className = "container text-center" >	
-					<a id="loadMore" className= {this.state.loadMoreBtn ? 'btn btn-primary' : 'hide'} 
+					<a id="loadMore" className= {this.state.loadMoreBtn ? 'linkStyle1' : 'hide'} 
 						onClick = {this.loadMoreProjects}
-						role="button" > <i className="fa fa-caret-down">Load More Projects</i> 
+						role="button" > <i className="fa fa-chevron-down">Load More Projects</i> 
 					</a>
 					<br />
 					<br />
-					<br />
-					<br />
+					
 					<p className="text-right">
-						<a href="#/contact">
-							<i className="fa fa-forward"></i><span>Contact me</span>
+						<a className="linkStyle1" href="#/contact">
+							<i className="fa fa-chevron-right"></i><span>Contact me</span>
 						</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					</p>
 				</div>

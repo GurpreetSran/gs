@@ -77,8 +77,8 @@
         },{
             "title": "backbone",
             "type": "rectangle",
-            "height":75,
-            "width":93,
+            "height":93,
+            "width":75,
             "url": "./assets/images/home_animation/backbone.png"
         }]
     ],
