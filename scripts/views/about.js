@@ -58,8 +58,8 @@ var About = React.createClass({
 				<br />
 				<p className="text-right">
 					<a href="#/projects">
-						<span className="glyphicon glyphicon-menu-right">Check out projects&nbsp;&nbsp;&nbsp; </span>
-					</a>
+						 <i className="fa fa-forward"></i><span>Check out projects</span>
+					</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 				</p>
 		    </div>
 		</div>    

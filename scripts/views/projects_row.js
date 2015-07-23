@@ -10,9 +10,11 @@ var ProjectsRow = React.createClass({
 					{this.props.row.map(function(project) {
 						return  < div className = "col-md-4 project" key={project.id} >
 									< div className="text-center"> <img alt="logo" src={project.thumbnail} />< /div >
+									
 									< a className = "text-center"
 										href = {'#/project/' + project.id} >
-										<h4 className= ""> {project.title} < /h4>   
+										
+										<h4 className= ""><i className="fa fa-forward"></i> {project.title} < /h4>   
 									</ a >	
 								< /div>
 					})}

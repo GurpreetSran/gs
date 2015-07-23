@@ -6,7 +6,6 @@ var Home = React.createClass({
  
  componentDidMount: function () {
     engine = homeAnimation(React.findDOMNode(this).childNodes[1]);
- 	console.log(engine);
   },
 
   componentWillUnmount: function() {
@@ -29,7 +28,7 @@ var Home = React.createClass({
 				<br /><br />
 				<p className="text-right">
 					<a href="#/about">
-						<span className="glyphicon glyphicon-menu-right">More about me</span>
+						 <i className="fa fa-forward"></i><span>More about me</span>
 					</a>
 				</p>
 			</div>

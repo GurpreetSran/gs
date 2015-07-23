@@ -7,6 +7,29 @@
   	   url('./../assets/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
 }
 
+
+@font-face {
+    font-family: 'dosis';
+    src: url('./../assets/fonts/ddosis/dosis-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'dosis';
+    src: url('./../assets/fonts/dosis/dosis-bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'dosis';
+    src: url('./../assets/fonts/dosis/dosis-light.otf') format('opentype');
+    font-weight: light;
+}
+
+body {
+	font-family: 'dosis';
+	font-weight: bold;
+}
+
 .navbar-brand img {
 	margin-top: -12px;
 	width:65px;
@@ -16,7 +39,6 @@
 	font-size: 40px;	
 	color: #660; 
 	padding: 10px 0;
-	font-family: ff-meta-serif-web-pro-1, ff-meta-serif-web-pro-2, Cambria, Georgia, serif;
 }
 
 .jumbotron p {
@@ -28,7 +50,6 @@ p {
 }
 
 h3{ 
-	font-family: ff-meta-serif-web-pro-1, ff-meta-serif-web-pro-2, Cambria, Georgia, serif;
 	margin-top: 5px;
 }
 
@@ -70,11 +91,6 @@ h3{
 
 .col-md-4 img {
 	max-width: 100%;
-}
-
-
-a{ 
-	font-family: ff-meta-serif-web-pro-1, ff-meta-serif-web-pro-2, Cambria, Georgia, serif;
 }
 
 @media (min-width: 992px) { 
@@ -207,11 +223,22 @@ a .glyphicon {
 	padding-bottom: 20px;
 }
 
-.contact-details a{
-	display: block;
-	padding: 5px 0;
+.contact-details ul{
 	max-width: 300px;
 } 
+
+.fa-li {
+	left: -44px;
+}
+
+.fa-ul>li {
+	padding: 10px 5px;
+	
+}
+
+.contact-details li span {
+	font-size: 12px;
+}
 
 .navbar-inverse .navbar-nav > li > a:focus {
 	color: #660;
@@ -221,8 +248,9 @@ a .glyphicon {
 	padding-bottom: 0;
 }
 
-.animationContainer{
+.animationContainer, .eeeBackground{
 	background-color: #EEE;
+	padding: 3px 0;
 }
 
 .list-group {

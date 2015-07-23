@@ -10,21 +10,30 @@ var Contact = React.createClass({
 		      </div>
 		    </div>
 		    <div className="container">
-		    	<p>If you have any query, feedback or suggestion, please get in touch.</p>
-		        <p className="contact-details">
-		        	<a target="_blank" href="mailto:gsran82@gmail.com">
-						<span className="glyphicon glyphicon-menu-right">Send an e-mail </span>
-					</a>
-					<a target="_blank" href="http://careers.stackoverflow.com/gurpreet">
-						<span className="glyphicon glyphicon-menu-right">Stackoverflow profile</span>
-					</a>
-					<a target="_blank" href="https://www.linkedin.com/in/gurpreetsran">
-						<span className="glyphicon glyphicon-menu-right">Linkedin profile</span>
-					</a>
-					<a target="_blank" href="https://twitter.com/_gsran">
-						<span className="glyphicon glyphicon-menu-right">Twitter</span>
-					</a> 
-		        </p>
+		        <ul className="fa-ul">
+		       		<li>
+		       			<i className="fa-li fa fa-envelope-o fa-2x"></i>
+		       		  	Send an <a target="_blank" href="mailto:gsran82@gmail.com">Email</a>
+		       		</li>
+					<li>
+						<i className="fa-li fa fa-linkedin fa-2x"></i>
+					  		Connect with me on <a target="_blank" href="https://www.linkedin.com/in/gurpreetsran">LinkedIn</a> to discover common connections
+					  	</li>
+					<li>
+						<i className="fa-li fa fa-spinner fa-stack-overflow fa-2x"></i>
+						Visit <a target="_blank" href="http://careers.stackoverflow.com/gurpreet">
+		        			StackOverflow
+		        		</a> to see my contributions to the programming community
+					</li>
+					<li>
+						<i className="fa-li fa fa-github fa-2x"></i>
+						View <a href="https://github.com/GurpreetSran" target="_blank">Github </a> to browse the source code of my open source projects
+					</li>
+					<li>
+						<i className="fa-li fa fa-twitter fa-2x"></i>
+						<a target="_blank" href="https://twitter.com/_gsran">Twitter</a>
+					</li>
+		        </ul>       
 		    </div> 
 		</div>
     ); 
