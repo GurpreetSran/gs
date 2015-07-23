@@ -11,7 +11,8 @@ var Projects = React.createClass({
 	
 	getInitialState: function() {
 		
-		var rows = [];
+		var rows = [],
+			loadMoreIsVisible = true;
 
 		if(!currentPageRows) {
 			currentPageRows = noOfDefaultRows;
@@ -27,8 +28,10 @@ var Projects = React.createClass({
 			} 
 		}  
 
+		currentProjects.length ? loadMoreIsVisible = true : loadMoreIsVisible = false;
+			
 		return { 
-			loadMoreBtn: true,
+			loadMoreBtn: loadMoreIsVisible,
 			rows: rows	
 		}
 	},
@@ -59,7 +62,7 @@ var Projects = React.createClass({
 					< /div> 
 				< /div>
 
-				< div className = "container" >
+				< div className = "container projects" >
 					
 					{this.state.rows.map(function(row, i) {
 						return <ProjectsRow row={row} key={i} />
@@ -72,6 +75,10 @@ var Projects = React.createClass({
 						onClick = {this.loadMoreProjects}
 						role="button" > Load More Projects 
 					</a>
+					<br />
+					<br />
+					<br />
+					<br />
 					<p className="text-right">
 						<a href="#/contact">
 							<span className="glyphicon glyphicon-menu-right">Contact me&nbsp;&nbsp;&nbsp; </span>

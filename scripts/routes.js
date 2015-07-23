@@ -31,9 +31,13 @@ var routes = (
 var initApp = function() { 
 	Router.run(routes,  function(Root, State ) { 
 		
-		//Manage active state
+		//Manage navigation active state
 		$('nav li').removeClass('active');
 		$('ul.nav a[href="#' + State.path + '"]').parent().addClass('active');
+
+		if(State.path.indexOf('/project/') !== -1) {
+			$('ul.nav a[href="#/projects"]').parent().addClass('active');	
+		}
 
 		React.render(<Root />, document.getElementById('main-container'));	
 	});

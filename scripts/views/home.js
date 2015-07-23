@@ -1,10 +1,17 @@
 var React = require('react'),
-	homeAnimation = require('./../home_animation');
+	homeAnimation = require('./../home_animation'),
+	engine; 
 
 var Home = React.createClass({
  
  componentDidMount: function () {
-    homeAnimation(React.findDOMNode(this).childNodes[1]);
+    engine = homeAnimation(React.findDOMNode(this).childNodes[1]);
+ 	console.log(engine);
+  },
+
+  componentWillUnmount: function() {
+  	engine.enabled = false;
+  	engine = null;
   },
 
   render: function() {
@@ -15,11 +22,11 @@ var Home = React.createClass({
 					<h1>I make web beautiful!</h1>
 				</div>
 			</div>
-			<div className="container text-center">
+			<div className="container text-center animationContainer">
 				
 			</div>
 			<div className="container">
-				<br />
+				<br /><br />
 				<p className="text-right">
 					<a href="#/about">
 						<span className="glyphicon glyphicon-menu-right">More about me</span>

@@ -10,8 +10,8 @@ var Engine = Matter.Engine,
   Constraint = Matter.Constraint,
   Composites = Matter.Composites,
   MouseConstraint = Matter.MouseConstraint;
-  Mouse = Matter.Mouse;
-
+  Mouse = Matter.Mouse,
+  Runner = Matter.Runner;
 
 //Remove mouse wheel events 
 Mouse.clearSourceEvents = function(mouse) {
@@ -86,7 +86,7 @@ var homeAnimation = function(DOMelement, stop) {
   // run the engine
   Engine.run(engine);
 
-  return Engine;
+  return engine;
 }
 
 module.exports = homeAnimation;

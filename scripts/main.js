@@ -7,7 +7,6 @@ var bootstrap = require('bootstrap'), //Initialise bootstarp for template
 initApp(); //Initialise Application 
 
 
-
 $(document).ready(function() {
 
 	//Collapse nav on outside click

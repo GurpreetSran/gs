@@ -51,9 +51,12 @@ h3{
 	border-radius: 5px;
 	margin-top: 10px;
 	margin-bottom: 25px;
-	padding-bottom: 15px;
 	padding-top: 10px;
 	background-color: #eee;
+}
+
+.projects .col-md-4 {
+	padding-bottom: 15px;
 }
 
 .row {
@@ -207,7 +210,25 @@ a .glyphicon {
 .contact-details a{
 	display: block;
 	padding: 5px 0;
+	max-width: 300px;
 } 
+
+.navbar-inverse .navbar-nav > li > a:focus {
+	color: #660;
+}
+
+.about .col-md-4 {
+	padding-bottom: 0;
+}
+
+.animationContainer{
+	background-color: #EEE;
+}
+
+.list-group {
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
 
 canvas {
   display: inline-block;
