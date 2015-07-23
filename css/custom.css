@@ -1,33 +1,22 @@
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('./../assets/fonts/glyphicons-halflings-regular.eot');
-  src: url('./../assets/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
-  	   url('./../assets/fonts/glyphicons-halflings-regular.woff') format('woff'), 
-  	   url('./../assets/fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
-  	   url('./../assets/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
-}
-
-
-@font-face {
-    font-family: 'dosis';
-    src: url('./../assets/fonts/ddosis/dosis-regular.otf') format('opentype');
+    font-family: 'sourcesanspro';
+    src: url('./../assets/fonts/source-sans-pro/sourcesanspro-regular.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'dosis';
-    src: url('./../assets/fonts/dosis/dosis-bold.otf') format('opentype');
+    font-family: 'sourcesanspro';
+    src: url('./../assets/fonts/source-sans-pro/sourcesanspro-bold.otf') format('opentype');
     font-weight: bold;
 }
 
 @font-face {
-    font-family: 'dosis';
-    src: url('./../assets/fonts/dosis/dosis-light.otf') format('opentype');
+    font-family: 'sourcesanspro';
+    src: url('./../assets/fonts/source-sans-pro/sourcesanspro-light') format('opentype');
     font-weight: light;
 }
 
 body {
-	font-family: 'dosis';
-	font-weight: bold;
+	font-family: 'sourcesanspro';
 }
 
 .navbar-brand img {
@@ -211,6 +200,7 @@ a .glyphicon {
 }
 
 #skills .label{
+	font-weight: lighter;
 	display: inline-block;
 	background-color: #990;
 	font-size: 20px;
@@ -256,6 +246,10 @@ a .glyphicon {
 .list-group {
 	padding-bottom: 5px;
 	margin-bottom: 5px;
+}
+
+footer {
+	font-size: 12px;
 }
 
 canvas {

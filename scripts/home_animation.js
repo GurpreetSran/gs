@@ -29,13 +29,22 @@ var homeAnimation = function(DOMelement, stop) {
         height: 500,
         width: 1100,
         wireframes: false,
-        background: '#eee'
+        background: '#EEE'
       }
     }
   });
 
   // add a mouse controlled constraint
-  var mouseConstraint = MouseConstraint.create(engine);
+  var mouseConstraint = MouseConstraint.create(engine, {
+    constraint: {
+      render: {
+        visible: true,
+        lineWidth: 2,
+        strokeStyle: '#999'
+      }
+    }
+  });
+  
   World.add(engine.world, mouseConstraint);
 
   // some settings

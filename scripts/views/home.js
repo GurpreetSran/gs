@@ -28,7 +28,7 @@ var Home = React.createClass({
 				<br /><br />
 				<p className="text-right">
 					<a href="#/about">
-						 <i className="fa fa-forward"></i><span>More about me</span>
+						 <i className="fa fa-chevron-right"></i><span>More about me</span>
 					</a>
 				</p>
 			</div>
