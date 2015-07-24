@@ -58,6 +58,8 @@ h1, h2, h3, h4 {
 }
 
 .projects h4 .linkStyle1 {
+	transition: all 0.5s ease;
+	-webkit-transition: all .5s ease;
 	background-color: #FFF;
 	padding-bottom: 0;
 }
@@ -66,6 +68,7 @@ h1, h2, h3, h4 {
 .linkStyle1:focus,
 .dynamic-content a,
 .contact-details a{
+	transition: background-color 0.5s ease;
 	background-color: #CCC;
 	color: #663300;
 	padding: 0 5px;
