@@ -55,14 +55,14 @@ var Projects = React.createClass({
 	render: function() {
 
 		return (
-			< div >
+			< div className="projects">
 				< div className = "jumbotron" >
 					< div className = "container" >
 						< h1 > Projects < /h1> 
 					< /div> 
 				< /div>
 
-				< div className = "container projects" >
+				< div className = "container" >
 					
 					{this.state.rows.map(function(row, i) {
 						return <ProjectsRow row={row} key={i} />
@@ -73,16 +73,16 @@ var Projects = React.createClass({
 				< div className = "container text-center" >	
 					<a id="loadMore" className= {this.state.loadMoreBtn ? 'linkStyle1' : 'hide'} 
 						onClick = {this.loadMoreProjects}
-						role="button" > <i className="fa fa-chevron-down">Load More Projects</i> 
+						role="button" > <i className="fa fa-angle-down"></i><span>Load More Projects</span> 
 					</a>
 					<br />
 					<br />
 					
-					<p className="text-right">
+					<div className="contact-me-link">
 						<a className="linkStyle1" href="#/contact">
-							<i className="fa fa-chevron-right"></i><span>Contact me</span>
-						</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					</p>
+							<i className="fa fa-angle-right"></i><span>Contact me</span>
+						</a>
+					</div>
 				</div>
 			< /div>
 		);	

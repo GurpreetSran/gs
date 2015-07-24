@@ -1,35 +1,50 @@
+
+
+
 @font-face {
     font-family: 'sourcesanspro';
     src: url('./../assets/fonts/source-sans-pro/sourcesanspro-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: 'sourcesanspro';
     src: url('./../assets/fonts/source-sans-pro/sourcesanspro-bold.otf') format('opentype');
     font-weight: bold;
+    font-style: normal;
 }
 
 @font-face {
-    font-family: 'sourcesanspro';
-    src: url('./../assets/fonts/source-sans-pro/sourcesanspro-light') format('opentype');
-    font-weight: light;
+    font-family: 'sourcesanspro-light';
+    src: url('./../assets/fonts/source-sans-pro/sourcesanspro-light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
 }
+
+
 
 body {
 	font-family: 'sourcesanspro';
+	font-weight: normal;
 }
 
 a {
    outline: 0!important;
 }
 
-ul li {
+ul li, .container {
 	font-size: 16px;
 }
 
 .navbar-brand img {
 	margin-top: -12px;
 	width:65px;
+}
+
+i.fa.fa-angle-right, i.fa.fa-angle-down {
+	padding-left: 2px;
+	padding-right: 4px;
 }
 
 .jumbotron h1{ 
@@ -42,16 +57,25 @@ h2, h3, h4 {
 	color: #663300;
 }
 
+.projects h4 .linkStyle1 {
+	background-color: #FFF;
+}
 
 .linkStyle1, 
+.linkStyle1:focus,
+.dynamic-content a,
 .contact-details a{
-	background-color: #EEE;
+	background-color: #CCC;
 	color: #663300;
 	padding: 0 5px;
+	margin: 0 3px;
+	text-decoration: none;
 }
 
 .linkStyle1:hover, 
-.contact-details a:hover{
+.dynamic-content a:hover,
+.contact-details a:hover,
+.projects h4 .linkStyle1:hover{
 	background-color: #663300;
 	color: #EEE;
 	text-decoration: none;
@@ -225,7 +249,7 @@ a .glyphicon {
 }
 
 #skills .label{
-	font-weight: lighter;
+	font-family: sourcesanspro-light;
 	display: inline-block;
 	background-color: #663300;
 	font-size: 15px;
@@ -238,30 +262,35 @@ a .glyphicon {
 	padding-bottom: 20px;
 }
 
-.contact-details{
-	max-width: 400px;
-} 
-
 .contact-details span, .contact-details a{
 	font-size: 16px;
 } 
 
 .fa-li {
-	left: -44px;
-	top: 10px;
+	left: -34px;
+	top: 14px;
 }
 
 .fa-ul>li {
-	padding: 10px 10px;
+	padding: 10px 0;
 	
 }
-
 
 .about .col-md-4 {
 	padding-bottom: 5px;
 }
 
-.animationContainer, .eeeBackground{
+.about p {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.about a {
+	font-size: 16px;
+}
+
+
+.eeeBackground{
 	background-color: #EEE;
 	padding: 3px 0;
 }
@@ -291,7 +320,20 @@ a .glyphicon {
 #loadMore {
 	padding: 5px 5px;
 	font-size: 16px;
+	border-radius: 3px;
 }
+
+
+.contact-me-link {
+	text-align: right;
+}  
+
+@media (max-width: 500px) {
+	.contact-me-link {
+		text-align: center;
+	}  
+}
+
 
 footer {
 	font-size: 12px;
@@ -301,6 +343,7 @@ canvas {
   display: inline-block;
   max-width: 100%;
   max-height: 100%;
+  padding: 0 20px; 
 }
 
 canvas:active { 

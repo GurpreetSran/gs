@@ -14,7 +14,7 @@ var ProjectsRow = React.createClass({
 									<h4 className="text-center"> 
 										< a className = "linkStyle1"
 										href = {'#/project/' + project.id} >
-											<i className="fa fa-chevron-right"></i>{project.title} 
+											<i className="fa fa-angle-right"></i>{project.title} 
 											</a>
 									< /h4>   
 									

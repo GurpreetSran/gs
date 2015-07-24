@@ -21,16 +21,16 @@ var Home = React.createClass({
 					<h1>I make web beautiful!</h1>
 				</div>
 			</div>
-			<div className="container text-center animationContainer">
-				
+			<div className="container text-center">
+				{/*Canvas will be inserted here*/}
 			</div>
 			<div className="container">
 				<br /><br />
-				<p className="text-right">
+				<div className="text-right">
 					<a className="linkStyle1" href="#/about">
-						 <i className="fa fa-chevron-right"></i><span>More about me</span>
+						<i className="fa fa-angle-right"></i><span>More about me</span>
 					</a>
-				</p>
+				</div>
 			</div>
 		</div>	
     ); 

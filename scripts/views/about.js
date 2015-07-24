@@ -3,7 +3,7 @@ var React = require('react');
 var About = React.createClass({
   render: function() {
     return(
-    	<div>  	
+    	<div className="about">  	
 	      <div className="jumbotron">
 		      <div className="container">
 		        <h1>About</h1>
@@ -16,7 +16,7 @@ var About = React.createClass({
 		        <p>Personally I like to a work in an environment where the commitment and excitement to technology is paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges.</p>
 		      	<br />	
 		    </div>
-		    <div className="container about">
+		    <div className="container">
 		    	<div className="row">
 					<div className="col-md-4">
 						<h3>Core Skills</h3>
@@ -56,11 +56,11 @@ var About = React.createClass({
 					</div>
 				</div> 
 				<br />
-				<p className="text-right">
+				<div className="text-right">
 					<a className="linkStyle1" href="#/projects">
-						 <i className="fa fa-chevron-right"></i><span>Check out projects</span>
-					</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</p>
+						 <i className="fa fa-angle-right"></i><span>Check out projects</span>
+					</a>
+				</div>
 		    </div>
 		</div>    
     ); 

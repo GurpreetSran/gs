@@ -39,12 +39,12 @@ var Project = React.createClass({
 					<p className="text-center eeeBackground"> <img id="projectImg" src={currentProject.image} alt="Project Image" /></p>
 					<br />
 					<h3>Overview</h3>
-					<div dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		
+					<div className="dynamic-content" dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		
 					<div>
 						{/* JSX if else condition*/ }
 						{(currentProject.link
-							? <p id="website-link"><a target="_blank" href={currentProject.link}>
-								<i className="fa fa-forward"></i><span>Visit Website </span>
+							? <p id="website-link"><a className="linkStyle1" target="_blank" href={currentProject.link}>
+								<i className="fa fa-angle-right"></i><span>Visit Website </span>
 							  </a></p>
 							: <br />
 						)}
@@ -57,10 +57,11 @@ var Project = React.createClass({
 							})}
 						</div>				
 					</div>
+					<br /> <br />
 					<div className="text-right">
-						<a href={'#/project/'+this.getNextProjectId()}>
-							<i className="fa fa-forward"></i><span>Next Project</span>
-						</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a className="linkStyle1" href={'#/project/'+this.getNextProjectId()}>
+							<i className="fa fa-angle-right"></i><span>Next Project</span>
+						</a>
 					</div>
 				</div>
 			</div>
