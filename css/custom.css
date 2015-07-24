@@ -53,12 +53,13 @@ i.fa.fa-angle-right, i.fa.fa-angle-down {
 	padding: 10px 0;
 }
 
-h2, h3, h4 {
+h1, h2, h3, h4 {
 	color: #663300;
 }
 
 .projects h4 .linkStyle1 {
 	background-color: #FFF;
+	padding-bottom: 0;
 }
 
 .linkStyle1, 
@@ -69,7 +70,9 @@ h2, h3, h4 {
 	color: #663300;
 	padding: 0 5px;
 	margin: 0 3px;
+	border-radius: 1px;
 	text-decoration: none;
+	padding-bottom: 2px;
 }
 
 .linkStyle1:hover, 
@@ -99,6 +102,11 @@ h3{
 
 .col-md-4.project h4{
 	margin: 0;
+	margin-top: 13px; 
+}
+
+.col-md-4.project img {
+	box-shadow: 2px 2px 5px 2px #999;
 }
 
 .navbar-nav > li > a {

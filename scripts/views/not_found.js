@@ -4,10 +4,24 @@ var NotFound = React.createClass({
   render: function() {
     return(
       <div className="container">
-      	<br /><br /><br /><br /> 
-        <h1>Not Found</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a className="btn btn-primary btn-lg" href="#" role="button">Learn more »</a></p>
+      	<br /><br /><br />
+        
+        <h1>Page Not Found</h1>
+        
+        <p className="text-center">
+          <a href="#/home">
+            <img src="./assets/images/404.jpg" title="404" />
+          </a>
+        </p>
+        
+        <br />
+        
+        <div className="text-right">
+          <a className="linkStyle1" href="#/home">
+             <i className="fa fa-angle-right"></i><span>Home</span>
+          </a>
+        </div>
+      
       </div>
     ); 
   }

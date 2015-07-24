@@ -292,8 +292,8 @@
             ]
         },{
             "id": 15,
-            "title": "",
-            "thumbnail": "url",
+            "title": "StreamHub",
+            "thumbnail": "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=285&h=135",
             "HTMLdescription": "",
             "image": "",
             "link":"",
@@ -305,8 +305,8 @@
             ]
         },{
             "id": 16,
-            "title": "",
-            "thumbnail": "url",
+            "title": "Aimia",
+            "thumbnail": "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=285&h=135",
             "HTMLdescription": "",
             "image": "",
             "link":"",
@@ -318,11 +318,11 @@
             ]
         },{
             "id": 17,
-            "title": "",
-            "thumbnail": "url",
+            "title": "HSBC",
+            "thumbnail": "./assets/images/thumbnails/hsbc.jpg",
             "HTMLdescription": "",
             "image": "",
-            "link":"",
+            "link":"https://www.hsbc.co.uk/1/2/",
              "skills": [
                 "JavaScript",
                 "HTML",
