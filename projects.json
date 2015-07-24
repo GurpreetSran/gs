@@ -293,7 +293,7 @@
         },{
             "id": 15,
             "title": "StreamHub",
-            "thumbnail": "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=285&h=135",
+             "thumbnail": "./assets/images/thumbnails/streamhub.jpg",
             "HTMLdescription": "",
             "image": "",
             "link":"",
@@ -306,7 +306,7 @@
         },{
             "id": 16,
             "title": "Aimia",
-            "thumbnail": "https://placeholdit.imgix.net/~text?txtsize=33&txt=350%C3%97150&w=285&h=135",
+            "thumbnail": "./assets/images/thumbnails/aimia.jpg",
             "HTMLdescription": "",
             "image": "",
             "link":"",

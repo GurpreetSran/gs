@@ -29,7 +29,7 @@ var homeAnimation = function(DOMelement, stop) {
         height: 500,
         width: 1100,
         wireframes: false,
-        background: '#EEE'
+        background: 'transparent'
       }
     }
   });

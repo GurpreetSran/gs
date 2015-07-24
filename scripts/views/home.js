@@ -15,7 +15,7 @@ var Home = React.createClass({
 
   render: function() {
     return(
-    	<div>
+    	<div className="home">
 			<div className="jumbotron">
 				<div className="container">
 					<h1>I make web beautiful!</h1>
@@ -25,7 +25,7 @@ var Home = React.createClass({
 				{/*Canvas will be inserted here*/}
 			</div>
 			<div className="container">
-				<br /><br />
+				
 				<div className="text-right">
 					<a className="linkStyle1" href="#/about">
 						<i className="fa fa-angle-right"></i><span>More about me</span>

@@ -10,7 +10,7 @@ var About = React.createClass({
 		      </div>
 		    </div> 
 		    <div className="container">
-		    	<p>A mature professional with excellent organizational skills and an open mind. About a decade of experience working with world class clients. Broad educational background makes me versatile and flexible enginner to fit into different roles effectively.</p>
+		    	<p>A mature professional with excellent organizational skills and an open mind. About a decade of experience working with world class clients. Broad educational background makes me versatile and flexible engineer to fit into different roles effectively.</p>
 
 		        <p>Love developing bespoke, interactive, responsive, robust, and efficient web systems and like to keep myself up to date with latest technology and trends which enables me to develop best possible product according to client’s requirements.</p>
 		        <p>Personally I like to a work in an environment where the commitment and excitement to technology is paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges.</p>
