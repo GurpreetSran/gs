@@ -24,8 +24,8 @@ var Home = React.createClass({
 			<div className="container text-center">
 				{/*Canvas will be inserted here*/}
 			</div>
+			<br />
 			<div className="container">
-				
 				<div className="text-right">
 					<a className="linkStyle1" href="#/about">
 						<i className="fa fa-angle-right"></i><span>More about me</span>

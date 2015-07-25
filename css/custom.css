@@ -39,7 +39,16 @@ ul li, .container {
 
 .navbar-brand img {
 	margin-top: -12px;
+	position: relative;
 	width:65px;
+	transition-property: transform, margin-top, width;
+	transition-duration: 0.5s;
+}
+
+.navbar-brand img:hover {
+	margin-top: 0;
+	width:80px;
+	transform: rotate(360deg);
 }
 
 i.fa.fa-angle-right, i.fa.fa-angle-down {
@@ -69,6 +78,7 @@ h1, h2, h3, h4 {
 .dynamic-content a,
 .contact-details a{
 	transition: background-color 0.5s ease;
+	-webkit-transition: all .5s ease;
 	background-color: #CCC;
 	color: #663300;
 	padding: 0 5px;
@@ -319,6 +329,8 @@ a .glyphicon {
 .navbar-inverse .navbar-brand, 
 .navbar-inverse .navbar-nav > li > a {
 	color: #CCC;
+	transition: all 0.3s ease;
+	-webkit-transition: all .3s ease;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover { 
@@ -361,8 +373,6 @@ canvas {
   max-height: 100%;
   padding: 0 20px; 
   background: transparent;
-  position: relative;
-  top: -50px;	
 }
 
 canvas:active { 
