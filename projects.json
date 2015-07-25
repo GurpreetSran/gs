@@ -319,9 +319,9 @@
         },{
             "id": 17,
             "title": "HSBC",
-            "thumbnail": "./assets/images/thumbnails/hsbc.jpg",
+            "thumbnail": "./assets/images/thumbnails/hsbc.png",
             "HTMLdescription": "",
-            "image": "",
+            "image": "./assets/images/project_images/hsbc.png",
             "link":"https://www.hsbc.co.uk/1/2/",
              "skills": [
                 "JavaScript",

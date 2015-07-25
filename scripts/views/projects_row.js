@@ -9,7 +9,7 @@ var ProjectsRow = React.createClass({
 				< div className = "row" > 
 					{this.props.row.map(function(project) {
 						return  < div className = "col-md-4 project" key={project.id} >
-									< div className="text-center"> <img alt="logo" src={project.thumbnail} />< /div >
+									< div className="text-center img-container"> <img alt="logo" src={project.thumbnail} />< /div >
 									
 									<h4 className="text-center"> 
 										< a className = "linkStyle1"

@@ -23,20 +23,31 @@ var Project = React.createClass({
 			return nextPrjId;
 		}
 	},
+	componentWillReceiveProps: function() {
+		//Update this with react animation
+		$(React.findDOMNode(this)).find('.project-image-container img').hide();	
+	} ,
 	
+	componentDidUpdate: function() {
+		//Update this with react animations 
+		$(React.findDOMNode(this)).find('.project-image-container img').fadeIn();	
+	},
+
 	render: function() {
+		
 		var currentProject = this.getCurrentProject(),
 			nextProject
 
 		return(
-			<div>
+			<div className="project-page">
 				<div className="jumbotron">
 					<div className="container">
 						<h1>{currentProject.title}</h1>
 					</div>	
 				</div>	
-				<div className="container">
-					<p className="text-center eeeBackground"> <img id="projectImg" src={currentProject.image} alt="Project Image" /></p>
+				<div className="container ">
+					<div className="project-image-container"> <img src={currentProject.image} alt="Project Image" />
+					</div>
 					<br />
 					<h3>Overview</h3>
 					<div className="dynamic-content" dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		
