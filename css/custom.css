@@ -394,7 +394,6 @@ a .glyphicon {
 	}  
 }
 
-
 footer {
 	font-size: 12px;
 }
@@ -410,4 +409,14 @@ canvas {
 canvas:active { 
   cursor: pointer;
   cursor: -webkit-grabbing;
+}
+
+
+.reactClass-appear {
+  opacity: 0.01;
+  transition: opacity 0.3s ease-in;
+}
+
+.reactClass-appear.reactClass-appear-active {
+  opacity: 1;
 }

@@ -1,4 +1,5 @@
-var React = require('react'),
+var React = require('react/addons'),
+	ReactCSSTransitionGroup = React.addons.CSSTransitionGroup,
 	projectData = require('./../../projects.json'),
 	projects = projectData.projects;
 
@@ -23,21 +24,23 @@ var Project = React.createClass({
 			return nextPrjId;
 		}
 	},
-	componentWillReceiveProps: function() {
-		//Update this with react animation
-		$(React.findDOMNode(this)).find('.project-image-container img').hide();	
-	} ,
+	// componentWillReceiveProps: function() {
+	// 	//Update this with react animation
+	// 	$(React.findDOMNode(this)).find('.project-image-container img').hide();	
+	// } ,
 	
-	componentDidUpdate: function() {
-		//Update this with react animations 
-		$(React.findDOMNode(this)).find('.project-image-container img').fadeIn();	
-	},
+	// componentDidUpdate: function() {
+	// 	//Update this with react animation
+	// 	setTimeout(function() {
+	// 		$(React.findDOMNode(this)).find('.project-image-container img').fadeIn();
+	// 	}.bind(this), 100);
+	// },
 
 	render: function() {
 		
-		var currentProject = this.getCurrentProject(),
-			nextProject
-
+		var currentProject = this.getCurrentProject(),	
+			key =  this.getNextProjectId(); //Hack for force image animation
+	
 		return(
 			<div className="project-page">
 				<div className="jumbotron">
@@ -46,8 +49,11 @@ var Project = React.createClass({
 					</div>	
 				</div>	
 				<div className="container ">
-					<div className="project-image-container"> <img src={currentProject.image} alt="Project Image" />
-					</div>
+					<ReactCSSTransitionGroup transitionName="reactClass" key={key} transitionAppear={true}>
+						<div className="project-image-container"> 
+							<img src={currentProject.image} alt="Project Image" />
+						</div>
+					</ReactCSSTransitionGroup>	
 					<br />
 					<h3>Overview</h3>
 					<div className="dynamic-content" dangerouslySetInnerHTML={{__html: currentProject.HTMLdescription}} /> 		

@@ -1,11 +1,12 @@
-var React = require('react');
+var React = require('react/addons'),
+	ReactTransitionGroup = React.addons.CSSTransitionGroup;
 
 var ProjectsRow = React.createClass({
 
 	render: function() {
 
 		return ( 
-			<div>	
+			<ReactTransitionGroup transitionName="reactClass" transitionAppear={true}>	
 				< div className = "row" > 
 					{this.props.row.map(function(project) {
 						return  < div className = "col-md-4 project" key={project.id} >
@@ -22,7 +23,7 @@ var ProjectsRow = React.createClass({
 					})}
 				< /div> 
 			<hr />	
-			</div>			   
+			</ReactTransitionGroup>			   
 		);
 	}
 });
