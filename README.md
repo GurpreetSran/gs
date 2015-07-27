@@ -20,7 +20,6 @@
 - Scroll position in firefox 
 - Automate project deletion and adition
 - Add ability to view projects by skill
-- Ability to sort projects by skill
 
 Note: All the data is being fetched from projects.json 
 
