@@ -1,5 +1,6 @@
 # Portfolio using Reactjs
 
+### Feature:
 - React-router
 - Matter.js
 - React Animations
@@ -7,8 +8,10 @@
 - NPM
 - Bootstrap
  
-npm install
-npm start
+# How to run 
+- Git clone repo
+- npm install
+- npm start (Starts watchify, which bundles js output in backgroud)
 
 ## Todo:
 - Check old content and add new
@@ -16,3 +19,6 @@ npm start
 - Scroll position in firefox 
 - Automate project deletion and adition
 - Add ability to view projects by skill
+- Ability to sort projects by skill
+
+Note: All the data is being fetched from projects.json 
