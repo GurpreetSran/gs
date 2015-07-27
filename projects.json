@@ -236,20 +236,31 @@
             "id": 11,
             "title": "StreamHub",
             "thumbnail": "./assets/images/thumbnails/streamhub.png",
-            "HTMLdescription": "",
-            "image": "",
+            "HTMLdescription": "<p>Streamhub provides a scalable video analytics service that delivers actionable insights to increase per video traffic and audience stickiness.</p><p>It was very ambitious and fun project to work on. We had to deal with massive amount of data and process it real time. It order to achieve this effectively we had to take advantage of modern toolset such as Angular, Node, Web-Sockets, High-Charts etc</p><h4>Responsibilities</h4><ul><li>Setting up best practises for Front-End development</li><li>Pick up best tools for job</li><li>Set up environment for dev testing</li><li>Improve performance and optimise code</li><li>Refactoring</li><li>Planning and acting as scrum master if required</li></ul>",
+            "link":"http://www.streamhub.co.uk/",
             "image": "./assets/images/project_images/streamhub.png",
              "skills": [
                 "JavaScript",
-                "HTML",
+                "backbone",
+                "Angular",
                 "jQuery",
-                "Escenic CMS"
+                "High-Charts",
+                "D3",
+                "Big-Data",
+                "Jasmine",
+                "Require",
+                "Angular",
+                "Node",
+                "LESS",
+                "WebSockets",
+                "HTML",
+                "Play-Framework"
             ]
         },{
             "id": 12,
             "title": "Aimia",
             "thumbnail": "./assets/images/thumbnails/aimia.png",
-            "HTMLdescription": "",
+            "HTMLdescription": "<p>Aimia Inc. is a data-driven marketing and loyalty analytics company. They provide clients with the customer insights they need to make smarter business decisions and build relevant, rewarding and long-term one-to-one relationships, evolving the value exchange to the mutual benefit of both  clients and consumers. Aimia partners with groups of companies (coalitions) and individual companies to help generate, collect and analyze customer data and build actionable insights.</p><p>This project was about building flexible and highly configurable new generation B2B reward system.</p><h4>Responsibilities</h4><ul><li>Implement new features</li><li>Reafactoring</li><li>Introducing new tools to make development easier</li><li>Unit testing and code reviews</li></ul>",
             "image": "./assets/images/project_images/aimia.png",
             "link":"http://www.aimia.com/",
              "skills": [
