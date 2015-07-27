@@ -10,7 +10,7 @@
 - Bootstrap
  
 ## How to run 
-- Git clone repo and ```cd dir```
+- ```git clone``` repo and ```cd dir```
 - ```npm install```
 - ```npm start``` (Starts watchify, which bundles js output in backgroud)
 
