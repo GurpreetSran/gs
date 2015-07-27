@@ -10,6 +10,8 @@ var Project = React.createClass({
 				return projects[i];
 			}
 		}
+	 	
+	 	return false;		
 	},  
 
 	getNextProjectId: function() {
@@ -41,6 +43,27 @@ var Project = React.createClass({
 		var currentProject = this.getCurrentProject(),	
 			key =  this.getNextProjectId(); //Hack for force image animation
 	
+		if(!currentProject) {
+			return (
+				<div>
+					<div className="jumbotron">
+						<div className="container">
+							<h1 className="error">Navigation Error</h1>
+						</div>
+					</div>		
+					<div className="container">
+						<p className="error">
+							Invalid project id: {this.props.params.id}
+						</p>	
+						<br />
+						<a className="linkStyle1" href={'#/projects'}>
+							<i className="fa fa-angle-right"></i><span>Projects</span>
+						</a>
+					</div> 
+				</div>);
+		};	
+
+
 		return(
 			<div className="project-page">
 				<div className="jumbotron">

@@ -11,11 +11,8 @@ npm install
 npm start
 
 ## Todo:
-- Remaining content (contect/logo/images)
-- Breaks if invalid project id
-- Home animation update jira with webbundle logo   
+- Check old content and add new
 - Sticky links on touch devices
 - Scroll position in firefox 
-- Check old content
 - Automate project deletion and adition
-- Project by Skill
+- Add ability to view projects by skill

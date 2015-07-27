@@ -417,6 +417,10 @@ canvas:active {
 }
 
 .reactClass-appear.reactClass-appear-active {
-  transition: opacity 0.3s ease-in;
+  transition: opacity 0.5s ease-in;
   opacity: 1;
+}
+
+.error, h1.error {
+	color: #FF0000;
 }

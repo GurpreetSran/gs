@@ -4,9 +4,9 @@
         [{   
             "title": "jira",
             "type": "rectangle",
-            "height":62,
-            "width":128,
-            "url": "./assets/images/home_animation/jira.png"
+            "height":150,
+            "width":117,
+            "url": "./assets/images/home_animation/webpack.png"
         },
         {
             "title": "jasmine",
@@ -87,9 +87,9 @@
         {
             "id": 1,
             "title": "Otto Group",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/otto.png",
+            "thumbnail": "./assets/images/thumbnails/otto.png",
             "HTMLdescription": "<p><a href='http://www.ottogroup.com/home.html?&amp;L=0' target='_blank'>Otto Group</a> are inspired andunited by our shared values, which transcend national borders. Otto see ourselves as enthusiastic partnersto our customers, as creative strategists within an integrated network and as focused managersmaking decisions with long-lasting effects. </p><p>This piece of creative flash has been developed for Otto and It was sponsored by Accenture.This flash piece dynamically gets  data from XML. You can easily customise it by modifying somepredefined settings in XML such as intro clip, type of template etc.</p>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/otto-main.jpg",
+            "image": "./assets/images/project_images/otto.png",
             "link": "http://development.mmtdigital.co.uk/otto_credentials/Otto_Flash_Credentials.html",
             "skills": [
                 "XML",
@@ -99,9 +99,9 @@
         {
             "id": 2,
             "title": "Interactive Prague Airport",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/prague.png",
+            "thumbnail": "./assets/images/thumbnails/prague.png",
             "HTMLdescription": "<p>Prague Airport is the operator of the most important international airport in the Czech Republicand the biggest airport among the new EU member states. There are also 5 regular cargo carriers andother tens of companies providing charter flights from there.</p><p>This interactive map application allows to browse the Terminals or locate a particular shop or restaurantin either Terminal 1 or 2. Search, zooming and printing are some nifty features of this xml driven AS3 flash piece.</p>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/prague-main.jpg",
+            "image": "./assets/images/project_images/prague.png",
             "link": "http://map.prg.aero/",
              "skills": [
                 "XML",
@@ -111,9 +111,9 @@
         {
             "id": 3,
             "title": "Hodder Education",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/hodder.png",
+            "thumbnail": "./assets/images/thumbnails/hodder.png",
             "HTMLdescription": "<p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p><p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/hodder-main.jpg",
+            "image": "./assets/images/project_images/hodder.png",
             "link": "http://www.hoddereducation.co.uk/Home.aspx",
             "skills": [
                 "JavaScript",
@@ -124,9 +124,9 @@
         {
             "id": 4,
             "title": "Fabulous Magazine",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/fabmag.png",
+            "thumbnail": "./assets/images/thumbnails/fabulous.png",
             "HTMLdescription": "<p>The UK's most-read weekly glossy, out every Sunday with The Sun newspaper!</p><p>I have been working on this magazine on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/fab-main.jpg",
+            "image": "./assets/images/project_images/fabulous.png",
             "link":"http://www.thesun.co.uk/sol/homepage/fabulous/",
             "skills": [
                 "HTML",
@@ -139,9 +139,9 @@
         {
             "id": 5,
             "title": "Accenture",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/accenture.png",
+            "thumbnail": "./assets/images/thumbnails/accenture.png",
             "HTMLdescription": "<p>Accenture’s expertise and resources cover the full M&A process, from developing a strategy, to screening M&Atargets, to performing due diligence and integrating acquired entities. The M&A strategies we help develop benefitfrom proven frameworks and roadmaps that clarify the value to be gained from M&A as well as the most effectiveways to attain it.</p><p>We use MOSS (Microsoft Office SharePoint Server) extensively to develop microsites for Accenture. It's first integrated server platform that aims to provide web content management, enterprise contentservices, and enterprise search, as well as shared business processes and business intelligence dashboarding to the small/medium enterprise. This effective ability to control content comes at the cost ofrigidness in terms of features. Good knowledge of JavaScript / jQuery and AS3, allows me to customise(hack, up to some extent) templates and fulfil branding (and very demanding) requirements of Accenture.</p>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/accenture-main.jpg",
+            "image": "./assets/images/project_images/accenture.png",
             "link":"http://www.accenture.com/us-en/pages/index.aspx",
             "skills": [
                 "HTML",
@@ -156,9 +156,9 @@
         {
             "id": 6,
             "title": "Green Square",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/greensquare.png",
+            "thumbnail": "./assets/images/thumbnails/greensquare.png",
             "HTMLdescription": "<p>Green Square is a corporate finance and advisory practice. They provide insightful and balanced advice to the shareholders of independent media and marketing communications businesses. They help them prepare their businesses for sale and ultimately achieve the optimum transaction.</p><p>Apart from having neat and attractive design, use of jQuery makes user experience even better. Implementing web 2.0 features such as google maps, twitter and rss feed was fun!</p>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/greensquare-main.jpg",
+            "image": "./assets/images/project_images/greensquare.png",
             "link": "http://www.gsquare.co.uk/",
             "skills": [
                 "HTML",
