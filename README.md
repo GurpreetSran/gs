@@ -9,7 +9,7 @@
 - Bootstrap
  
 # How to run 
-- Git clone repo
+- Git clone repo and cd dir
 - npm install
 - npm start (Starts watchify, which bundles js output in backgroud)
 
@@ -22,3 +22,5 @@
 - Ability to sort projects by skill
 
 Note: All the data is being fetched from projects.json 
+
+< a href="http://gurpreetsran.github.io/gs/#/home" target="_blank">Live Demo</a>
