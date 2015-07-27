@@ -1,6 +1,6 @@
 # Portfolio using Reactjs
 
-### Feature:
+## Technology stack:
 - React-router
 - Matter.js
 - React Animations
@@ -8,10 +8,10 @@
 - NPM
 - Bootstrap
  
-# How to run 
-- Git clone repo and cd dir
-- npm install
-- npm start (Starts watchify, which bundles js output in backgroud)
+## How to run 
+- Git clone repo and ```cd dir```
+- ```npm install```
+- ```npm start``` (Starts watchify, which bundles js output in backgroud)
 
 ## Todo:
 - Check old content and add new
@@ -23,4 +23,4 @@
 
 Note: All the data is being fetched from projects.json 
 
-< a href="http://gurpreetsran.github.io/gs/#/home" target="_blank">Live Demo</a>
+[Live Demo](http://gurpreetsran.github.io/gs/#/home)
