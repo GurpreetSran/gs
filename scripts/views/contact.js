@@ -39,7 +39,7 @@ var Contact = React.createClass({
 			<br /><br />
 			<div className="text-right container">
 				<a className="linkStyle1" href="#/home">
-					<i className="fa fa-angle-right"></i><span>Back to home</span>
+					<i className="fa fa-angle-right"></i><span>Home</span>
 				</a>
 			</div>
 			

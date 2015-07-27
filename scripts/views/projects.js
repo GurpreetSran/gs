@@ -80,7 +80,7 @@ var Projects = React.createClass({
 					
 					<div className="contact-me-link">
 						<a className="linkStyle1" href="#/contact">
-							<i className="fa fa-angle-right"></i><span>Contact me</span>
+							<i className="fa fa-angle-right"></i><span>Contact</span>
 						</a>
 					</div>
 				</div>

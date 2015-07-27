@@ -34,6 +34,11 @@ var homeAnimation = function(DOMelement, stop) {
     }
   });
 
+  engine.world.bounds.min.x = -Infinity;
+  engine.world.bounds.min.y = -Infinity;
+  engine.world.bounds.max.x = Infinity;
+  engine.world.bounds.max.y = Infinity;
+
   // add a mouse controlled constraint
   var mouseConstraint = MouseConstraint.create(engine, {
     constraint: {

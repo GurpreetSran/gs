@@ -170,41 +170,10 @@
         },
         {
             "id": 7,
-            "title": "AZ Online",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/atoz.png",
-            "HTMLdescription": "<p> Philip Allan Updates is part of the <a target='blank' href='http://www.hoddereducation.co.uk/'>Hodder Education Group</a>, a division of <a target='_blank' href='http://www.hachettelivre.co.uk/'>Hachette UK</a>. We have been working on Hodder Education Digital solutions for number of years. Over this period of time, we have successfullydeveloped number of web tools for them.</p><p>This is an AIR based AZ Admin tool developed for <a href='http://www.philipallan.co.uk' target='_blank'>PhilipAlan</a>. This tool stiches together html, CSV  and other files in the xml format. This XML/XHTML will eventuallybe used by .net  based backend system.",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/atoz-main.jpg",
-            "link":"",
-            "skills": [
-                "Abode AIR",
-                "ActionScript 3",
-                "MXML"
-            ]
-        },
-        {
-            "id": 8,
-            "title": "Body Blitz Diet",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/bodyblitz.png",
-            "HTMLdescription": "<p><a href='http://www.annarichardson.co.uk/' target='_blank'>Anna's Richardson's</a> Body Blitz Diet is a two week diet plan that guarantees up to 7lb weight loss in just 14 days. Featuring the 5 RULES to guarantee weight loss, over 35 delicious, easy-to-prepare recipes, and the exclusive PANICBUTTON to keep dieters on the straight and getting narrower!</p> <p>Whilst this app has been developed specificallyfor iphone use, ELIPS studio is a plug-in for Flex that allows us to create native applications for multiple mobileplatforms (Apple, Android, Windows Mobile and Symbian). Therefore, because the app was built in ELIPS it is possibleto repurpose the app at a later date for use on another platform, should this be required.</p>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/anna-main.jpg",
-            "link":"",
-            "skills": [
-                "Flash",
-                "Flex Builder",
-                "ActionScript 3",
-                "MXML",
-                "Elips Studio",
-                "XML",
-                "Objective C",
-                "HTML"
-            ]
-        },
-        {
-            "id": 9,
             "title": "The Sunday Times",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thesuntimes.png",
+            "thumbnail": "./assets/images/thumbnails/thesundaytimes.png",
             "HTMLdescription": "<p><a href='http://www.thesundaytimes.co.uk/sto/' target='_blank'>The Sunday Times</a> is the largest-selling British national 'quality' Sunday newspaper. It is published by Times Newspapers Ltd, a subsidiary of News International, which is in turn owned by News Corporation. Times Newspapers also publishes The Times. The two papers were founded independently and have been under common ownership only since 1966. They were bought by News International in 1981.</p><p>I have been working on this title on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/thesundaytimesmain.jpg",
+            "image": "./assets/images/project_images/thesundaytimes.png",
             "link":"http://www.thesundaytimes.co.uk/sto/",
             "skills": [
                 "JavaScript",
@@ -214,11 +183,11 @@
                 "CSS"
             ]
         },{
-            "id": 10,
+            "id": 8,
             "title": "The Times",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thetimes.png",
+            "thumbnail": "./assets/images/thumbnails/thetimes.png",
             "HTMLdescription": "<p><a href='http://www.thetimes.co.uk/tto/news/' target='_blank'>The Times</a> is a British daily national newspaper, first published in London in 1785 under the title The Daily Universal Register (it became The Times on 1 January 1788). The Times and its sister paper The Sunday Times (founded in 1821) are published by Times Newspapers, since 1981 a subsidiary of News International, itself wholly owned by the News Corporation group.</p><p>I have been working on this title on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/thetimes-main.jpg",
+            "image": "./assets/images/project_images/thetimes.png",
             "link":"",
              "skills": [
                 "JavaScript",
@@ -228,11 +197,11 @@
                 "CSS"
             ]
         },{
-            "id": 11,
+            "id": 9,
             "title": "News of the World",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/notw.png",
+            "thumbnail": "./assets/images/thumbnails/notw.png",
             "HTMLdescription": "<p>The<a href='http://www.newsoftheworld.co.uk/' target='_blank'> News of the World</a> was a national red top newspaper published in the United Kingdom from 1843 to 2011. It was at one time thebiggest selling English language newspaper in the world, and at closure still had one of the highest English language circulations.</p><p>I used to work on this title as Senior Front End developer. I was responsible for:</p><ul><li>Daily maintenance &amp; bug fixes</li><li>Agile based development</li><li>Adding new features to title</li><li>Communication with PO and other stakeholders</li><li>Setting up best practices and documents</li><li>Mentoring junior developers</li><li>R&amp;D</li></ul>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/notw-main.jpg",
+            "image": "./assets/images/project_images/notw.png",
             "link":"http://www.newsoftheworld.co.uk/",
              "skills": [
                 "JavaScript",
@@ -245,39 +214,11 @@
                 "Flash"
             ]
         },{
-            "id": 12,
-            "title": "The Sun: iPad POC",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/ipad.png",
-            "HTMLdescription": "<p>This HTML5 based tablet proof of concept project has been done for SUN smart phone team. It was a quick 3 day fun opportunityto play with new technologies such as HTML5, CSS3, touch events. Management was really impressed with the outcome and they decided to use about 80% features from this POC.</p><p>Check out following features on iPad:</p><ul><li>Double finger touch</li><li>Dragging Sections</li><li>Storing Current State</li><li>CSS3 transitions</li></ul>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/ipad-poc-main.jpg",
-            "link":"http://gurpreetsran.github.io/ipad-poc/",
-             "skills": [
-                "JavaScript",
-                "HTML",
-                "jQuery",
-                "Touch-Punch",
-                "CSS"
-            ]
-        },{
-            "id": 13,
-            "title": "The Sun: Live Match Center",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/match-center.png",
-            "HTMLdescription": "<p><a href='http://www.thesun.co.uk/sol/homepage/sport/football/' target='_blank'>Sun Football</a> is famous for its brilliant sports-writers and expert columnists.</p><p>We made it even bigger and better. The main deliverables of this project were: </p><ul><li>Football dashboard</li><li>Real time AJAX powered live commentary</li><li>Hand picked tweets from experts</li><li>Real time stat widgets</li><li>Latest pictures available</li><li>Ability to chat with other fans while keeping up with the latest action</li></ul>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/match-center-main.jpg",
-            "link":"http://www.thesun.co.uk/sol/homepage/sport/football/4539172/Sun-Football-gets-bigger-and-better.html",
-             "skills": [
-                "JavaScript",
-                "HTML",
-                "jQuery",
-                "Escenic CMS",
-                "JSP"
-            ]
-        },{
-            "id": 14,
-            "title": "The Sun: Revamp",
-            "thumbnail": "http://gurpreetsran.github.io/portfolio/assets/images/thesun.png",
-            "HTMLdescription": "<p><a href='http://www.thesun.co.uk/sol/homepage/' target='_blank'>The Sun</a> has the tenth-largest circulation of any newspaper in the world and the largest circulation of any daily newspaper in the United Kingdom. It had an average daily circulation of 2,409,811 copies in January 2013. Between January and June 2012 the paper had an average daily readership of approximately 7.3 million.</p><p>I have been very fortunate to lead this exciting project. We rewrote entire tired &amp; outdated front end for SUN online and gave it a brand-new look. Along with many new features. We updated the site to utilise the power of HTML 5 which performed 3 times better than the old site.</p>",
-            "image": "http://gurpreetsran.github.io/portfolio/assets/images/sun-main.jpg",
+            "id": 10,
+            "title": "The Sun",
+            "thumbnail": "./assets/images/thumbnails/thesun.png",
+            "HTMLdescription": "<br /><h4>Revamp</h4><p><a href='http://www.thesun.co.uk/sol/homepage/' target='_blank'>The Sun</a> has the tenth-largest circulation of any newspaper in the world and the largest circulation of any daily newspaper in the United Kingdom. It had an average daily circulation of 2,409,811 copies in January 2013. Between January and June 2012 the paper had an average daily readership of approximately 7.3 million.</p><p>I have been very fortunate to lead this exciting project. We rewrote entire tired &amp; outdated front end for SUN online and gave it a brand-new look. Along with many new features. We updated the site to utilise the power of HTML 5 which performed 3 times better than the old site.</p><br/><h4>Live Match Center</h4><p><a href='http://www.thesun.co.uk/sol/homepage/sport/football/' target='_blank'>Sun Football</a> is famous for its brilliant sports-writers and expert columnists.</p><p>We made it even bigger and better. The main deliverables of this project were: </p><ul><li>Football dashboard</li><li>Real time AJAX powered live commentary</li><li>Hand picked tweets from experts</li><li>Real time stat widgets</li><li>Latest pictures available</li><li>Ability to chat with other fans while keeping up with the latest action</li></ul><br /><h4>iPad POC</h4><p>This HTML5 based tablet proof of concept project has been done for SUN smart phone team. It was a quick 3 day fun opportunityto play with new technologies such as HTML5, CSS3, touch events. Management was really impressed with the outcome and they decided to use about 80% features from this POC.</p><p>Check out following features on iPad:</p><ul><li>Double finger touch</li><li>Dragging Sections</li><li>Storing Current State</li><li>CSS3 transitions</li></ul>",
+            "image": "./assets/images/project_images/thesun.png",
             "link":"http://www.thesun.co.uk/sol/homepage/news/4445859/A-brand-new-look-for-The-Sun-website.html",
              "skills": [
                 "JavaScript",
@@ -288,15 +229,16 @@
                 "Fluid Grid",
                 "jQuery",
                 "Jasmine",
-                "Escenic CMS"
+                "Escenic CMS",
+                "Touch-Punch"
             ]
         },{
-            "id": 15,
+            "id": 11,
             "title": "StreamHub",
-             "thumbnail": "./assets/images/thumbnails/streamhub.jpg",
+            "thumbnail": "./assets/images/thumbnails/streamhub.png",
             "HTMLdescription": "",
             "image": "",
-            "link":"",
+            "image": "./assets/images/project_images/streamhub.png",
              "skills": [
                 "JavaScript",
                 "HTML",
@@ -304,11 +246,11 @@
                 "Escenic CMS"
             ]
         },{
-            "id": 16,
+            "id": 12,
             "title": "Aimia",
-            "thumbnail": "./assets/images/thumbnails/aimia.jpg",
+            "thumbnail": "./assets/images/thumbnails/aimia.png",
             "HTMLdescription": "",
-            "image": "",
+            "image": "./assets/images/project_images/aimia.png",
             "link":"",
              "skills": [
                 "JavaScript",
@@ -317,7 +259,7 @@
                 "Escenic CMS"
             ]
         },{
-            "id": 17,
+            "id": 13,
             "title": "HSBC",
             "thumbnail": "./assets/images/thumbnails/hsbc.png",
             "HTMLdescription": "",

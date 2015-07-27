@@ -48,6 +48,7 @@ ul li, .container {
 .navbar-brand:hover > img {
 	margin-top: 0;
 	width:80px;
+	-webkit-transform: rotate(360deg);
 	transform: rotate(360deg);
 }
 
@@ -411,12 +412,11 @@ canvas:active {
   cursor: -webkit-grabbing;
 }
 
-
 .reactClass-appear {
   opacity: 0.01;
-  transition: opacity 0.3s ease-in;
 }
 
 .reactClass-appear.reactClass-appear-active {
+  transition: opacity 0.3s ease-in;
   opacity: 1;
 }

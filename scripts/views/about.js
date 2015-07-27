@@ -58,7 +58,7 @@ var About = React.createClass({
 				<br />
 				<div className="text-right">
 					<a className="linkStyle1" href="#/projects">
-						 <i className="fa fa-angle-right"></i><span>Check out projects</span>
+						 <i className="fa fa-angle-right"></i><span>Projects</span>
 					</a>
 				</div>
 		    </div>

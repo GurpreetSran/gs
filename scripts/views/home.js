@@ -16,9 +16,10 @@ var Home = React.createClass({
   render: function() {
     return(
     	<div className="home">
+			
 			<div className="jumbotron">
 				<div className="container">
-					<h1>I make web beautiful!</h1>
+					{/* <h1>I make web beautiful!</h1> */ }
 				</div>
 			</div>
 			<div className="container text-center">
@@ -28,7 +29,7 @@ var Home = React.createClass({
 			<div className="container">
 				<div className="text-right">
 					<a className="linkStyle1" href="#/about">
-						<i className="fa fa-angle-right"></i><span>More about me</span>
+						<i className="fa fa-angle-right"></i><span>About</span>
 					</a>
 				</div>
 			</div>
