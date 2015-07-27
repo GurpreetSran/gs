@@ -10,12 +10,12 @@ var About = React.createClass({
 		      </div>
 		    </div> 
 		    <div className="container">
-		    	<p>A mature professional with excellent organizational skills and an open mind. About a decade of experience working with world class clients. Broad educational background makes me versatile and flexible engineer to fit into different roles effectively.</p>
-
-		        <p>Love developing bespoke, interactive, responsive, robust, and efficient web systems and like to keep myself up to date with latest technology and trends which enables me to develop best possible product according to client’s requirements.</p>
-		        <p>Personally I like to a work in an environment where the commitment and excitement to technology is paramount and presents the opportunities to utilize my technical expertise. Passion to deliver best, desire to learn, and implement cutting edge technologies always help me to adapt quickly for new challenges.</p>
-		      	<br />	
+		    	<p>A mature professional with excellent organisational skills and an open mind. Decade of experience working with world-class clients and broad educational background. Desire to learn new technologies makes me a flexible engineer to fit into different roles effectively.</p><p>Very keen to develop thick client interactive Single Page Applications. I like to keep myself up-to-date with latest technology and trends which enables me to implement best possible solution according to client’s requirements.</p>
+		        <p>Working in an environment gets best out of me where the commitment and excitement to technology is paramount. It also presents perfect opportunity to utilize my technical expertise. Passion to deliver best, desire to learn, and implement cutting-edge technologies always help me to adapt quickly for new challenges.
+		        </p>
+		    	<hr />
 		    </div>
+		    <br />
 		    <div className="container">
 		    	<div className="row">
 					<div className="col-md-4">
@@ -36,20 +36,21 @@ var About = React.createClass({
 							<li className="list-group-item">React</li>
 							<li className="list-group-item">Angular</li>
 							<li className="list-group-item">Backbone</li>
-							<li className="list-group-item">Jasmine/Sinon (BDD)</li>
+							<li className="list-group-item">Jasmine and Sinon (BDD)</li>
 							<li className="list-group-item">Modernizr</li>
-							<li className="list-group-item">Responsive Design/Fluid Grids/Media Queries</li>
+							<li className="list-group-item">Responsive Design, Fluid Grids and Media Queries</li>
 						</ul>
 					</div>
 					<div className="col-md-4">
 						<h3>FE Tools</h3>
 						<ul className="list-group">
+							<li className="list-group-item">Require, Browserify and Webpack</li>
 							<li className="list-group-item">NPM</li>
-							<li className="list-group-item">Grunt/Gulp</li>
-							<li className="list-group-item">Sass & LESS</li>
+							<li className="list-group-item">Grunt and Gulp</li>
+							<li className="list-group-item">Sass and LESS</li>
 							<li className="list-group-item">Bower</li>
-							<li className="list-group-item">Escenic/MOSS/Kentico CMS</li>
-							<li className="list-group-item">Git/SVN</li>
+							<li className="list-group-item">Escenic, MOSS and Kentico CMS</li>
+							<li className="list-group-item">Git and SVN</li>
 							<li className="list-group-item">Agile Methodologies</li>
 							<li className="list-group-item">Jira - Bug tracking tool</li>
 						</ul>

@@ -31,7 +31,7 @@ var Contact = React.createClass({
 					</li>
 					<li>
 						<i className="fa-li fa fa-twitter"></i>
-						<a target="_blank" href="https://twitter.com/_gsran">Twitter</a>
+						<a target="_blank" href="https://twitter.com/intent/follow?screen_name=_gsran&tw_p=followbutton">Follow @_gsran</a>
 					</li>
 		        </ul>       
 		    </div> 

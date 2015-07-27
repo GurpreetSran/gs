@@ -251,25 +251,34 @@
             "thumbnail": "./assets/images/thumbnails/aimia.png",
             "HTMLdescription": "",
             "image": "./assets/images/project_images/aimia.png",
-            "link":"",
+            "link":"http://www.aimia.com/",
              "skills": [
                 "JavaScript",
-                "HTML",
+                "backbone",
                 "jQuery",
-                "Escenic CMS"
+                "Jasmine",
+                "Require",
+                "Grunt",
+                "Bower",
+                "LESS",
+                "WebSockets",
+                "HTML"
             ]
         },{
             "id": 13,
             "title": "HSBC",
             "thumbnail": "./assets/images/thumbnails/hsbc.png",
-            "HTMLdescription": "",
+            "HTMLdescription": "<p>Purpose of this project was to upgrade existing Payment Channels and implementation of new global Beneficiary Management functionality. The general idea was to create a separation layer between front-end and back-end code. We made it possible by removing back-end template rendering and replaced this functionality by JSON APIs and Dojo widgets.</p><br /><h4>Responsibilities</h4><ul><li>Identify areas of concern and propose a solution</li><li>Defining and documenting JSON APIs for global payment system</li><li>Implement Dojo widgets by consuming JSON data</li><li>Working with and supporting offshore teams</li><li>Building reusable CSS themes (Component based)</li><li>Supporting JAWS screen reader and multi language (right to left)</li><li>Automating Dojo build using node proxy and grunt</li></ul>",
             "image": "./assets/images/project_images/hsbc.png",
             "link":"https://www.hsbc.co.uk/1/2/",
              "skills": [
                 "JavaScript",
                 "HTML",
                 "jQuery",
-                "Escenic CMS"
+                "Dojo (1.8+)",
+                "Require",
+                "Grunt",
+                "NPM"
             ]
         }
     ]
