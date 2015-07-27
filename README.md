@@ -1,6 +1,7 @@
 # Portfolio using Reactjs
 
 ## Technology stack
+- React
 - React-router
 - Matter.js
 - React Animations
