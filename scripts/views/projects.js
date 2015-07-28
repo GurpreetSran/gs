@@ -1,19 +1,23 @@
 var React = require('react'),
-	projectData = require('./../../projects.json'),
+	projectsData = require('./../get_projects'),
 	ProjectsRow = require('./projects_row'),
 	itemsInRow = 3,
 	noOfDefaultRows = 2,
-	projects = projectData.projects.reverse(),
+	projects = projectsData.getProjects().reverse(),
 	currentProjects = [],
 	currentPageRows;
 
 var Projects = React.createClass({
 	
 	getInitialState: function() {
-		
 		var rows = [],
-			loadMoreIsVisible = true;
+			loadMoreIsVisible = true,
+			i;
 
+		// if(this.props.params.experiments === 'experiments') {
+		// 	projects = projectsData.getExperiments().reverse(); 	
+		// }	
+	
 		if(!currentPageRows) {
 			currentPageRows = noOfDefaultRows;
 		}
@@ -22,7 +26,7 @@ var Projects = React.createClass({
 		
 		noOfDefaultRows = currentPageRows || noOfDefaultRows;
 
-		for (var i = 0; i < noOfDefaultRows; i++) {
+		for (i = 0; i < noOfDefaultRows; i++) {
 			if(currentProjects.length) {
 				rows.push(currentProjects.splice(0, itemsInRow));
 			} 
@@ -53,7 +57,6 @@ var Projects = React.createClass({
 	},
 
 	render: function() {
-
 		return (
 			< div className="projects">
 				< div className = "jumbotron" >

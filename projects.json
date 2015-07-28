@@ -242,7 +242,6 @@
              "skills": [
                 "JavaScript",
                 "backbone",
-                "Angular",
                 "jQuery",
                 "High-Charts",
                 "D3",
@@ -290,6 +289,21 @@
                 "Require",
                 "Grunt",
                 "NPM"
+            ]
+        }
+    ],
+
+    "experiments": [
+        {
+            "id": 1,
+            "title": "Otto Group",
+            "thumbnail": "./assets/images/thumbnails/otto.png",
+            "HTMLdescription": "<p><a href='http://www.ottogroup.com/home.html?&amp;L=0' target='_blank'>Otto Group</a> are inspired andunited by our shared values, which transcend national borders. Otto see ourselves as enthusiastic partnersto our customers, as creative strategists within an integrated network and as focused managersmaking decisions with long-lasting effects. </p><p>This piece of creative flash has been developed for Otto and It was sponsored by Accenture.This flash piece dynamically gets  data from XML. You can easily customise it by modifying somepredefined settings in XML such as intro clip, type of template etc.</p>",
+            "image": "./assets/images/project_images/otto.png",
+            "link": "http://development.mmtdigital.co.uk/otto_credentials/Otto_Flash_Credentials.html",
+            "skills": [
+                "XML",
+                "Flash"
             ]
         }
     ]

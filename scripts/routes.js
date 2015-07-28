@@ -13,17 +13,18 @@ var React = require('react'),
 	AppRoot = require('./views/app_root');
 	$ = jQuery = require('jquery');
 
+
 var routes = (
     <Route handler={AppRoot}>
     	<DefaultRoute handler={Home}/>
     	<Route name="home" handler={Home} />
     	<Route name="about" handler={About} />
     	<Route name="projects" handler={Projects} />
+    	<Route path="/projects/:key" handler={Projects} />
     	<Route name="contact" handler={Contact} />
-    	<Route name="project" path="project/:id" handler={Project} />
+    	<Route name="project" path="/project/:id" handler={Project} />
 
     	<Redirect from="/" to="home" />
-
     	<NotFoundRoute handler={NotFound} />
     </Route> 
 );

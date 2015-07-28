@@ -1,42 +1,29 @@
 var React = require('react/addons'),
 	ReactCSSTransitionGroup = React.addons.CSSTransitionGroup,
-	projectData = require('./../../projects.json'),
-	projects = projectData.projects;
+	projectsData = require('./../get_projects'),
+	projects = projectsData.getProjects();
 
 var Project = React.createClass({
+	
 	getCurrentProject: function() {
 		for( var i =0; i < projects.length; i++) {
 			if(projects[i].id == this.props.params.id) {
 				return projects[i];
 			}
 		}
-	 	
 	 	return false;		
 	},  
 
 	getNextProjectId: function() {
-		var currentPrj = this.getCurrentProject();
-		var nextPrjId;
-
-		if(currentPrj.id == 1) {
-			nextPrjId = projects.length; 	
-			return nextPrjId;
+		var currentPrj = this.getCurrentProject(),
+			currentIndex = projects.indexOf(currentPrj);
+	
+		if(currentIndex === projects.length-1 ) {
+			return projects[0].id; 	
 		} else {
-			nextPrjId = currentPrj.id - 1; 
-			return nextPrjId;
+			return projects[currentIndex + 1].id; 
 		}
 	},
-	// componentWillReceiveProps: function() {
-	// 	//Update this with react animation
-	// 	$(React.findDOMNode(this)).find('.project-image-container img').hide();	
-	// } ,
-	
-	// componentDidUpdate: function() {
-	// 	//Update this with react animation
-	// 	setTimeout(function() {
-	// 		$(React.findDOMNode(this)).find('.project-image-container img').fadeIn();
-	// 	}.bind(this), 100);
-	// },
 
 	render: function() {
 		
