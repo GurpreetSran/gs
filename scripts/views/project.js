@@ -1,11 +1,18 @@
 var React = require('react/addons'),
 	ReactCSSTransitionGroup = React.addons.CSSTransitionGroup,
-	projectsData = require('./../get_projects'),
+	projectsData = require('./../projects'),
 	projects = projectsData.getProjects();
 
 var Project = React.createClass({
 	
 	getCurrentProject: function() {
+	
+		if(this.props.params.key) {
+			projects = projectsData.getByKey(this.props.params.key);	
+		}else {
+			projects = projectsData.getProjects();
+		}
+
 		for( var i =0; i < projects.length; i++) {
 			if(projects[i].id == this.props.params.id) {
 				return projects[i];
@@ -28,8 +35,15 @@ var Project = React.createClass({
 	render: function() {
 		
 		var currentProject = this.getCurrentProject(),	
-			key =  this.getNextProjectId(); //Hack for force image animation
-	
+			key =  this.getNextProjectId(), //Hack to force image animation
+			nextProjectLink; 
+
+		if(this.props.params.key) {
+			nextProjectLink = '#/project/' + this.props.params.key + '/' + this.getNextProjectId();
+		} else {
+			nextProjectLink = '#/project/' + this.getNextProjectId();
+		} 	
+
 		if(!currentProject) {
 			return (
 				<div>
@@ -80,13 +94,13 @@ var Project = React.createClass({
 						<h3>Technology Stack</h3>
 						<div id="skills">
 							{currentProject.skills.map(function(key, i){
-								return <span key={i} className="label label-default"> {key} </span>
+								return <a href={'#projects/'+ key} key={i} className="label label-default"> {key} </a>
 							})}
 						</div>				
 					</div>
 					<br /> <br />
 					<div className="text-right">
-						<a className="linkStyle1" href={'#/project/'+this.getNextProjectId()}>
+						<a className="linkStyle1" href={nextProjectLink}>
 							<i className="fa fa-angle-right"></i><span>Next Project</span>
 						</a>
 					</div>

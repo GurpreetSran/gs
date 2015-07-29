@@ -1,31 +1,39 @@
 var React = require('react'),
-	projectsData = require('./../get_projects'),
+	projectsData = require('./../projects'),
 	ProjectsRow = require('./projects_row'),
 	itemsInRow = 3,
 	noOfDefaultRows = 2,
-	projects = projectsData.getProjects().reverse(),
+	projects = [],
 	currentProjects = [],
-	currentPageRows;
+	currentPageRows,
+	currentParamKey;
 
 var Projects = React.createClass({
 	
-	getInitialState: function() {
+	componentWillMount: function() {
+		this.componentConfig(this.props);
+	}, 
+
+	componentWillReceiveProps: function(nextProps){
+		this.componentConfig(nextProps);
+	},
+
+	componentConfig: function(props) {
 		var rows = [],
 			loadMoreIsVisible = true,
-			i;
+			i; 
 
-		// if(this.props.params.experiments === 'experiments') {
-		// 	projects = projectsData.getExperiments().reverse(); 	
-		// }	
-	
-		if(!currentPageRows) {
-			currentPageRows = noOfDefaultRows;
-		}
-
-		currentProjects = projects.slice(); //Create a copy or array 
+		if(props.params.key) {
+			currentParamKey = props.params.key;
+		}else {
+			currentParamKey = 'projects';
+		} 	
 		
-		noOfDefaultRows = currentPageRows || noOfDefaultRows;
-
+		projects = projectsData.getByKey(currentParamKey);		
+		projectsData.currentState[currentParamKey] = noOfDefaultRows;		
+		currentProjects = projects.slice(); //Create a copy or array 
+		noOfDefaultRows = projectsData.currentState[currentParamKey] || noOfDefaultRows; 	
+	
 		for (i = 0; i < noOfDefaultRows; i++) {
 			if(currentProjects.length) {
 				rows.push(currentProjects.splice(0, itemsInRow));
@@ -33,11 +41,9 @@ var Projects = React.createClass({
 		}  
 
 		currentProjects.length ? loadMoreIsVisible = true : loadMoreIsVisible = false;
-			
-		return { 
-			loadMoreBtn: loadMoreIsVisible,
-			rows: rows	
-		}
+
+		this.setState({rows: rows});  
+		this.setState({loadMoreBtn: loadMoreIsVisible})	
 	},
 
 	loadMoreProjects: function(e) {
@@ -57,6 +63,15 @@ var Projects = React.createClass({
 	},
 
 	render: function() {
+
+		var projectUrl;
+
+		if(currentParamKey === 'projects') {
+			projectUrl = '#/project';
+		} else {
+			projectUrl = '#/project/' + currentParamKey
+		} 	
+
 		return (
 			< div className="projects">
 				< div className = "jumbotron" >
@@ -68,7 +83,7 @@ var Projects = React.createClass({
 				< div className = "container" >
 					
 					{this.state.rows.map(function(row, i) {
-						return <ProjectsRow row={row} key={i} />
+						return <ProjectsRow url={projectUrl} row={row} key={i} />
 					}.bind(this))}
 				
 				< /div> 

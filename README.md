@@ -19,8 +19,14 @@
 - Sticky links on touch devices
 - Scroll position in firefox 
 - Automate project deletion and adition
-- Add ability to view projects by skill
-
-Note: All the data is being fetched from projects.json 
+- Add image loader
+- Test projects animation - there is a warning 
+- Case tolerance 
+- Rethink URL structure
+- Skill label styling   
+- Preserve state by keyword
+- Lots or testing 
+- Disable next button if there is only one project 
+Note: All the projects data is being fetched from projects.json 
 
 [Live Demo](http://gurpreetsran.github.io/gs/#/home)

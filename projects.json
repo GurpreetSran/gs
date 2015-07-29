@@ -63,7 +63,7 @@
             "url": "./assets/images/home_animation/ActionScript.png"
         },
         {
-             "title": "grunt",
+            "title": "grunt",
             "type":"circle",
             "radius": 100,
             "url": "./assets/images/home_animation/grunt.png"            
@@ -131,9 +131,9 @@
             "skills": [
                 "HTML",
                 "CSS",
-                "ActionScript 3",
+                "ActionScript-3",
                 "MXML",
-                "ESCENIC CMS"
+                "ESCENIC-CMS"
             ]
         },
         {
@@ -147,7 +147,7 @@
                 "HTML",
                 "CSS",
                 "JavaScript",
-                "ActionScript 3",
+                "ActionScript-3",
                 "jQuery",
                 "MOSS",
                 "Flash"
@@ -179,7 +179,7 @@
                 "JavaScript",
                 "HTML",
                 "jQuery",
-                "Escenic CMS",
+                "ESCENIC-CMS",
                 "CSS"
             ]
         },{
@@ -193,7 +193,7 @@
                 "JavaScript",
                 "HTML",
                 "jQuery",
-                "Escenic CMS",
+                "ESCENIC-CMS",
                 "CSS"
             ]
         },{
@@ -207,9 +207,9 @@
                 "JavaScript",
                 "HTML",
                 "jQuery",
-                "Escenic CMS",
+                "ESCENIC-CMS",
                 "CSS",
-                "ActionScript 3",
+                "ActionScript-3",
                 "MXML",
                 "Flash"
             ]
@@ -229,7 +229,7 @@
                 "Fluid Grid",
                 "jQuery",
                 "Jasmine",
-                "Escenic CMS",
+                "ESCENIC-CMS",
                 "Touch-Punch"
             ]
         },{
@@ -241,7 +241,7 @@
             "image": "./assets/images/project_images/streamhub.png",
              "skills": [
                 "JavaScript",
-                "backbone",
+                "Backbone",
                 "jQuery",
                 "High-Charts",
                 "D3",
@@ -264,7 +264,7 @@
             "link":"http://www.aimia.com/",
              "skills": [
                 "JavaScript",
-                "backbone",
+                "Backbone",
                 "jQuery",
                 "Jasmine",
                 "Require",

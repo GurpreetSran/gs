@@ -21,9 +21,10 @@ var routes = (
     	<Route name="about" handler={About} />
     	<Route name="projects" handler={Projects} />
     	<Route path="/projects/:key" handler={Projects} />
+    	<Route path="/project/:id" handler={Project} />
+    	<Route path="/project/:key/:id" handler={Project} />
     	<Route name="contact" handler={Contact} />
-    	<Route name="project" path="/project/:id" handler={Project} />
-
+    
     	<Redirect from="/" to="home" />
     	<NotFoundRoute handler={NotFound} />
     </Route> 
