@@ -33,6 +33,7 @@ var About = React.createClass({
 						<h3>Libraries/Frameworks</h3>
 						<ul className="list-group">
 							<li className="list-group-item">jQuery</li>
+							<li className="list-group-item">Dojo</li>
 							<li className="list-group-item">React</li>
 							<li className="list-group-item">Angular</li>
 							<li className="list-group-item">Backbone</li>

@@ -27,6 +27,8 @@
 - Preserve state by keyword
 - Lots or testing 
 - Disable next button if there is only one project 
+- Nav not working with new routers
+- Update heading according to new routes for projects
 Note: All the projects data is being fetched from projects.json 
 
 [Live Demo](http://gurpreetsran.github.io/gs/#/home)
