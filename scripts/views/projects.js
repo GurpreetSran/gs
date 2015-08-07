@@ -64,11 +64,13 @@ var Projects = React.createClass({
 
 	render: function() {
 
-		var projectUrl;
+		var projectUrl, 
+			header = '';
 
 		if(currentParamKey === 'projects') {
 			projectUrl = '#/project';
 		} else {
+			header = currentParamKey;
 			projectUrl = '#/project/' + currentParamKey
 		} 	
 
@@ -76,12 +78,11 @@ var Projects = React.createClass({
 			< div className="projects">
 				< div className = "jumbotron" >
 					< div className = "container" >
-						< h1 > Projects < /h1> 
+						< h1 > { header ? header + ' Projects' : 'Projects'}   < /h1> 
 					< /div> 
 				< /div>
 
-				< div className = "container" >
-					
+				< div className = "container" >					
 					{this.state.rows.map(function(row, i) {
 						return <ProjectsRow url={projectUrl} row={row} key={i} />
 					}.bind(this))}
