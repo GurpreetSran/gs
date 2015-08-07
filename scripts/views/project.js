@@ -1,7 +1,8 @@
 var React = require('react/addons'),
 	ReactCSSTransitionGroup = React.addons.CSSTransitionGroup,
 	projectsData = require('./../projects'),
-	projects = projectsData.getProjects();
+	projects = projectsData.getProjects(),
+	projectsLength = null;
 
 var Project = React.createClass({
 	
@@ -13,11 +14,14 @@ var Project = React.createClass({
 			projects = projectsData.getProjects();
 		}
 
+		projectsLength = projects.length;
+
 		for( var i =0; i < projects.length; i++) {
 			if(projects[i].id == this.props.params.id) {
 				return projects[i];
 			}
 		}
+
 	 	return false;		
 	},  
 
@@ -100,9 +104,12 @@ var Project = React.createClass({
 					</div>
 					<br /> <br />
 					<div className="text-right">
-						<a className="linkStyle1" href={nextProjectLink}>
-							<i className="fa fa-angle-right"></i><span>Next Project</span>
-						</a>
+						{	(projectsLength > 1) ?
+								<a className="linkStyle1" href={nextProjectLink}>
+									<i className="fa fa-angle-right"></i><span>Next Project</span>
+								</a>
+							: ''
+						}
 					</div>
 				</div>
 			</div>

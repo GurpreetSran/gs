@@ -308,9 +308,12 @@ a .glyphicon {
 }
 
 #skills .label{
-	font-family: sourcesanspro-light;
 	display: inline-block;
-	background-color: #663300;
+	font-weight: normal;
+	transition: all 0.3s ease;
+	-webkit-transition: all .3s ease;
+	background-color: #CCC;
+	color: #663300;
 	font-size: 15px;
 	margin-right: 4px;
 	margin-top: 5px;
@@ -372,6 +375,7 @@ a .glyphicon {
 }
 
 .navbar-inverse .navbar-nav > .active > a, 
+#skills .label:hover,
 .navbar-inverse .navbar-nav > .active > a:focus,
 .navbar-inverse .navbar-nav > .active > a:hover {
 	background-color: #663300;

@@ -20,13 +20,11 @@
 - Scroll position in firefox 
 - Automate project deletion and adition
 - Add image loader
-- Test projects animation - there is a warning 
-- Case tolerance 
+- Test projects animation - there is a warning poping up randomly 
+- Case tolerance when comparing url and labels
 - Rethink URL structure
-- Skill label styling   
 - Preserve state by keyword
 - Lots or testing 
-- Disable next button if there is only one project 
 - Nav not working with new routers
 - Update heading according to new routes for projects
 Note: All the projects data is being fetched from projects.json 
