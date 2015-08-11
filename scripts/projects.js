@@ -20,7 +20,7 @@ projects.getByKey = function(key) {
 		projects = this.getProjects(),
 		matchedProjects = [],
 		skills;
-
+		
 	if(key === 'projects') {
 		return this.getProjects();	
 	}	
@@ -33,7 +33,8 @@ projects.getByKey = function(key) {
 		skills = projects[i].skills;
 
 		for(j=0; j<skills.length; j++) {
-			if(skills[j] === key) {
+			skills[j] = skills[j].toLowerCase();
+			if(skills[j] === key.toLowerCase()) {
 				matchedProjects.push(projects[i]);
 				break;
 			}

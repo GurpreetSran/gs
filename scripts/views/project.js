@@ -1,4 +1,5 @@
 var React = require('react/addons'),
+	ImageLoader = require('react-imageloader'),
 	ReactCSSTransitionGroup = React.addons.CSSTransitionGroup,
 	projectsData = require('./../projects'),
 	projects = projectsData.getProjects(),
@@ -34,6 +35,10 @@ var Project = React.createClass({
 		} else {
 			return projects[currentIndex + 1].id; 
 		}
+	},
+
+	preloader: function() {
+		return <img src='./assets/images/loader.gif' />;
 	},
 
 	render: function() {
@@ -79,7 +84,11 @@ var Project = React.createClass({
 				<div className="container ">
 					<ReactCSSTransitionGroup transitionName="reactClass" key={key} transitionAppear={true}>
 						<div className="project-image-container"> 
-							<img src={currentProject.image} alt="Project Image" />
+							<ImageLoader
+							    src={currentProject.image}
+							    preloader={this.preloader}>
+							    Image load failed!
+						  	</ImageLoader>
 						</div>
 					</ReactCSSTransitionGroup>	
 					<br />
@@ -98,8 +107,9 @@ var Project = React.createClass({
 						<h3>Technology Stack</h3>
 						<div id="skills">
 							{currentProject.skills.map(function(key, i){
-								return <a href={'#projects/'+ key} key={i} className="label label-default"> {key} </a>
-							})}
+								return <a href={'#projects/'+ key.toLowerCase()} key={i} 
+									className={key === this.props.params.key ? 'label label-default active' : 'label label-default'}> {key} </a>
+							}.bind(this))}
 						</div>				
 					</div>
 					<br /> <br />

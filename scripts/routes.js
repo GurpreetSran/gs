@@ -37,8 +37,6 @@ var initApp = function() {
 		$('nav li').removeClass('active');
 		$('ul.nav a[href="#' + State.path + '"]').parent().addClass('active');
 
-		console.log(State.path);
-
 		if(State.path.indexOf('/project') !== -1) {
 			$('ul.nav a[href="#/projects"]').parent().addClass('active');	
 		}

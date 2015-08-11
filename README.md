@@ -15,13 +15,12 @@
 - ```npm start``` (Starts watchify, which bundles js output in backgroud)
 
 ## Todo:
+- Skills text is getting smaller case. eg jQuery to jquery - Case tolerance when comparing url and labels
 - Check old content and add new
 - Automate project deletion and adition
 - Add image loader
 - Test projects animation - there is a warning poping up randomly 
-- Case tolerance when comparing url and labels
 - Preserve state by keyword
-- Nav not working with new routers
 - Sticky links on touch devices
 - Scroll position in firefox 
 - Lots or testing 
