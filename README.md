@@ -18,7 +18,8 @@
 - Skills text is getting smaller case. eg jQuery to jquery - Case tolerance when comparing url and labels
 - Check old content and add new
 - Automate project deletion and adition
-- Add image loader
+	- Need a server to host JSON - Openshift
+	- Create admin page to provide interface.	
 - Test projects animation - there is a warning poping up randomly 
 - Preserve state by keyword
 - Sticky links on touch devices
