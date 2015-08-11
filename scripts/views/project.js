@@ -38,7 +38,7 @@ var Project = React.createClass({
 	},
 
 	preloader: function() {
-		return <img src='./assets/images/loader.gif' />;
+		return <img title="Loader" src="./assets/images/1140x540-loader.gif" />;
 	},
 
 	render: function() {
@@ -86,6 +86,7 @@ var Project = React.createClass({
 						<div className="project-image-container"> 
 							<ImageLoader
 							    src={currentProject.image}
+							    title= "project image"
 							    preloader={this.preloader}>
 							    Image load failed!
 						  	</ImageLoader>
