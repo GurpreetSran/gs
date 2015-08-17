@@ -8,6 +8,10 @@
 - Browserify
 - NPM
 - Bootstrap
+- React-imageloader
+
+todo- 
+Offline data caching
  
 ## How to run 
 - ```git clone``` repo and ```cd dir```
@@ -16,15 +20,21 @@
 
 ## Todo:
 - Skills text is getting smaller case. eg jQuery to jquery - Case tolerance when comparing url and labels
-- Check old content and add new
+- Offline caching  
 - Automate project deletion and adition
-	- Need a server to host JSON - Openshift
-	- Create admin page to provide interface.	
-- Test projects animation - there is a warning poping up randomly 
-- Preserve state by keyword
+	- Openshift 
+		- Set up a node server
+		- Server should server JSONP as current JSON
+		- Create local interface as mentioned in below page to avoid x domain issues
+	- Create admin page
+		- List of project
+		- Deletion from list
+		- Add new project
+
+- Check content
+- Preserve projects state on projects page
 - Sticky links on touch devices
-- Scroll position in firefox 
-- Lots or testing 
+- Scroll position in firefox
 
 
 Note: All the projects data is being fetched from projects.json 
