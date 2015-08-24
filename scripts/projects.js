@@ -33,8 +33,8 @@ projects.getByKey = function(key) {
 		skills = projects[i].skills;
 
 		for(j=0; j<skills.length; j++) {
-			skills[j] = skills[j].toLowerCase();
-			if(skills[j] === key.toLowerCase()) {
+			skills[j] = skills[j];
+			if(skills[j].toLowerCase() === key.toLowerCase()) {
 				matchedProjects.push(projects[i]);
 				break;
 			}

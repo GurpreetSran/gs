@@ -19,7 +19,6 @@ Offline data caching
 - ```npm start``` (Starts watchify, which bundles js output in backgroud)
 
 ## Todo:
-- Skills text is getting smaller case. eg jQuery to jquery - Case tolerance when comparing url and labels
 - Offline caching  
 - Automate project deletion and adition
 	- Openshift 

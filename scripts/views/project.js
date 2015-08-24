@@ -3,9 +3,10 @@ var React = require('react/addons'),
 	ReactCSSTransitionGroup = React.addons.CSSTransitionGroup,
 	projectsData = require('./../projects'),
 	projects = projectsData.getProjects(),
-	projectsLength = null;
+	projectsLength = null,
+	Project;
 
-var Project = React.createClass({
+Project = React.createClass({
 	
 	getCurrentProject: function() {
 	
