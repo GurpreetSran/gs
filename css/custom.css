@@ -319,6 +319,14 @@ a .glyphicon {
 	margin-top: 5px;
 }
 
+#skills .label.active {
+	pointer-events: none;
+	font-size: 20px;
+	background-color: #663300;
+	color: #fff;
+}
+
+
 #website-link {
 	padding-top: 10px;
 	padding-bottom: 20px;

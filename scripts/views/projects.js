@@ -10,6 +10,26 @@ var React = require('react'),
 
 var Projects = React.createClass({
 	
+	//Comarison is not case sensitive, this method returns title as saved in db.	
+	getActualTitle: function(title) {
+		console.log(title);
+		var skills,
+			i;
+
+		//Why currentProjects is 0??????	
+			
+		if(currentProjects.length > 0) {
+			skills = currentProjects[0].skills;
+			for(i=0; i < skills.length; i++ ) {
+				if(title.toLowerCase() === skills[i].toLowerCase()) {
+					return skills[i];
+				}
+			} 
+		}
+
+		return false;
+	},
+
 	componentWillMount: function() {
 		this.componentConfig(this.props);
 	}, 
@@ -78,7 +98,7 @@ var Projects = React.createClass({
 			< div className="projects">
 				< div className = "jumbotron" >
 					< div className = "container" >
-						< h1 > { header ? header + ' Projects' : 'Projects'}   < /h1> 
+						< h1 > { this.getActualTitle(header) ? this.getActualTitle(header) + ' Projects' : 'Projects'}   < /h1> 
 					< /div> 
 				< /div>
 

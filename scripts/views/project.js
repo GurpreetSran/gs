@@ -27,6 +27,14 @@ Project = React.createClass({
 	 	return false;		
 	},  
 
+	getCurrentSkill: function(skill) {
+		if(this.props.params.key) {
+			if(skill.toLowerCase() === (this.props.params.key).toLowerCase()) {
+				return skill;		
+			}
+		} 
+		return false;
+	}, 
 	getNextProjectId: function() {
 		var currentPrj = this.getCurrentProject(),
 			currentIndex = projects.indexOf(currentPrj);
@@ -64,7 +72,7 @@ Project = React.createClass({
 					</div>		
 					<div className="container">
 						<p className="error">
-							Invalid project id: {this.props.params.id}
+							Invalid project id: {this.props.params.key}
 						</p>	
 						<br />
 						<a className="linkStyle1" href={'#/projects'}>
@@ -109,8 +117,9 @@ Project = React.createClass({
 						<h3>Technology Stack</h3>
 						<div id="skills">
 							{currentProject.skills.map(function(key, i){
-								return <a href={'#projects/'+ key.toLowerCase()} key={i} 
-									className={key === this.props.params.key ? 'label label-default active' : 'label label-default'}> {key} </a>
+								return <a href={'#projects/'+ key} key={i} 
+									className={this.getCurrentSkill(key) ? 'label label-default active' : 'label label-default'}> {key} </a>
+
 							}.bind(this))}
 						</div>				
 					</div>

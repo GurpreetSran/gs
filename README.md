@@ -12,13 +12,15 @@
 
 todo- 
 Offline data caching
- 
+
 ## How to run 
 - ```git clone``` repo and ```cd dir```
 - ```npm install```
 - ```npm start``` (Starts watchify, which bundles js output in backgroud)
+- ```run index.html in any modern browser```
 
 ## Todo:
+- Why currentproject is 0 - projects.js // Case sensitive urls
 - Offline caching  
 - Automate project deletion and adition
 	- Openshift 
