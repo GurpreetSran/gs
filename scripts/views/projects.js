@@ -6,26 +6,28 @@ var React = require('react'),
 	projects = [],
 	currentProjects = [],
 	currentPageRows,
-	currentParamKey;
+	currentParamKey,
+	Projects,
+	noProjectAvailable = false;
 
-var Projects = React.createClass({
-	
+	Projects = React.createClass({
 	//Comarison is not case sensitive, this method returns title as saved in db.	
 	getActualTitle: function(title) {
-		console.log(title);
 		var skills,
-			i;
+			i,
+			projectsList;
 
-		//Why currentProjects is 0??????	
-			
-		if(currentProjects.length > 0) {
-			skills = currentProjects[0].skills;
+		projectsList = projectsData.getByKey(title);	
+
+		if(projectsList.length > 0) {
+			skills = projectsList[0].skills;
+
 			for(i=0; i < skills.length; i++ ) {
 				if(title.toLowerCase() === skills[i].toLowerCase()) {
 					return skills[i];
 				}
 			} 
-		}
+		} 
 
 		return false;
 	},
@@ -49,7 +51,16 @@ var Projects = React.createClass({
 			currentParamKey = 'projects';
 		} 	
 		
-		projects = projectsData.getByKey(currentParamKey);		
+		projects = projectsData.getByKey(currentParamKey);	
+
+
+
+		if(projects.length === 0) {
+			noProjectAvailable = true;
+		} else {
+			noProjectAvailable = false;
+		}
+
 		projectsData.currentState[currentParamKey] = noOfDefaultRows;		
 		currentProjects = projects.slice(); //Create a copy or array 
 		noOfDefaultRows = projectsData.currentState[currentParamKey] || noOfDefaultRows; 	
@@ -93,6 +104,30 @@ var Projects = React.createClass({
 			header = currentParamKey;
 			projectUrl = '#/project/' + currentParamKey
 		} 	
+
+
+
+		if(noProjectAvailable) {
+		return (
+
+				<div>
+					<div className="jumbotron">
+						<div className="container">
+							<h1 className="error">Navigation Error</h1>
+						</div>
+					</div>		
+					<div className="container">
+						<p className="error">
+							Invalid project id or URL
+						</p>	
+						<br />
+						<a className="linkStyle1" href={'#/projects'}>
+							<i className="fa fa-angle-right"></i><span>Projects</span>
+						</a>
+					</div> 
+				</div>
+			)
+		}
 
 		return (
 			< div className="projects">

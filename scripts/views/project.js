@@ -72,7 +72,7 @@ Project = React.createClass({
 					</div>		
 					<div className="container">
 						<p className="error">
-							Invalid project id: {this.props.params.key}
+							Invalid project id or URL
 						</p>	
 						<br />
 						<a className="linkStyle1" href={'#/projects'}>
