@@ -20,8 +20,8 @@ Offline data caching
 - ```run index.html in any modern browser```
 
 ## Todo:
-- Why currentproject is 0 - projects.js // Case sensitive urls
-- Offline caching  
+
+- Offline Caching  
 - Automate project deletion and adition
 	- Openshift 
 		- Set up a node server

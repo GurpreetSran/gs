@@ -53,8 +53,6 @@ var React = require('react'),
 		
 		projects = projectsData.getByKey(currentParamKey);	
 
-
-
 		if(projects.length === 0) {
 			noProjectAvailable = true;
 		} else {
@@ -104,8 +102,6 @@ var React = require('react'),
 			header = currentParamKey;
 			projectUrl = '#/project/' + currentParamKey
 		} 	
-
-
 
 		if(noProjectAvailable) {
 		return (
