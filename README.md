@@ -10,9 +10,6 @@
 - Bootstrap
 - React-imageloader
 
-todo- 
-Offline data caching
-
 ## How to run 
 - ```git clone``` repo and ```cd dir```
 - ```npm install```
