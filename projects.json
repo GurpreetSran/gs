@@ -268,6 +268,139 @@
         "Grunt",
         "NPM"
       ]
+    },
+    {
+      "id": 14,
+      "title": "Lloyds Banking Group",
+      "thumbnail": "./assets/images/thumbnails/llyods.png",
+      "HTMLdescription": "<p>This role involved development and maintenance of React js and Node js web applications (Commercial On-Boarding & Lending).</P><p>Build, test, deployment and Live incidents support (Bluemix/Jenkins/UrbanCode/LogLogic).</p>",
+      "image": "./assets/images/project_images/lloyds.png",
+      "link": "https://www.lloydsbank.com/",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Redux.js",
+        "Redux-Saga",
+        "Unit-Testing",
+        "Node",
+        "Hapi-Server",
+        "Webpack",
+        "JWT"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Voltaire",
+      "thumbnail": "./assets/images/thumbnails/voltaire.png",
+      "HTMLdescription": "<p>Very challenging role in a startup as a solo UI developer. Built an Exchange (Crypto) from scratch. Collaborated with BE developers and security team to implement low latency matching engine and live trading functionality. Collaborated with designers for application styles, content and structure. Implemented other features such as login, wallet (deposit/withdrawals).</p>",
+      "image": "./assets/images/project_images/voltaire.png",
+      "link": "",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Next.js",
+        "WebSockets",
+        "Web3",
+        "BlockChain",
+        "Material-UI",
+        "Node",
+        "Responsive-Design",
+        "HighCharts"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Preqin",
+      "thumbnail": "./assets/images/thumbnails/prequin.png",
+      "HTMLdescription": "<p>Assisted with the build responsive dashboard for investment data on the alternative assets market. Collaborated with the UX team to revamp styles and user experience. Implemented new features and worked with offshore teams if required.</p>",
+      "image": "./assets/images/project_images/prequin.jpeg",
+      "link": "https://www.preqin.com/",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Material-UI",
+        "Node",
+        "Responsive-Design",
+        "Elastic-Search",
+        "MongoDB",
+        "Jest",
+        "Enzyme"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "News UK",
+      "thumbnail": "./assets/images/thumbnails/newsuk.png",
+      "HTMLdescription": "<p>Analyse, utilise and visualise data for business across multiple platforms as a senior member of the Data Technology team. Assisted with mentoring and collaboration of offshore teams (Bangalore and Sofia).</p><p>Maintaining code quality and R&D was also part of this role. Delivered Chrome extension, NewsIQ and Inca TV POC.</p>",
+      "image": "./assets/images/project_images/newsuk.png",
+      "link": "https://www.news.co.uk/",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "TypeScript",
+        "Node",
+        "BigQuery",
+        "BizCharts",
+        "Elastic-Search",
+        "Jest",
+        "AWS",
+        "Docker",
+        "Cypress",
+        "CircleCI",
+        "Ant-Design",
+        "GraphQL"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Nandos",
+      "thumbnail": "./assets/images/thumbnails/nandos.png",
+      "HTMLdescription": "<p>Successfully replaced deliveroo ordering system with inhouse implementation. Very involved project and great team in agile settings. Code reviews and mentoring was also part of the project.</p>",
+      "image": "./assets/images/project_images/nandos.png",
+      "link": "https://www.nandos.co.uk/order/search",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Mobx",
+        "TypeScript",
+        "InVision",
+        "Next.js",
+        "Jest",
+        "Cypress",
+        "CircleCI",
+        "GraphQL",
+        "Sentry",
+        "GCP"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Trinny London",
+      "thumbnail": "./assets/images/thumbnails/tl.png",
+      "HTMLdescription": "<p>Scaled up the infrastructure and refactored codebase in order to improve performance and readability.</p> <p>Did Match to me engine implementation.</p>",
+      "image": "./assets/images/project_images/tl.png",
+      "link": "https://trinnylondon.com/uk/match2me",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Mobx",
+        "TypeScript",
+        "Figma",
+        "Jest",
+        "Cypress",
+        "CircleCI",
+        "GraphQL",
+        "DynamoDB",
+        "GCP",
+        "Bit",
+        "Humio",
+        "Datadog",
+        "Contentful",
+        "Commerce-Tools",
+        "Docker",
+        "Concourse",
+        "Redis"
+      ]
     }
   ],
 

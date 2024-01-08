@@ -55,7 +55,7 @@ var About = React.createClass({
                 <li className="list-group-item">HTML(5), CSS(3)</li>
                 <li className="list-group-item">Python</li>
                 <li className="list-group-item">jQuery</li>
-                <li className="list-group-item">Material UI</li>
+                <li className="list-group-item">Material UI, Ant Design</li>
                 <li className="list-group-item">Angular</li>
                 <li className="list-group-item">Dojo</li>
                 <li className="list-group-item">Backbone</li>
@@ -75,9 +75,11 @@ var About = React.createClass({
                   Contentful CMS, Commerce Tools, Escenic
                 </li>
                 <li className="list-group-item">
-                  Circle CI, Concourse (CI/CD), Teamcity, Jenkins
+                  Circle CI, Concourse (CI/CD), Teamcity, Jenkins, UrbanCode
                 </li>
-                <li className="list-group-item">Humio, Datadog, Sentry</li>
+                <li className="list-group-item">
+                  Humio, Datadog, Sentry, LogLogic
+                </li>
                 <li className="list-group-item">Redis (Caching)</li>
                 <li className="list-group-item">Web Sockets</li>
                 <li className="list-group-item">Story Book, Bit - React</li>
@@ -93,7 +95,7 @@ var About = React.createClass({
             <div className="col-md-4">
               <h3>Exposed to</h3>
               <ul className="list-group">
-                <li className="list-group-item">HighCharts</li>
+                <li className="list-group-item">HighCharts, BizCharts</li>
                 <li className="list-group-item">AWS and GCP</li>
                 <li className="list-group-item">Serverless</li>
                 <li className="list-group-item">JWT</li>
