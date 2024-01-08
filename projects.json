@@ -1,310 +1,418 @@
-{   
-    "projectRectangleIcons":
-    [   
-        [{   
-            "title": "jira",
-            "type": "rectangle",
-            "height":150,
-            "width":117,
-            "url": "./assets/images/home_animation/webpack.png"
-        },
-        {
-            "title": "jasmine",
-            "type": "rectangle",
-            "height":61,
-            "width":200,
-            "url": "./assets/images/home_animation/jasmine.png"
-        },
-        {
-            "title": "bower",
-            "type": "circle",
-            "radius":38,
-            "url": "./assets/images/home_animation/bower.png"
-        },
-        {
-            "title": "responsive-design",
-            "type": "rectangle",
-            "height":100,
-            "width":105,
-            "url": "./assets/images/home_animation/responsive-design.png"
-        }],
-        [{
-            "title": "less",
-            "type": "rectangle",
-            "height":73,
-            "width":176,
-            "url": "./assets/images/home_animation/less.png"
-        },
-        {
-            "title": "modernizr",
-            "type": "rectangle",
-            "height":78,
-            "width":150,
-            "url": "./assets/images/home_animation/modernizr.png"
-        },
-        {
-            "title": "npm",
-            "type": "rectangle",
-            "height":120,
-            "width":120,
-            "url": "./assets/images/home_animation/npm.png"
-        },
-        {
-            "title": "react",
-            "type": "circle",
-            "radius":61,
-            "url": "./assets/images/home_animation/react.png"
-        }],
-        [{
-            "title": "as3",
-            "type": "rectangle",
-            "height":81,
-            "width":135,
-            "url": "./assets/images/home_animation/ActionScript.png"
-        },
-        {
-            "title": "grunt",
-            "type":"circle",
-            "radius": 100,
-            "url": "./assets/images/home_animation/grunt.png"            
-        },
-        {
-            "title": "git",
-            "type": "rectangle",
-            "height":42,
-            "width":100,
-            "url": "./assets/images/home_animation/git.png"
-        },{
-            "title": "backbone",
-            "type": "rectangle",
-            "height":93,
-            "width":75,
-            "url": "./assets/images/home_animation/backbone.png"
-        }]
+{
+  "projectRectangleIcons": [
+    [
+      {
+        "title": "jira",
+        "type": "rectangle",
+        "height": 150,
+        "width": 117,
+        "url": "./assets/images/home_animation/webpack.png"
+      },
+      {
+        "title": "jasmine",
+        "type": "rectangle",
+        "height": 61,
+        "width": 200,
+        "url": "./assets/images/home_animation/jasmine.png"
+      },
+      {
+        "title": "bower",
+        "type": "circle",
+        "radius": 38,
+        "url": "./assets/images/home_animation/bower.png"
+      },
+      {
+        "title": "responsive-design",
+        "type": "rectangle",
+        "height": 100,
+        "width": 105,
+        "url": "./assets/images/home_animation/responsive-design.png"
+      }
     ],
-
-    "projects": [
-        {
-            "id": 1,
-            "title": "Otto Group",
-            "thumbnail": "./assets/images/thumbnails/otto.png",
-            "HTMLdescription": "<p><a href='http://www.ottogroup.com/home.html?&amp;L=0' target='_blank'>Otto Group</a> are inspired andunited by our shared values, which transcend national borders. Otto see ourselves as enthusiastic partnersto our customers, as creative strategists within an integrated network and as focused managersmaking decisions with long-lasting effects. </p><p>This piece of creative flash has been developed for Otto and It was sponsored by Accenture.This flash piece dynamically gets  data from XML. You can easily customise it by modifying somepredefined settings in XML such as intro clip, type of template etc.</p>",
-            "image": "./assets/images/project_images/otto.png",
-            "link": "http://development.mmtdigital.co.uk/otto_credentials/Otto_Flash_Credentials.html",
-            "skills": [
-                "XML",
-                "Flash"
-            ]
-        },
-        {
-            "id": 2,
-            "title": "Interactive Prague Airport",
-            "thumbnail": "./assets/images/thumbnails/prague.png",
-            "HTMLdescription": "<p>Prague Airport is the operator of the most important international airport in the Czech Republicand the biggest airport among the new EU member states. There are also 5 regular cargo carriers andother tens of companies providing charter flights from there.</p><p>This interactive map application allows to browse the Terminals or locate a particular shop or restaurantin either Terminal 1 or 2. Search, zooming and printing are some nifty features of this xml driven AS3 flash piece.</p>",
-            "image": "./assets/images/project_images/prague.png",
-            "link": "http://map.prg.aero/",
-             "skills": [
-                "XML",
-                "Flash"
-            ]
-        },
-        {
-            "id": 3,
-            "title": "Hodder Education",
-            "thumbnail": "./assets/images/thumbnails/hodder.png",
-            "HTMLdescription": "<p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p><p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p>",
-            "image": "./assets/images/project_images/hodder.png",
-            "link": "http://www.hoddereducation.co.uk/Home.aspx",
-            "skills": [
-                "JavaScript",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "id": 4,
-            "title": "Fabulous Magazine",
-            "thumbnail": "./assets/images/thumbnails/fabulous.png",
-            "HTMLdescription": "<p>The UK's most-read weekly glossy, out every Sunday with The Sun newspaper!</p><p>I have been working on this magazine on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
-            "image": "./assets/images/project_images/fabulous.png",
-            "link":"http://www.thesun.co.uk/sol/homepage/fabulous/",
-            "skills": [
-                "HTML",
-                "CSS",
-                "ActionScript-3",
-                "MXML",
-                "ESCENIC-CMS"
-            ]
-        },
-        {
-            "id": 5,
-            "title": "Accenture",
-            "thumbnail": "./assets/images/thumbnails/accenture.png",
-            "HTMLdescription": "<p>Accenture’s expertise and resources cover the full M&A process, from developing a strategy, to screening M&Atargets, to performing due diligence and integrating acquired entities. The M&A strategies we help develop benefitfrom proven frameworks and roadmaps that clarify the value to be gained from M&A as well as the most effectiveways to attain it.</p><p>We use MOSS (Microsoft Office SharePoint Server) extensively to develop microsites for Accenture. It's first integrated server platform that aims to provide web content management, enterprise contentservices, and enterprise search, as well as shared business processes and business intelligence dashboarding to the small/medium enterprise. This effective ability to control content comes at the cost ofrigidness in terms of features. Good knowledge of JavaScript / jQuery and AS3, allows me to customise(hack, up to some extent) templates and fulfil branding (and very demanding) requirements of Accenture.</p>",
-            "image": "./assets/images/project_images/accenture.png",
-            "link":"http://www.accenture.com/us-en/pages/index.aspx",
-            "skills": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "ActionScript-3",
-                "jQuery",
-                "MOSS",
-                "Flash"
-            ]
-        },
-        {
-            "id": 6,
-            "title": "Green Square",
-            "thumbnail": "./assets/images/thumbnails/greensquare.png",
-            "HTMLdescription": "<p>Green Square is a corporate finance and advisory practice. They provide insightful and balanced advice to the shareholders of independent media and marketing communications businesses. They help them prepare their businesses for sale and ultimately achieve the optimum transaction.</p><p>Apart from having neat and attractive design, use of jQuery makes user experience even better. Implementing web 2.0 features such as google maps, twitter and rss feed was fun!</p>",
-            "image": "./assets/images/project_images/greensquare.png",
-            "link": "http://www.gsquare.co.uk/",
-            "skills": [
-                "HTML",
-                "CSS",
-                "JavaScript",
-                "jQuery",
-                "Kentico-CMS"
-            ]
-        },
-        {
-            "id": 7,
-            "title": "The Sunday Times",
-            "thumbnail": "./assets/images/thumbnails/thesundaytimes.png",
-            "HTMLdescription": "<p><a href='http://www.thesundaytimes.co.uk/sto/' target='_blank'>The Sunday Times</a> is the largest-selling British national 'quality' Sunday newspaper. It is published by Times Newspapers Ltd, a subsidiary of News International, which is in turn owned by News Corporation. Times Newspapers also publishes The Times. The two papers were founded independently and have been under common ownership only since 1966. They were bought by News International in 1981.</p><p>I have been working on this title on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
-            "image": "./assets/images/project_images/thesundaytimes.png",
-            "link":"http://www.thesundaytimes.co.uk/sto/",
-            "skills": [
-                "JavaScript",
-                "HTML",
-                "jQuery",
-                "ESCENIC-CMS",
-                "CSS"
-            ]
-        },{
-            "id": 8,
-            "title": "The Times",
-            "thumbnail": "./assets/images/thumbnails/thetimes.png",
-            "HTMLdescription": "<p><a href='http://www.thetimes.co.uk/tto/news/' target='_blank'>The Times</a> is a British daily national newspaper, first published in London in 1785 under the title The Daily Universal Register (it became The Times on 1 January 1788). The Times and its sister paper The Sunday Times (founded in 1821) are published by Times Newspapers, since 1981 a subsidiary of News International, itself wholly owned by the News Corporation group.</p><p>I have been working on this title on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
-            "image": "./assets/images/project_images/thetimes.png",
-            "link":"",
-             "skills": [
-                "JavaScript",
-                "HTML",
-                "jQuery",
-                "ESCENIC-CMS",
-                "CSS"
-            ]
-        },{
-            "id": 9,
-            "title": "News of the World",
-            "thumbnail": "./assets/images/thumbnails/notw.png",
-            "HTMLdescription": "<p>The<a href='http://www.newsoftheworld.co.uk/' target='_blank'> News of the World</a> was a national red top newspaper published in the United Kingdom from 1843 to 2011. It was at one time thebiggest selling English language newspaper in the world, and at closure still had one of the highest English language circulations.</p><p>I used to work on this title as Senior Front End developer. I was responsible for:</p><ul><li>Daily maintenance &amp; bug fixes</li><li>Agile based development</li><li>Adding new features to title</li><li>Communication with PO and other stakeholders</li><li>Setting up best practices and documents</li><li>Mentoring junior developers</li><li>R&amp;D</li></ul>",
-            "image": "./assets/images/project_images/notw.png",
-            "link":"http://www.newsoftheworld.co.uk/",
-             "skills": [
-                "JavaScript",
-                "HTML",
-                "jQuery",
-                "ESCENIC-CMS",
-                "CSS",
-                "ActionScript-3",
-                "MXML",
-                "Flash"
-            ]
-        },{
-            "id": 10,
-            "title": "The Sun",
-            "thumbnail": "./assets/images/thumbnails/thesun.png",
-            "HTMLdescription": "<br /><h4>Revamp</h4><p><a href='http://www.thesun.co.uk/sol/homepage/' target='_blank'>The Sun</a> has the tenth-largest circulation of any newspaper in the world and the largest circulation of any daily newspaper in the United Kingdom. It had an average daily circulation of 2,409,811 copies in January 2013. Between January and June 2012 the paper had an average daily readership of approximately 7.3 million.</p><p>I have been very fortunate to lead this exciting project. We rewrote entire tired &amp; outdated front end for SUN online and gave it a brand-new look. Along with many new features. We updated the site to utilise the power of HTML 5 which performed 3 times better than the old site.</p><br/><h4>Live Match Center</h4><p><a href='http://www.thesun.co.uk/sol/homepage/sport/football/' target='_blank'>Sun Football</a> is famous for its brilliant sports-writers and expert columnists.</p><p>We made it even bigger and better. The main deliverables of this project were: </p><ul><li>Football dashboard</li><li>Real time AJAX powered live commentary</li><li>Hand picked tweets from experts</li><li>Real time stat widgets</li><li>Latest pictures available</li><li>Ability to chat with other fans while keeping up with the latest action</li></ul><br /><h4>iPad POC</h4><p>This HTML5 based tablet proof of concept project has been done for SUN smart phone team. It was a quick 3 day fun opportunityto play with new technologies such as HTML5, CSS3, touch events. Management was really impressed with the outcome and they decided to use about 80% features from this POC.</p><p>Check out following features on iPad:</p><ul><li>Double finger touch</li><li>Dragging Sections</li><li>Storing Current State</li><li>CSS3 transitions</li></ul>",
-            "image": "./assets/images/project_images/thesun.png",
-            "link":"http://www.thesun.co.uk/sol/homepage/news/4445859/A-brand-new-look-for-The-Sun-website.html",
-             "skills": [
-                "JavaScript",
-                "HTML",
-                "CSS",
-                "JSP",
-                "Flash-Builder",
-                "Fluid-Grid",
-                "jQuery",
-                "Jasmine",
-                "ESCENIC-CMS",
-                "Touch-Punch"
-            ]
-        },{
-            "id": 11,
-            "title": "StreamHub",
-            "thumbnail": "./assets/images/thumbnails/streamhub.png",
-            "HTMLdescription": "<p>Streamhub provides a scalable video analytics service that delivers actionable insights to increase per video traffic and audience stickiness.</p><p>It was very ambitious and fun project to work on. We had to deal with massive amount of data and process it real time. It order to achieve this effectively we had to take advantage of modern toolset such as Angular, Node, Web-Sockets, High-Charts etc</p><h4>Responsibilities</h4><ul><li>Setting up best practises for Front-End development</li><li>Pick up best tools for job</li><li>Set up environment for dev testing</li><li>Improve performance and optimise code</li><li>Refactoring</li><li>Planning and acting as scrum master if required</li></ul>",
-            "link":"http://www.streamhub.co.uk/",
-            "image": "./assets/images/project_images/streamhub.png",
-             "skills": [
-                "JavaScript",
-                "Backbone",
-                "jQuery",
-                "High-Charts",
-                "D3",
-                "Big-Data",
-                "Jasmine",
-                "Require",
-                "Angular",
-                "Node",
-                "LESS",
-                "WebSockets",
-                "HTML",
-                "Play-Framework"
-            ]
-        },{
-            "id": 12,
-            "title": "Aimia",
-            "thumbnail": "./assets/images/thumbnails/aimia.png",
-            "HTMLdescription": "<p>Aimia Inc. is a data-driven marketing and loyalty analytics company. They provide clients with the customer insights they need to make smarter business decisions and build relevant, rewarding and long-term one-to-one relationships, evolving the value exchange to the mutual benefit of both  clients and consumers. Aimia partners with groups of companies (coalitions) and individual companies to help generate, collect and analyze customer data and build actionable insights.</p><p>This project was about building flexible and highly configurable new generation B2B reward system.</p><h4>Responsibilities</h4><ul><li>Implement new features</li><li>Reafactoring</li><li>Introducing new tools to make development easier</li><li>Unit testing and code reviews</li></ul>",
-            "image": "./assets/images/project_images/aimia.png",
-            "link":"http://www.aimia.com/",
-             "skills": [
-                "JavaScript",
-                "Backbone",
-                "jQuery",
-                "Jasmine",
-                "Require",
-                "Grunt",
-                "Bower",
-                "LESS",
-                "WebSockets",
-                "HTML"
-            ]
-        },{
-            "id": 13,
-            "title": "HSBC",
-            "thumbnail": "./assets/images/thumbnails/hsbc.png",
-            "HTMLdescription": "<p>Purpose of this project was to upgrade existing Payment Channels and implementation of new global Beneficiary Management functionality. The general idea was to create a separation layer between front-end and back-end code. We made it possible by removing back-end template rendering and replaced this functionality by JSON APIs and Dojo widgets.</p><br /><h4>Responsibilities</h4><ul><li>Identify areas of concern and propose a solution</li><li>Defining and documenting JSON APIs for global payment system</li><li>Implement Dojo widgets by consuming JSON data</li><li>Working with and supporting offshore teams</li><li>Building reusable CSS themes (Component based)</li><li>Supporting JAWS screen reader and multi language (right to left)</li><li>Automating Dojo build using node proxy and grunt</li></ul>",
-            "image": "./assets/images/project_images/hsbc.png",
-            "link":"https://www.hsbc.co.uk/1/2/",
-             "skills": [
-                "JavaScript",
-                "HTML",
-                "jQuery",
-                "Dojo",
-                "Require",
-                "Grunt",
-                "NPM"
-            ]
-        }
+    [
+      {
+        "title": "less",
+        "type": "rectangle",
+        "height": 73,
+        "width": 176,
+        "url": "./assets/images/home_animation/less.png"
+      },
+      {
+        "title": "modernizr",
+        "type": "rectangle",
+        "height": 78,
+        "width": 150,
+        "url": "./assets/images/home_animation/modernizr.png"
+      },
+      {
+        "title": "npm",
+        "type": "rectangle",
+        "height": 120,
+        "width": 120,
+        "url": "./assets/images/home_animation/npm.png"
+      },
+      {
+        "title": "react",
+        "type": "circle",
+        "radius": 61,
+        "url": "./assets/images/home_animation/react.png"
+      }
     ],
-
-    "experiments": [
-        {
-            "id": 1,
-            "title": "Otto Group",
-            "thumbnail": "./assets/images/thumbnails/otto.png",
-            "HTMLdescription": "<p><a href='http://www.ottogroup.com/home.html?&amp;L=0' target='_blank'>Otto Group</a> are inspired andunited by our shared values, which transcend national borders. Otto see ourselves as enthusiastic partnersto our customers, as creative strategists within an integrated network and as focused managersmaking decisions with long-lasting effects. </p><p>This piece of creative flash has been developed for Otto and It was sponsored by Accenture.This flash piece dynamically gets  data from XML. You can easily customise it by modifying somepredefined settings in XML such as intro clip, type of template etc.</p>",
-            "image": "./assets/images/project_images/otto.png",
-            "link": "http://development.mmtdigital.co.uk/otto_credentials/Otto_Flash_Credentials.html",
-            "skills": [
-                "XML",
-                "Flash"
-            ]
-        }
+    [
+      {
+        "title": "as3",
+        "type": "rectangle",
+        "height": 81,
+        "width": 135,
+        "url": "./assets/images/home_animation/ActionScript.png"
+      },
+      {
+        "title": "grunt",
+        "type": "circle",
+        "radius": 100,
+        "url": "./assets/images/home_animation/grunt.png"
+      },
+      {
+        "title": "git",
+        "type": "rectangle",
+        "height": 42,
+        "width": 100,
+        "url": "./assets/images/home_animation/git.png"
+      },
+      {
+        "title": "backbone",
+        "type": "rectangle",
+        "height": 93,
+        "width": 75,
+        "url": "./assets/images/home_animation/backbone.png"
+      }
     ]
+  ],
+
+  "projects": [
+    {
+      "id": 1,
+      "title": "Otto Group",
+      "thumbnail": "./assets/images/thumbnails/otto.png",
+      "HTMLdescription": "<p><a href='http://www.ottogroup.com/home.html?&amp;L=0' target='_blank'>Otto Group</a> are inspired andunited by our shared values, which transcend national borders. Otto see ourselves as enthusiastic partnersto our customers, as creative strategists within an integrated network and as focused managersmaking decisions with long-lasting effects. </p><p>This piece of creative flash has been developed for Otto and It was sponsored by Accenture.This flash piece dynamically gets  data from XML. You can easily customise it by modifying somepredefined settings in XML such as intro clip, type of template etc.</p>",
+      "image": "./assets/images/project_images/otto.png",
+      "link": "http://development.mmtdigital.co.uk/otto_credentials/Otto_Flash_Credentials.html",
+      "skills": ["XML", "Flash"]
+    },
+    {
+      "id": 2,
+      "title": "Interactive Prague Airport",
+      "thumbnail": "./assets/images/thumbnails/prague.png",
+      "HTMLdescription": "<p>Prague Airport is the operator of the most important international airport in the Czech Republicand the biggest airport among the new EU member states. There are also 5 regular cargo carriers andother tens of companies providing charter flights from there.</p><p>This interactive map application allows to browse the Terminals or locate a particular shop or restaurantin either Terminal 1 or 2. Search, zooming and printing are some nifty features of this xml driven AS3 flash piece.</p>",
+      "image": "./assets/images/project_images/prague.png",
+      "link": "http://map.prg.aero/",
+      "skills": ["XML", "Flash"]
+    },
+    {
+      "id": 3,
+      "title": "Hodder Education",
+      "thumbnail": "./assets/images/thumbnails/hodder.png",
+      "HTMLdescription": "<p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p><p>As one of the UK's largest educational publishers, Hodder Education provides trusted textbooks andsophisticated digital resources to a number of diverse users groups. The objective for this website wasto upgrade the Hodder Education website to a new platform that is better supported the needs of a growingpublisher delivering a steady flow of new product to market.</p>",
+      "image": "./assets/images/project_images/hodder.png",
+      "link": "http://www.hoddereducation.co.uk/Home.aspx",
+      "skills": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 4,
+      "title": "Fabulous Magazine",
+      "thumbnail": "./assets/images/thumbnails/fabulous.png",
+      "HTMLdescription": "<p>The UK's most-read weekly glossy, out every Sunday with The Sun newspaper!</p><p>I have been working on this magazine on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
+      "image": "./assets/images/project_images/fabulous.png",
+      "link": "http://www.thesun.co.uk/sol/homepage/fabulous/",
+      "skills": ["HTML", "CSS", "ActionScript-3", "MXML", "ESCENIC-CMS"]
+    },
+    {
+      "id": 5,
+      "title": "Accenture",
+      "thumbnail": "./assets/images/thumbnails/accenture.png",
+      "HTMLdescription": "<p>Accenture’s expertise and resources cover the full M&A process, from developing a strategy, to screening M&Atargets, to performing due diligence and integrating acquired entities. The M&A strategies we help develop benefitfrom proven frameworks and roadmaps that clarify the value to be gained from M&A as well as the most effectiveways to attain it.</p><p>We use MOSS (Microsoft Office SharePoint Server) extensively to develop microsites for Accenture. It's first integrated server platform that aims to provide web content management, enterprise contentservices, and enterprise search, as well as shared business processes and business intelligence dashboarding to the small/medium enterprise. This effective ability to control content comes at the cost ofrigidness in terms of features. Good knowledge of JavaScript / jQuery and AS3, allows me to customise(hack, up to some extent) templates and fulfil branding (and very demanding) requirements of Accenture.</p>",
+      "image": "./assets/images/project_images/accenture.png",
+      "link": "http://www.accenture.com/us-en/pages/index.aspx",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "ActionScript-3",
+        "jQuery",
+        "MOSS",
+        "Flash"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Green Square",
+      "thumbnail": "./assets/images/thumbnails/greensquare.png",
+      "HTMLdescription": "<p>Green Square is a corporate finance and advisory practice. They provide insightful and balanced advice to the shareholders of independent media and marketing communications businesses. They help them prepare their businesses for sale and ultimately achieve the optimum transaction.</p><p>Apart from having neat and attractive design, use of jQuery makes user experience even better. Implementing web 2.0 features such as google maps, twitter and rss feed was fun!</p>",
+      "image": "./assets/images/project_images/greensquare.png",
+      "link": "http://www.gsquare.co.uk/",
+      "skills": ["HTML", "CSS", "JavaScript", "jQuery", "Kentico-CMS"]
+    },
+    {
+      "id": 7,
+      "title": "The Sunday Times",
+      "thumbnail": "./assets/images/thumbnails/thesundaytimes.png",
+      "HTMLdescription": "<p><a href='http://www.thesundaytimes.co.uk/sto/' target='_blank'>The Sunday Times</a> is the largest-selling British national 'quality' Sunday newspaper. It is published by Times Newspapers Ltd, a subsidiary of News International, which is in turn owned by News Corporation. Times Newspapers also publishes The Times. The two papers were founded independently and have been under common ownership only since 1966. They were bought by News International in 1981.</p><p>I have been working on this title on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
+      "image": "./assets/images/project_images/thesundaytimes.png",
+      "link": "http://www.thesundaytimes.co.uk/sto/",
+      "skills": ["JavaScript", "HTML", "jQuery", "ESCENIC-CMS", "CSS"]
+    },
+    {
+      "id": 8,
+      "title": "The Times",
+      "thumbnail": "./assets/images/thumbnails/thetimes.png",
+      "HTMLdescription": "<p><a href='http://www.thetimes.co.uk/tto/news/' target='_blank'>The Times</a> is a British daily national newspaper, first published in London in 1785 under the title The Daily Universal Register (it became The Times on 1 January 1788). The Times and its sister paper The Sunday Times (founded in 1821) are published by Times Newspapers, since 1981 a subsidiary of News International, itself wholly owned by the News Corporation group.</p><p>I have been working on this title on and off for last two years. My responsibilities include:</p><ul><li>Fixing bugs when required</li><li>Setting up and maintaining best practices</li><li>Code reviews, mentoring junior developers &amp; contractors</li><li>Writing reusable code across all the web titles (The Times, The Sunday Times, The Sun)</li></ul>",
+      "image": "./assets/images/project_images/thetimes.png",
+      "link": "",
+      "skills": ["JavaScript", "HTML", "jQuery", "ESCENIC-CMS", "CSS"]
+    },
+    {
+      "id": 9,
+      "title": "News of the World",
+      "thumbnail": "./assets/images/thumbnails/notw.png",
+      "HTMLdescription": "<p>The<a href='http://www.newsoftheworld.co.uk/' target='_blank'> News of the World</a> was a national red top newspaper published in the United Kingdom from 1843 to 2011. It was at one time thebiggest selling English language newspaper in the world, and at closure still had one of the highest English language circulations.</p><p>I used to work on this title as Senior Front End developer. I was responsible for:</p><ul><li>Daily maintenance &amp; bug fixes</li><li>Agile based development</li><li>Adding new features to title</li><li>Communication with PO and other stakeholders</li><li>Setting up best practices and documents</li><li>Mentoring junior developers</li><li>R&amp;D</li></ul>",
+      "image": "./assets/images/project_images/notw.png",
+      "link": "http://www.newsoftheworld.co.uk/",
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "jQuery",
+        "ESCENIC-CMS",
+        "CSS",
+        "ActionScript-3",
+        "MXML",
+        "Flash"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "The Sun",
+      "thumbnail": "./assets/images/thumbnails/thesun.png",
+      "HTMLdescription": "<br /><h4>Revamp</h4><p><a href='http://www.thesun.co.uk/sol/homepage/' target='_blank'>The Sun</a> has the tenth-largest circulation of any newspaper in the world and the largest circulation of any daily newspaper in the United Kingdom. It had an average daily circulation of 2,409,811 copies in January 2013. Between January and June 2012 the paper had an average daily readership of approximately 7.3 million.</p><p>I have been very fortunate to lead this exciting project. We rewrote entire tired &amp; outdated front end for SUN online and gave it a brand-new look. Along with many new features. We updated the site to utilise the power of HTML 5 which performed 3 times better than the old site.</p><br/><h4>Live Match Center</h4><p><a href='http://www.thesun.co.uk/sol/homepage/sport/football/' target='_blank'>Sun Football</a> is famous for its brilliant sports-writers and expert columnists.</p><p>We made it even bigger and better. The main deliverables of this project were: </p><ul><li>Football dashboard</li><li>Real time AJAX powered live commentary</li><li>Hand picked tweets from experts</li><li>Real time stat widgets</li><li>Latest pictures available</li><li>Ability to chat with other fans while keeping up with the latest action</li></ul><br /><h4>iPad POC</h4><p>This HTML5 based tablet proof of concept project has been done for SUN smart phone team. It was a quick 3 day fun opportunityto play with new technologies such as HTML5, CSS3, touch events. Management was really impressed with the outcome and they decided to use about 80% features from this POC.</p><p>Check out following features on iPad:</p><ul><li>Double finger touch</li><li>Dragging Sections</li><li>Storing Current State</li><li>CSS3 transitions</li></ul>",
+      "image": "./assets/images/project_images/thesun.png",
+      "link": "http://www.thesun.co.uk/sol/homepage/news/4445859/A-brand-new-look-for-The-Sun-website.html",
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "JSP",
+        "Flash-Builder",
+        "Fluid-Grid",
+        "jQuery",
+        "Jasmine",
+        "ESCENIC-CMS",
+        "Touch-Punch"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "StreamHub",
+      "thumbnail": "./assets/images/thumbnails/streamhub.png",
+      "HTMLdescription": "<p>Streamhub provides a scalable video analytics service that delivers actionable insights to increase per video traffic and audience stickiness.</p><p>It was very ambitious and fun project to work on. We had to deal with massive amount of data and process it real time. It order to achieve this effectively we had to take advantage of modern toolset such as Angular, Node, Web-Sockets, High-Charts etc</p><h4>Responsibilities</h4><ul><li>Setting up best practises for Front-End development</li><li>Pick up best tools for job</li><li>Set up environment for dev testing</li><li>Improve performance and optimise code</li><li>Refactoring</li><li>Planning and acting as scrum master if required</li></ul>",
+      "link": "http://www.streamhub.co.uk/",
+      "image": "./assets/images/project_images/streamhub.png",
+      "skills": [
+        "JavaScript",
+        "Backbone",
+        "jQuery",
+        "High-Charts",
+        "D3",
+        "Big-Data",
+        "Jasmine",
+        "Require",
+        "Angular",
+        "Node",
+        "LESS",
+        "WebSockets",
+        "HTML",
+        "Play-Framework"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Aimia",
+      "thumbnail": "./assets/images/thumbnails/aimia.png",
+      "HTMLdescription": "<p>Aimia Inc. is a data-driven marketing and loyalty analytics company. They provide clients with the customer insights they need to make smarter business decisions and build relevant, rewarding and long-term one-to-one relationships, evolving the value exchange to the mutual benefit of both  clients and consumers. Aimia partners with groups of companies (coalitions) and individual companies to help generate, collect and analyze customer data and build actionable insights.</p><p>This project was about building flexible and highly configurable new generation B2B reward system.</p><h4>Responsibilities</h4><ul><li>Implement new features</li><li>Reafactoring</li><li>Introducing new tools to make development easier</li><li>Unit testing and code reviews</li></ul>",
+      "image": "./assets/images/project_images/aimia.png",
+      "link": "http://www.aimia.com/",
+      "skills": [
+        "JavaScript",
+        "Backbone",
+        "jQuery",
+        "Jasmine",
+        "Require",
+        "Grunt",
+        "Bower",
+        "LESS",
+        "WebSockets",
+        "HTML"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "HSBC",
+      "thumbnail": "./assets/images/thumbnails/hsbc.png",
+      "HTMLdescription": "<p>Purpose of this project was to upgrade existing Payment Channels and implementation of new global Beneficiary Management functionality. The general idea was to create a separation layer between front-end and back-end code. We made it possible by removing back-end template rendering and replaced this functionality by JSON APIs and Dojo widgets.</p><br /><h4>Responsibilities</h4><ul><li>Identify areas of concern and propose a solution</li><li>Defining and documenting JSON APIs for global payment system</li><li>Implement Dojo widgets by consuming JSON data</li><li>Working with and supporting offshore teams</li><li>Building reusable CSS themes (Component based)</li><li>Supporting JAWS screen reader and multi language (right to left)</li><li>Automating Dojo build using node proxy and grunt</li></ul>",
+      "image": "./assets/images/project_images/hsbc.png",
+      "link": "https://www.hsbc.co.uk/1/2/",
+      "skills": [
+        "JavaScript",
+        "HTML",
+        "jQuery",
+        "Dojo",
+        "Require",
+        "Grunt",
+        "NPM"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Lloyds Banking Group",
+      "thumbnail": "./assets/images/thumbnails/llyods.png",
+      "HTMLdescription": "<p>This role involved development and maintenance of React js and Node js web applications (Commercial On-Boarding & Lending).</P><p>Build, test, deployment and Live incidents support (Bluemix/Jenkins/UrbanCode/LogLogic).</p>",
+      "image": "./assets/images/project_images/lloyds.png",
+      "link": "https://www.lloydsbank.com/",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Redux.js",
+        "Redux-Saga",
+        "Unit-Testing",
+        "Node",
+        "Hapi-Server",
+        "Webpack",
+        "JWT"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Voltaire",
+      "thumbnail": "./assets/images/thumbnails/voltaire.png",
+      "HTMLdescription": "<p>Very challenging role in a startup as a solo UI developer. Built an Exchange (Crypto) from scratch. Collaborated with BE developers and security team to implement low latency matching engine and live trading functionality. Collaborated with designers for application styles, content and structure. Implemented other features such as login, wallet (deposit/withdrawals).</p>",
+      "image": "./assets/images/project_images/voltaire.png",
+      "link": "",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Next.js",
+        "WebSockets",
+        "Web3",
+        "BlockChain",
+        "Material-UI",
+        "Node",
+        "Responsive-Design",
+        "HighCharts"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Preqin",
+      "thumbnail": "./assets/images/thumbnails/prequin.png",
+      "HTMLdescription": "<p>Assisted with the build responsive dashboard for investment data on the alternative assets market. Collaborated with the UX team to revamp styles and user experience. Implemented new features and worked with offshore teams if required.</p>",
+      "image": "./assets/images/project_images/prequin.jpeg",
+      "link": "https://www.preqin.com/",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Material-UI",
+        "Node",
+        "Responsive-Design",
+        "Elastic-Search",
+        "MongoDB",
+        "Jest",
+        "Enzyme"
+      ]
+    },
+    {
+      "id": 17,
+      "title": "News UK",
+      "thumbnail": "./assets/images/thumbnails/newsuk.png",
+      "HTMLdescription": "<p>Analyse, utilise and visualise data for business across multiple platforms as a senior member of the Data Technology team. Assisted with mentoring and collaboration of offshore teams (Bangalore and Sofia).</p><p>Maintaining code quality and R&D was also part of this role. Delivered Chrome extension, NewsIQ and Inca TV POC.</p>",
+      "image": "./assets/images/project_images/newsuk.png",
+      "link": "https://www.news.co.uk/",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "TypeScript",
+        "Node",
+        "BigQuery",
+        "BizCharts",
+        "Elastic-Search",
+        "Jest",
+        "AWS",
+        "Docker",
+        "Cypress",
+        "CircleCI",
+        "Ant-Design",
+        "GraphQL"
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Nandos",
+      "thumbnail": "./assets/images/thumbnails/nandos.png",
+      "HTMLdescription": "<p>Successfully replaced deliveroo ordering system with inhouse implementation. Very involved project and great team in agile settings. Code reviews and mentoring was also part of the project.</p>",
+      "image": "./assets/images/project_images/nandos.png",
+      "link": "https://www.nandos.co.uk/order/search",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Mobx",
+        "TypeScript",
+        "InVision",
+        "Next.js",
+        "Jest",
+        "Cypress",
+        "CircleCI",
+        "GraphQL",
+        "Sentry",
+        "GCP"
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Trinny London",
+      "thumbnail": "./assets/images/thumbnails/tl.png",
+      "HTMLdescription": "<p>Scaled up the infrastructure and refactored codebase in order to improve performance and readability.</p> <p>Did Match to me engine implementation.</p>",
+      "image": "./assets/images/project_images/tl.png",
+      "link": "https://trinnylondon.com/uk/match2me",
+      "skills": [
+        "JavaScript",
+        "React.js",
+        "Mobx",
+        "TypeScript",
+        "Figma",
+        "Jest",
+        "Cypress",
+        "CircleCI",
+        "GraphQL",
+        "DynamoDB",
+        "GCP",
+        "Bit",
+        "Humio",
+        "Datadog",
+        "Contentful",
+        "Commerce-Tools",
+        "Docker",
+        "Concourse",
+        "Redis"
+      ]
+    }
+  ],
+
+  "experiments": [
+    {
+      "id": 1,
+      "title": "Otto Group",
+      "thumbnail": "./assets/images/thumbnails/otto.png",
+      "HTMLdescription": "<p><a href='http://www.ottogroup.com/home.html?&amp;L=0' target='_blank'>Otto Group</a> are inspired andunited by our shared values, which transcend national borders. Otto see ourselves as enthusiastic partnersto our customers, as creative strategists within an integrated network and as focused managersmaking decisions with long-lasting effects. </p><p>This piece of creative flash has been developed for Otto and It was sponsored by Accenture.This flash piece dynamically gets  data from XML. You can easily customise it by modifying somepredefined settings in XML such as intro clip, type of template etc.</p>",
+      "image": "./assets/images/project_images/otto.png",
+      "link": "http://development.mmtdigital.co.uk/otto_credentials/Otto_Flash_Credentials.html",
+      "skills": ["XML", "Flash"]
+    }
+  ]
 }
