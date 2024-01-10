@@ -53,7 +53,6 @@ var About = React.createClass({
                 </li>
                 <li className="list-group-item">Express, Hapi Server</li>
                 <li className="list-group-item">HTML(5), CSS(3)</li>
-                <li className="list-group-item">Python</li>
                 <li className="list-group-item">jQuery</li>
                 <li className="list-group-item">Material UI, Ant Design</li>
                 <li className="list-group-item">Angular</li>
@@ -85,7 +84,7 @@ var About = React.createClass({
                 <li className="list-group-item">Story Book, Bit - React</li>
                 <li className="list-group-item">Agile Methodologies</li>
                 <li className="list-group-item">Figma, InVision</li>
-                <li className="list-group-item">Git, SVN</li>
+                <li className="list-group-item">Git, SVN, Gerrit</li>
                 <li className="list-group-item">Jira</li>
                 <li className="list-group-item">
                   Vite, Webpack, Require , Grunt and Browserify
@@ -93,12 +92,14 @@ var About = React.createClass({
               </ul>
             </div>
             <div className="col-md-4">
-              <h3>Exposed to</h3>
+              <h3>Exposed To</h3>
               <ul className="list-group">
                 <li className="list-group-item">HighCharts, BizCharts</li>
+                <li className="list-group-item">Google Maps</li>
+                <li className="list-group-item">PHP, ASP</li>
                 <li className="list-group-item">AWS and GCP</li>
                 <li className="list-group-item">Serverless</li>
-                <li className="list-group-item">JWT</li>
+                <li className="list-group-item">Python</li>
                 <li className="list-group-item">Flask</li>
                 <li className="list-group-item">Web3, Crypto, BlockChain</li>
                 <li className="list-group-item">BigQuery, Elastic Search</li>
