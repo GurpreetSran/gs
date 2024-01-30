@@ -15,5 +15,6 @@
 - ```npm install```
 - ```npm start``` (Starts watchify, which bundles js output in backgroud)
 - ```run index.html in any modern browser```
+- Note - Deploy using node -v 10
 
 [Live Demo](http://gurpreetsran.github.io/gs/#/home)
